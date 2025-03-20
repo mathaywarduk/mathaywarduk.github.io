@@ -9,7 +9,7 @@ layout: default
 {% for post in site.posts %}
   {% for media in post.media %}
     {% for tag in media.tagged %}
-      {% if (tag.handle == page.tag) %}
+      {% if tag.handle == page.tag %}
         {% assign taggedposts = taggedposts | push: post %}
       {% endif %}
     {% endfor %}
@@ -50,7 +50,7 @@ layout: default
                   {% include image.html url=media.url alt=media.alt ar="1:1" fit="crop" width=320 height=320 %}
                   <div class="absolute z-20 inset-0 flex items-center justify-center gap-2 text-white bg-black/30 hidden text-xs md:text-sm uppercase tracking-wider font-bold group-hover:flex group-focus:flex">
                     <img src="/assets/images/icons/pin-solid.svg" class="w-3" role="presentation" width="16" height="16">
-                    {{ post.location }}
+                    {{ post.location.label }}
                   </div>
                   {% if post.type == "reel" %}
                   <div class="absolute top-5 right-5 reel-play-icon"><span class="sr-only">Video</span></div>

@@ -16,6 +16,8 @@ media:
 type: "reel"
 seo:
   hidden: true
-location: Scotland
+location: 
+  label: "Scotland"
+  exact: "Scotland"
 postdate: 2023-11-12
 ---

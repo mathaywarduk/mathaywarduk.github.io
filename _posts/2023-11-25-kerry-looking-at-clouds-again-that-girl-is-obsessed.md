@@ -11,7 +11,10 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Dolomites
+location: 
+  label: "Dolomites"
+  exact: "Cadini di Misurina"
+  collection: dolomites
 postdate: 2022-07-27
 ---
 

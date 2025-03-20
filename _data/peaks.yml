@@ -1,3 +1,14 @@
+- title: Beinn Each again
+  date: 2025-03-20
+  region: Scotland
+  distance: 7
+  ascent: 693
+  repeat: true
+  peaks:
+    - name: Beinn Each
+      elevation: 813
+      category: corbett
+  link: beinn-each-again
 - title: 1974 steps up Reinebringen
   date: 2024-08-24
   region: Norway

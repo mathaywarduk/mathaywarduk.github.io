@@ -19,7 +19,10 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Sakrisøya
+location:
+  label: "Lofoten"
+  exact: "Sakrisøya"
+  collection: lofoten
 postdate: 2024-08-27
 ---
 

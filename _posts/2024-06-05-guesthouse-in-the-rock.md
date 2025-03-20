@@ -13,6 +13,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Switzerland
+location:
+  label: "Switzerland"
+  exact: "Berggasthaus Aescher"
+  collection: switzerland
 postdate: 2024-06-12
 ---

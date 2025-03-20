@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Schäfler
+location:
+  label: "Switzerland"
+  exact: "Schäfler ridge"
+  collection: switzerland
 postdate: 2024-06-16
 ---

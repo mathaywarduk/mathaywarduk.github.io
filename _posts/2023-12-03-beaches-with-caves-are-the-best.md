@@ -24,6 +24,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Isle of Lewis
+location: 
+  label: "Scotland"
+  exact: "Isle of Lewis"
+  collection: skye-hebrides
 postdate: 2023-09-11
 ---

@@ -13,6 +13,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Iceland
+location: 
+  label: "Iceland"
+  exact: "Iceland"
+  collection: iceland
 postdate: 2023-06-24
 ---

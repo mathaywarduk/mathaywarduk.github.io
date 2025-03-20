@@ -1,0 +1,69 @@
+switzerland:
+  title:  "Switzerland"
+  slug: switzerland
+  hero:
+    url: "Switzerland-029.jpg"
+    alt: "Berggasthaus Meglisalp from the slopes of Schäfler Ridge"
+madeira:
+  title:  "Madeira"
+  slug: madeira
+  hero:
+    url: "Madeira-007.jpg"
+    alt: "First light on the hills below Bica da Cana"
+iceland:
+  title:  "Iceland"
+  slug: iceland
+  hero:
+    url: "Iceland-007.jpg"
+    alt: "Sunrise at Reynisfjara"
+dolomites:
+  title:  "Dolomites"
+  slug: dolomites
+  hero:
+    url: "Dolomiti-7610.jpg"
+    alt: "Alpe di Siusi"
+alberta:
+  title:  "Alberta"
+  slug: alberta
+  hero:
+    url: "Canada-016.jpg"
+    alt: "Canadian Rockies"
+lofoten:
+  title:  "Lofoten Islands"
+  slug: lofoten
+  hero:
+    url: "Lofoten-052.jpg"
+    alt: "Sakrisøya"
+skye-hebrides:
+  title:  "Skye and the Hebrides"
+  slug: skye-hebrides
+  hero:
+    url: "Skye-027.jpg"
+    alt: "Sunset on Skye near Tarskavaig"
+west-coast:
+  title:  "West Coast"
+  slug: west-coast
+  hero:
+    url: "NC500-013.jpg"
+    alt: "Howard in Plockton"
+trossachs:
+  title:  "The Trosssachs"
+  slug: trossachs
+  hero:
+    url: "Highlands-005.jpg"
+    alt: "Sunset from Ben A'an"
+lanzarote:
+  title:  "Lanzarote"
+  slug: lanzarote
+  hero:
+    url: "Lanzarote-008.jpg"
+    alt: "View from the car at Timanfaya National Park"
+tenerife:
+  title:  "Tenerife"
+  slug: tenerife
+  hero:
+    url: "Tenerife-003.jpg"
+    alt: "Masca valley - sunset in the mist"
+jericho:
+  title: "Restaurant Jericho"
+  slug: jericho

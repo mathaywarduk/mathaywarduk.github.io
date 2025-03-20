@@ -102,7 +102,7 @@ layout: default
         </ul>
       {% endif %}
 
-      <div class="max-w-prose w-full lg:w-1/2 shrink-0 px-8 md:px-0">
+      <div class="max-w-prose w-full lg:w-1/2 shrink-0 px-8 md:px-0 flex flex-col">
 
         <div class="flex gap-2 items-center mb-4">
           <div class="rounded-full overflow-hidden w-12 shrink-0 group-hover:opacity-50 group-focus:opacity-50 transition-all duration-300 ease-in-out">
@@ -110,11 +110,11 @@ layout: default
           </div>
           <div class="flex flex-col">
             <span class="font-bold">mathaywarduk</span>
-            <span class="text-sm">{{ page.location }}</span>
+            <span class="text-sm">{{ page.location.exact }}</span>
           </div>
         </div>
 
-        <h1 class="font-sans text-base mt-2 mb-4 pb-0 fade-down max-w-prose">{{ page.title }}</h1>
+        <h1 class="font-sans text-base mt-2 mb-4 pb-0 fade-down max-w-prose">{{ page.title|markdownify }}</h1>
 
         {% if uniqTags.size > 0 %}
           <div class="border-t br-grey pt-4 mt-4 fade-down anim-delay-200">
@@ -133,6 +133,27 @@ layout: default
         <div class="overflow-hidden border-t br-grey pt-4 mt-4">
           <h2 class="meta fade-down anim-delay-400"><time datetime="{{ d | date: '%Y-%m-%d' }}">{{ d | date: "%d %B %Y" }}</time></h2>
         </div>
+
+
+        {% if page.location.collection %}
+        {% assign collection = site.data.photocollections[page.location.collection] %}
+        <div class="relative mt-8 lg:mt-auto self-end">
+            <div class="">
+              <div class="overflow-hidden">
+                <span class="meta text-slide-down anim-delay-600">Photography collection</span>
+              </div>
+              <div class="fade-down anim-delay-600">
+                <h2 class="text-2xl font-display leading-none tracking-wide md:text-3xl lg:text-4xl inline-block">
+                  <a href="/photography/{{ collection.slug }}" class="inline-block mb-2 nav-item">{{ collection.title }}</a>
+                </h2>
+              </div>
+            </div>
+        </div>
+        {% comment %}
+            <img src="{{ site.image_base }}{{ collection.hero.url }}?w=767" alt="{{ collection.hero.alt }}" class="block">
+        {% endcomment %}
+
+        {% endif %}
       </div>
     </div>
   </div>

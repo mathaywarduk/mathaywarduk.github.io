@@ -15,6 +15,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Dolomites
+location: 
+  label: "Dolomites"
+  exact: "Tre Cime di Lavaredo"
+  collection: dolomites
 postdate: 2022-07-27
 ---

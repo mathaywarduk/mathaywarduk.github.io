@@ -11,7 +11,10 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Hamnøy
+location:
+  label: "Lofoten"
+  exact: "Hamnøy"
+  collection: lofoten
 postdate: 2024-08-24
 ---
 

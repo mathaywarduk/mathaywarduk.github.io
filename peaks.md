@@ -19,29 +19,32 @@ seo:
 {% assign fionas = "" | split: ',' %}
 
 {% for item in site.data.peaks %}
-  {% assign peaks = peaks | plus: item.peaks.size %}
-  {% assign ascent = ascent | plus: item.ascent %}
-  {% assign distance = distance  | plus: item.distance %}
-  {% for peak in item.peaks %}
-    {% if peak.category == 'munro' %}
-      {% assign munros = munros | push: peak %}
-    {% endif %}
-    {% if peak.category == 'corbett' %}
-      {% assign corbetts = corbetts | push: peak %}
-    {% endif %}
-    {% if peak.category == 'fiona' %}
-      {% assign fionas = fionas | push: peak %}
-    {% endif %}
-    {% if peak.category == 'wainwright' %}
-      {% assign wainwrights = wainwrights | push: peak %}
-    {% endif %}
-    {% if peak.category == 'hewitt' %}
-      {% assign hewitts = hewitts | push: peak %}
-    {% endif %}
-    {% if peak.category == 'dolomite' %}
-      {% assign dolomites = dolomites | push: peak %}
-    {% endif %}
-  {% endfor %}
+  {% assign include = item.number %}
+    {% if include %}
+    {% assign peaks = peaks | plus: item.peaks.size %}
+    {% assign ascent = ascent | plus: item.ascent %}
+    {% assign distance = distance  | plus: item.distance %}
+    {% for peak in item.peaks %}
+      {% if peak.category == 'munro' %}
+        {% assign munros = munros | push: peak %}
+      {% endif %}
+      {% if peak.category == 'corbett' %}
+        {% assign corbetts = corbetts | push: peak %}
+      {% endif %}
+      {% if peak.category == 'fiona' %}
+        {% assign fionas = fionas | push: peak %}
+      {% endif %}
+      {% if peak.category == 'wainwright' %}
+        {% assign wainwrights = wainwrights | push: peak %}
+      {% endif %}
+      {% if peak.category == 'hewitt' %}
+        {% assign hewitts = hewitts | push: peak %}
+      {% endif %}
+      {% if peak.category == 'dolomite' %}
+        {% assign dolomites = dolomites | push: peak %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 
 <div class="md:w-9/12 md:ml-auto md:pl-8 pt-10 md:pt-12 lg:pt-16 pb-24 md:pb-40 px-8">
@@ -126,10 +129,14 @@ seo:
         <div class="flex {% if item.link %} flex-col items-start gap-2 {% else %} flex-wrap items-end gap-4 {% endif %} w-full py-4">
           <ul class="flex flex-row gap-2">
             <li class="font-bold {% if item.link %} text-lg {% else %} text-md {% endif %} b-black c-white px-2 py-1 transition-all duration-1000 ease-in-out">
-              {% if item.peaks.size > 1 %} Peaks {% else %} Peak {% endif %}
-              {{ item.number }}
-              {% if item.peaks.size > 1 %}
-              - {{ item.number | plus:item.peaks.size | minus:1 }}
+              {% if item.repeat %}
+                Re-Peak
+              {% else %}
+                {% if item.peaks.size > 1 %} Peaks {% else %} Peak {% endif %}
+                {{ item.number }}
+                {% if item.peaks.size > 1 %}
+                - {{ item.number | plus:item.peaks.size | minus:1 }}
+                {% endif %}
               {% endif %}
             </li>
           </ul>

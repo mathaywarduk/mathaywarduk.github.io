@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Storsandnes
+location:
+  label: "Lofoten"
+  exact: "Storsandnes"
+  collection: lofoten
 postdate: 2024-08-26
 ---

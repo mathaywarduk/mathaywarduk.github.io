@@ -23,6 +23,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Oeschinensee
+location:
+  label: "Switzerland"
+  exact: "Oeschinensee"
+  collection: switzerland
 postdate: 2024-06-12
 ---

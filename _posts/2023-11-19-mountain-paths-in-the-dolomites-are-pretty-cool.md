@@ -17,6 +17,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Dolomites
+location: 
+  label: "Dolomites"
+  exact: "Monte Pez"
+  collection: dolomites
 postdate: 2022-07-30
 ---

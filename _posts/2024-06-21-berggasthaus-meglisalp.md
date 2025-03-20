@@ -11,6 +11,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Switzerland
+location:
+  label: "Switzerland"
+  exact: "Berggasthaus Meglisalp"
+  collection: switzerland
 postdate: 2024-06-16
 ---

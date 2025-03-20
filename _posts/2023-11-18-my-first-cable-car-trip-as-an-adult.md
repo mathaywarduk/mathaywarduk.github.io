@@ -11,6 +11,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Dolomites
+location: 
+  label: "Dolomites"
+  exact: "Seceda"
+  collection: dolomites
 postdate: 2022-07-26
 ---

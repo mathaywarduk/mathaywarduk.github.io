@@ -8,6 +8,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Zermatt
+location:
+  label: "Switzerland"
+  exact: "Zermatt"
+  collection: switzerland
 postdate: 2024-06-20
 ---

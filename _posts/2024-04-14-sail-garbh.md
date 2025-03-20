@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Assynt
+location:
+  label: "Scotland"
+  exact: "Assynt"
+  collection: west-coast
 postdate: 2024-04-14
 ---

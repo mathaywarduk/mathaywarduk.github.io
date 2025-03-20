@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Isle of Harris
+location: 
+  label: "Scotland"
+  exact: "Isle of Harris"
+  collection: skye-hebrides
 postdate: 2023-09-11
 ---

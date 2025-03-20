@@ -28,6 +28,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: The Trossachs
+location: 
+  label: "Scotland"
+  exact: "Beinn Tulaichean"
+  collection: trossachs
 postdate: 2021-12-24
 ---

@@ -11,6 +11,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Madeira
+location: 
+  label: "Madeira"
+  exact: "Pico Ruivo"
+  collection: madeira
 postdate: 2023-11-09
 ---

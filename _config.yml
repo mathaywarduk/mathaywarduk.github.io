@@ -32,6 +32,7 @@ collections:
   peaks:
     output: true
     order: 
+      - beinn-each-again.md
       - 1974-steps-up-reinebringen.md
       - a-beautiful-day-in-torridon.md
       - 2.9-peaks-of-quinag.md

@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Assynt
+location: 
+  label: "Scotland"
+  exact: "Mellon Udrigle"
+  collection: west-coast
 postdate: 2023-09-14
 ---

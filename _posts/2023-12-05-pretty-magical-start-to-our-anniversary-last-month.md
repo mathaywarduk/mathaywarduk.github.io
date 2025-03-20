@@ -13,6 +13,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Assynt
+location: 
+  label: "Scotland"
+  exact: "Assynt"
+  collection: west-coast
 postdate: 2023-10-16
 ---

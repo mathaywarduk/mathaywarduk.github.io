@@ -11,6 +11,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Lofoten
+location:
+  label: "Lofoten"
+  exact: "Lofoten"
+  collection: lofoten
 postdate: 2024-08-22
 ---

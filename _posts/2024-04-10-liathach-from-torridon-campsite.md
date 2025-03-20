@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Torridon
+location:
+  label: "Scotland"
+  exact: "Torridon"
+  collection: west-coast
 postdate: 2024-04-16
 ---

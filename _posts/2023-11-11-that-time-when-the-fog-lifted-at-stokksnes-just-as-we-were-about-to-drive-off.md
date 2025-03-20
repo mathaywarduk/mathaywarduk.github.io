@@ -7,6 +7,9 @@ media:
 type: "post"
 seo:
   hidden: true
-location: Iceland
+location: 
+  label: "Iceland"
+  exact: "Stokksnes"
+  collection: iceland
 postdate: 2021-10-09
 ---

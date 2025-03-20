@@ -4,6 +4,7 @@ isMap: true
 ---
 
 {% assign locations = site.data.maps[page.slug] %}
+{% assign collections = site.data.photocollections %}
 
 <div id="map" class="w-screen h-screen"></div>
 
@@ -28,6 +29,7 @@ isMap: true
     let contentContainer = document.getElementById("mapContent");
     let closeButton = document.getElementById("mapContentClose");
     let locations = {{ locations | jsonify }};
+    let collections = {{ collections | jsonify }};
     let allMarkers = [];
     let baseURL = "{{ site.image_base }}";
 
@@ -46,7 +48,7 @@ isMap: true
 
     for (let i = 0; i < locations.length; i++) {
       let title = locations[i].title;
-      let collection = locations[i].collection;
+      let collection = collections[locations[i].collection];
       let description = locations[i].description;
       let lat = locations[i].lat;
       let lng = locations[i].lng;
