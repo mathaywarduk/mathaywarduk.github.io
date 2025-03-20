@@ -38,6 +38,10 @@
     <meta name="twitter:image:width" content="1200">
     <meta name="twitter:image:height" content="600">
     <meta name="twitter:image:alt" content="{{ page.seo.image.alt }}">
+    <meta itemprop="name" content="{{ page.seo.title }}">
+    <meta itemprop="description" content="{{ page.seo.description }}">
+    <meta itemprop="image" content="{{ site.image_base }}{{ page.seo.image.url }}?w=1200&h=600&fit=crop">
+
     <link href="{{ site.url }}{{ page.url }}" rel="canonical">
     <link href="{{ site.url }}" rel="home">
     <link type="text/plain" href="{{ site.url }}/humans.txt" rel="author">
