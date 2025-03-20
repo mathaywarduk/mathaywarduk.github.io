@@ -42,22 +42,22 @@
     
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-020.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-029.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-040.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-029.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-036.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-029.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-009.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-029.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-028.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-029.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-007.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Switzerland-029.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
     
   </head>
@@ -74,6 +74,7 @@
     
     <main>
       
+
 
 <div id="map" class="w-screen h-screen"></div>
 
@@ -97,7 +98,8 @@
     let contentWrapper = document.getElementById("mapContentWrapper");
     let contentContainer = document.getElementById("mapContent");
     let closeButton = document.getElementById("mapContentClose");
-    let locations = [{"title":"Schäfler Ridge","slug":"schafler-ridge","description":"Take a cable car up to Ebenalp and Schäfler Ridge is about an hour's hike away. The views of the peaks in the clouds are incredible.","lat":47.276198,"lng":9.389817,"hero":"Switzerland-020.jpg","category":"view","collection":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}}},{"title":"Zermatt","slug":"zermatt","description":"Zermatt is a beautiful town that you can only reach by train or taxi. It's surrounded by huge mountains, which are pretty breathtaking in certain lights","lat":46.022044,"lng":7.754314,"hero":"Switzerland-040.jpg","category":"view","collection":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}}},{"title":"Blauherd","slug":"blauherd","description":"A funicular and a cable car from Zermatt will get you to Blauherd. Incredible views of the Matterhorn and a 5-lake walk means there are some great photo locations","lat":46.016818,"lng":7.785582,"hero":"Switzerland-036.jpg","category":"view","collection":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}}},{"title":"Aescher","slug":"aescher","description":"Much closer to the Ebenalp cable car station that Schäfler Ridge, is Aescher Guesthouse, a beautiful wooden restaurant set in the rocks","lat":47.283338,"lng":9.414436,"hero":"Switzerland-009.jpg","category":"view","collection":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}}},{"title":"Meglisalp","slug":"meglisalp","description":"The view to Berggasthaus Meglisalp from the walk down Schäfler Ridge was awesome, particularly around Altenalp","lat":47.271023,"lng":9.390003,"hero":"Switzerland-028.jpg","category":"view","collection":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}}},{"title":"Oeschinen Lake","slug":"oeschinen","description":"Either climb, or cable car from Kandersteg before walking out to the lake for incredible views and food at the nearby huts","lat":46.50063,"lng":7.716407,"hero":"Switzerland-007.jpg","category":"hike","collection":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}}}];
+    let locations = [{"title":"Schäfler Ridge","slug":"schafler-ridge","description":"Take a cable car up to Ebenalp and Schäfler Ridge is about an hour's hike away. The views of the peaks in the clouds are incredible.","lat":47.276198,"lng":9.389817,"hero":"Switzerland-020.jpg","category":"view","collection":"switzerland"},{"title":"Zermatt","slug":"zermatt","description":"Zermatt is a beautiful town that you can only reach by train or taxi. It's surrounded by huge mountains, which are pretty breathtaking in certain lights","lat":46.022044,"lng":7.754314,"hero":"Switzerland-040.jpg","category":"view","collection":"switzerland"},{"title":"Blauherd","slug":"blauherd","description":"A funicular and a cable car from Zermatt will get you to Blauherd. Incredible views of the Matterhorn and a 5-lake walk means there are some great photo locations","lat":46.016818,"lng":7.785582,"hero":"Switzerland-036.jpg","category":"view","collection":"switzerland"},{"title":"Aescher","slug":"aescher","description":"Much closer to the Ebenalp cable car station that Schäfler Ridge, is Aescher Guesthouse, a beautiful wooden restaurant set in the rocks","lat":47.283338,"lng":9.414436,"hero":"Switzerland-009.jpg","category":"view","collection":"switzerland"},{"title":"Meglisalp","slug":"meglisalp","description":"The view to Berggasthaus Meglisalp from the walk down Schäfler Ridge was awesome, particularly around Altenalp","lat":47.271023,"lng":9.390003,"hero":"Switzerland-028.jpg","category":"view","collection":"switzerland"},{"title":"Oeschinen Lake","slug":"oeschinen","description":"Either climb, or cable car from Kandersteg before walking out to the lake for incredible views and food at the nearby huts","lat":46.50063,"lng":7.716407,"hero":"Switzerland-007.jpg","category":"hike","collection":"switzerland"}];
+    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"trossachs":{"title":"The Trosssachs","slug":"trossachs","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
     let allMarkers = [];
     let baseURL = "https://mathayward.imgix.net/";
 
@@ -116,7 +118,7 @@
 
     for (let i = 0; i < locations.length; i++) {
       let title = locations[i].title;
-      let collection = locations[i].collection;
+      let collection = collections[locations[i].collection];
       let description = locations[i].description;
       let lat = locations[i].lat;
       let lng = locations[i].lng;

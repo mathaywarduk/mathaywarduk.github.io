@@ -42,25 +42,25 @@
     
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Lanzarote-030.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Lanzarote-008.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Lanzarote-003.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Lanzarote-008.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Lanzarote-024.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Lanzarote-008.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-008.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-003.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-004.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-003.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-002.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-003.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-014.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Tenerife-003.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
     
   </head>
@@ -77,6 +77,7 @@
     
     <main>
       
+
 
 <div id="map" class="w-screen h-screen"></div>
 
@@ -100,7 +101,8 @@
     let contentWrapper = document.getElementById("mapContentWrapper");
     let contentContainer = document.getElementById("mapContent");
     let closeButton = document.getElementById("mapContentClose");
-    let locations = [{"title":"El Golfo","slug":"elgolfo","description":"Easily, the most beautiful sunset on our trip to Lanzarote.","lat":28.978792,"lng":-13.829453,"hero":"Lanzarote-030.jpg","category":"view","collection":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}}},{"title":"Timanfaya National Park","slug":"timanfaya","description":"Trips into the heart of Timanfaya are by bus only, but there are roads where you can drive yourself through incredibly eerie lava fields.","lat":29.02196,"lng":-13.763492,"hero":"Lanzarote-003.jpg","category":"view","collection":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}}},{"title":"Charco Verde","slug":"charcoverde","description":"Strange rock formations and a volcanic green lake, just a short walk from the car park at El Golfo.","lat":28.976997,"lng":-13.827897,"hero":"Lanzarote-024.jpg","category":"view","collection":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}}},{"title":"Anaga","slug":"anaga","description":"I'm not sure exactly where in Anaga this shot was taken, but the whole area is full of lush green mountains with winding roads working their way through the valley. You can't miss.","lat":28.544055,"lng":-16.205056,"hero":"Tenerife-008.jpg","category":"view","collection":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}}},{"title":"Masca Valley","slug":"masca-valley","description":"The village of Masca is pretty hidden. It takes driving some pretty windy roads to get there and you have to time it prefectly to get the sunlight poking through the spaces between the mountains.","lat":28.304526,"lng":-16.829807,"hero":"Tenerife-004.jpg","category":"view","collection":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}}},{"title":"Teide","slug":"teide","description":"Tenerife is a volcanic island and Teide the active volcano at it's centre. You can easily drive to Teide through mountain forests before you reach a large plateau with incredible rock formations everywhere.","lat":28.210999,"lng":-16.636865,"hero":"Tenerife-002.jpg","category":"view","collection":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}}},{"title":"Playa de Benijo","slug":"playa-de-benijo","description":"Situated at the north coast of Tenerife, in Anaga, it's less likely to be a beach to sunbathe on and more likely that you'll just enjoy shooting the sea stacks and the black sand.","lat":28.572187,"lng":-16.192852,"hero":"Tenerife-014.jpg","category":"view","collection":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}}}];
+    let locations = [{"title":"El Golfo","slug":"elgolfo","description":"Easily, the most beautiful sunset on our trip to Lanzarote.","lat":28.978792,"lng":-13.829453,"hero":"Lanzarote-030.jpg","category":"view","collection":"lanzarote"},{"title":"Timanfaya National Park","slug":"timanfaya","description":"Trips into the heart of Timanfaya are by bus only, but there are roads where you can drive yourself through incredibly eerie lava fields.","lat":29.02196,"lng":-13.763492,"hero":"Lanzarote-003.jpg","category":"view","collection":"lanzarote"},{"title":"Charco Verde","slug":"charcoverde","description":"Strange rock formations and a volcanic green lake, just a short walk from the car park at El Golfo.","lat":28.976997,"lng":-13.827897,"hero":"Lanzarote-024.jpg","category":"view","collection":"lanzarote"},{"title":"Anaga","slug":"anaga","description":"I'm not sure exactly where in Anaga this shot was taken, but the whole area is full of lush green mountains with winding roads working their way through the valley. You can't miss.","lat":28.544055,"lng":-16.205056,"hero":"Tenerife-008.jpg","category":"view","collection":"tenerife"},{"title":"Masca Valley","slug":"masca-valley","description":"The village of Masca is pretty hidden. It takes driving some pretty windy roads to get there and you have to time it prefectly to get the sunlight poking through the spaces between the mountains.","lat":28.304526,"lng":-16.829807,"hero":"Tenerife-004.jpg","category":"view","collection":"tenerife"},{"title":"Teide","slug":"teide","description":"Tenerife is a volcanic island and Teide the active volcano at it's centre. You can easily drive to Teide through mountain forests before you reach a large plateau with incredible rock formations everywhere.","lat":28.210999,"lng":-16.636865,"hero":"Tenerife-002.jpg","category":"view","collection":"tenerife"},{"title":"Playa de Benijo","slug":"playa-de-benijo","description":"Situated at the north coast of Tenerife, in Anaga, it's less likely to be a beach to sunbathe on and more likely that you'll just enjoy shooting the sea stacks and the black sand.","lat":28.572187,"lng":-16.192852,"hero":"Tenerife-014.jpg","category":"view","collection":"tenerife"}];
+    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"trossachs":{"title":"The Trosssachs","slug":"trossachs","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
     let allMarkers = [];
     let baseURL = "https://mathayward.imgix.net/";
 
@@ -119,7 +121,7 @@
 
     for (let i = 0; i < locations.length; i++) {
       let title = locations[i].title;
-      let collection = locations[i].collection;
+      let collection = collections[locations[i].collection];
       let description = locations[i].description;
       let lat = locations[i].lat;
       let lng = locations[i].lng;

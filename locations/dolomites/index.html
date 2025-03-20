@@ -42,22 +42,22 @@
     
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7187.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7610.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7344.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7610.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-6782.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7610.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7625.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7610.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-8115.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7610.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
         <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7380.jpg?w=767">
-        <link rel="preload" as="image" href="https://mathayward.imgix.net/Dolomiti-7610.jpg?w=767">
+        <link rel="preload" as="image" href="https://mathayward.imgix.net/?w=767">
       
     
   </head>
@@ -74,6 +74,7 @@
     
     <main>
       
+
 
 <div id="map" class="w-screen h-screen"></div>
 
@@ -97,7 +98,8 @@
     let contentWrapper = document.getElementById("mapContentWrapper");
     let contentContainer = document.getElementById("mapContent");
     let closeButton = document.getElementById("mapContentClose");
-    let locations = [{"title":"Tre Cime Di Lavaredo","slug":"tre-cime-di-lavaredo","description":"It costs €30 to take your car on the toll road that leads to Tre Cime Di Lavaredo. You can walk it for free, but it'll take a few hours. The area is full of rocky monoliths and dotted with refuges for hikers.","lat":46.611687,"lng":12.29731,"hero":"Dolomiti-7187.jpg","category":"hike","collection":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Suisi"}}},{"title":"Cadini di Misurina","slug":"cadini-di-misurina","description":"About a 20-30 minute walk from Rifugio Auronzo, you'll find an incredible viewpoint of the Cadini di Misurina. Known as the best viewpoint in the Dolomites, if the clouds are on your side!","lat":46.600221,"lng":12.296343,"hero":"Dolomiti-7344.jpg","category":"view","collection":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Suisi"}}},{"title":"Seceda","slug":"seceda","description":"Two cable-car trips from Ortesei will take you 2,500m up the Odle mountains. From there you'll get some great views of the surrounding ranges, and a close up of the famous south side of Seceda.","lat":46.597869,"lng":11.724829,"hero":"Dolomiti-6782.jpg","category":"view","collection":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Suisi"}}},{"title":"Alpe di Siusi","slug":"alpe-di-siusi","description":"Take a cable-car or walk in from Compatsch to Alpe di Siuse (or Seiser Alm) for beautiful rolling green hills and the magnificent twin peaks of Plattkofel and Langkofel. Go early or late for interesting shadows (and to avoid the crowds).","lat":46.555709,"lng":11.662177,"hero":"Dolomiti-7625.jpg","category":"view","collection":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Suisi"}}},{"title":"Monte Pez","slug":"monte-pez","description":"The road to Compatsch closes at 9am, so start this hike early. It take about 2-3 hours to reach the top and much longer if you stop for photographs on the way. Amazing views all round once you get close to Rifugio Bolzano, as well as mountain horses and livestock.","lat":46.512016,"lng":11.575218,"hero":"Dolomiti-8115.jpg","category":"hike","collection":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Suisi"}}},{"title":"St Johann in Ranui","slug":"st-johann-in-ranui","description":"This little church is all over Instagram, because it's so easy to get to you barely have to get out of the car. If you're looking for a bit more space, take a walk up the hill to Chiesa di Santa Maddalena instead.","lat":46.636703,"lng":11.72217,"hero":"Dolomiti-7380.jpg","category":"view","collection":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Suisi"}}}];
+    let locations = [{"title":"Tre Cime Di Lavaredo","slug":"tre-cime-di-lavaredo","description":"It costs €30 to take your car on the toll road that leads to Tre Cime Di Lavaredo. You can walk it for free, but it'll take a few hours. The area is full of rocky monoliths and dotted with refuges for hikers.","lat":46.611687,"lng":12.29731,"hero":"Dolomiti-7187.jpg","category":"hike","collection":"dolomites"},{"title":"Cadini di Misurina","slug":"cadini-di-misurina","description":"About a 20-30 minute walk from Rifugio Auronzo, you'll find an incredible viewpoint of the Cadini di Misurina. Known as the best viewpoint in the Dolomites, if the clouds are on your side!","lat":46.600221,"lng":12.296343,"hero":"Dolomiti-7344.jpg","category":"view","collection":"dolomites"},{"title":"Seceda","slug":"seceda","description":"Two cable-car trips from Ortesei will take you 2,500m up the Odle mountains. From there you'll get some great views of the surrounding ranges, and a close up of the famous south side of Seceda.","lat":46.597869,"lng":11.724829,"hero":"Dolomiti-6782.jpg","category":"view","collection":"dolomites"},{"title":"Alpe di Siusi","slug":"alpe-di-siusi","description":"Take a cable-car or walk in from Compatsch to Alpe di Siuse (or Seiser Alm) for beautiful rolling green hills and the magnificent twin peaks of Plattkofel and Langkofel. Go early or late for interesting shadows (and to avoid the crowds).","lat":46.555709,"lng":11.662177,"hero":"Dolomiti-7625.jpg","category":"view","collection":"dolomites"},{"title":"Monte Pez","slug":"monte-pez","description":"The road to Compatsch closes at 9am, so start this hike early. It take about 2-3 hours to reach the top and much longer if you stop for photographs on the way. Amazing views all round once you get close to Rifugio Bolzano, as well as mountain horses and livestock.","lat":46.512016,"lng":11.575218,"hero":"Dolomiti-8115.jpg","category":"hike","collection":"dolomites"},{"title":"St Johann in Ranui","slug":"st-johann-in-ranui","description":"This little church is all over Instagram, because it's so easy to get to you barely have to get out of the car. If you're looking for a bit more space, take a walk up the hill to Chiesa di Santa Maddalena instead.","lat":46.636703,"lng":11.72217,"hero":"Dolomiti-7380.jpg","category":"view","collection":"dolomites"}];
+    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"trossachs":{"title":"The Trosssachs","slug":"trossachs","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
     let allMarkers = [];
     let baseURL = "https://mathayward.imgix.net/";
 
@@ -116,7 +118,7 @@
 
     for (let i = 0; i < locations.length; i++) {
       let title = locations[i].title;
-      let collection = locations[i].collection;
+      let collection = collections[locations[i].collection];
       let description = locations[i].description;
       let lat = locations[i].lat;
       let lng = locations[i].lng;
