@@ -30,10 +30,10 @@ images:
 
 ---
 
-Ok, I'm not going to double count a peak, but last weekend we just wanted to get out in the hills so we did an 8-hour drive on Friday evening, camped at Inverlochlarig and then got up to go for a hike around Beinn Each.
+I'm not going to double count a peak, but last weekend we decided we just wanted to get out in the hills. So we did an 8-hour drive on Friday evening, camped at Inverlochlarig and then got up to go for a hike around Beinn Each.
 
-We took a different route up this time to approach the peak from the north side, because I wanted to eyeball Stùc a' Chròin and see if we felt like bagging a munro while we were there.
+We took a different route up this time, to approach the peak from the north side, because I wanted to eyeball Stùc a' Chròin and see if we felt like bagging a Munro while we were there. We didn't.
 
-Having not climbed a real mountain for nearly a year, Stùc a' Chròin looked just a bit too daunting as we made our way downhill from the Bealach, so we decided to turn back and go to the top of Beinn Each instead.
+Having not climbed a real mountain for nearly a year, Stùc a' Chròin looked just a bit too daunting as we made our way downhill from the Bealach, so we turned back and went to the top of Beinn Each instead.
 
-A beautiful day in the hills. I'll get Stùc a' Chròin soon.
+A beautiful day in the hills either way and I'm sure we'll get Stùc a' Chròin soon.
