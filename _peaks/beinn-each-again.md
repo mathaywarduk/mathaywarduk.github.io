@@ -4,8 +4,8 @@ date: 2025-03-20
 title: Beinn Each again
 description: "Last weekend we just wanted to get out in the hills so we did an 8-hour drive on Friday evening, camped at Inverlochlarig and then got up to go for a hike around Beinn Each."
 seo:
-  title: "Wild Camping on Beinn Each"
-  description: "I kicked off the year-long challenge with an 'easy' climb in the Trossachs."
+  title: "Beinn Each again"
+  description: "Last weekend we just wanted to get out in the hills so we did an 8-hour drive on Friday evening, camped and then got up to go for a hike around Beinn Each."
   image:
     url: "Beinn_Each-Again-03.jpg"
     alt: "Kerry and Rudi walking on Beinn Each"
