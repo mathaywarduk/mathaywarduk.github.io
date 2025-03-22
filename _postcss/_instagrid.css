@@ -1,0 +1,14 @@
+.icon-inactive {
+  @apply hidden;
+
+  .active & {
+    @apply flex;
+  }
+}
+
+.icon-active {
+
+  .active & {
+    @apply hidden;
+  }
+}

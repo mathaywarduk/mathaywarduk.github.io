@@ -18,7 +18,15 @@ layout: default
         </div>
       </div>
     </div>
-    <ul class="grid grid-cols-3 gap-1 md:pr-12">
+    <div class="flex justify-end mb-2 md:pr-12">
+
+    <button class="inline-flex cursor-pointer items-center gap-1 uppercase text-sm font-sans tracking-wider font-bold" data-toggle-class="grid-cols-3" aria-controls="instagrid">
+      Toggle view
+      <img src="/assets/images/icons/grid.svg" class="w-6 icon-active" role="presentation" width="16" height="16">
+      <img src="/assets/images/icons/feed.svg" class="w-6 icon-inactive" role="presentation" width="16" height="16">
+    </button>
+    </div>
+    <ul class="grid grid-cols-3 gap-1 md:pr-12" id="instagrid">
 
       {% for post in site.posts %}
         <li id="{{ post.slug }}">
