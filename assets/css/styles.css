@@ -760,6 +760,10 @@ video {
   width: 4rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -792,6 +796,10 @@ video {
   flex-shrink: 0;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -818,6 +826,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1629,6 +1641,17 @@ p a:hover, p a:focus {
   background-image: url("/assets/images/icons/user.svg");
   background-size: 0.75rem;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.icon-inactive {
+  display: none;
+}
+.active .icon-inactive {
+  display: flex;
+}
+
+.active .icon-active {
+  display: none;
 }
 
 .fade-up {

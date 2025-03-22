@@ -158,10 +158,20 @@ function Slider(el) {
       glide.mount();
 }
 
+function ToggleClass(el) {
+  const target = document.getElementById(el.getAttribute('aria-controls'));
+  const className = el.dataset.toggleClass;
+  el.addEventListener("click", function() {
+    el.classList.toggle('active');
+    target.classList.toggle(className);
+  })
+}
+
 window.addEventListener('DOMContentLoaded', (event) => {
   [...document.querySelectorAll("[data-hover-show]")].map((el) => Hoverer(el));
   [...document.querySelectorAll("[data-blur-load]")].map((el) => BlurLoad(el));
   [...document.querySelectorAll("[data-image-tag-src]")].map((el) => ImageTags(el));
   [...document.querySelectorAll("[data-reel]")].map((el) => Reels(el));
   [...document.querySelectorAll("[data-glide]")].map((el) => Slider(el));
+  [...document.querySelectorAll("[data-toggle-class]")].map((el) => ToggleClass(el));
 });
