@@ -30,7 +30,7 @@ layout: default
       <div class="relative md:min-w-[400px] md:w-1/2">
         {% for media in page.media %}
         <div class="reel active" data-media>
-          <video src="{{ site.image_base }}{{ media.video }}" poster="{{ site.image_base}}{{ media.poster }}" data-reel autoplay loop muted></video>
+          <video src="{{ site.image_base }}{{ media.video }}" poster="{{ site.image_base}}{{ media.poster }}" data-reel autoplay loop muted playsinline></video>
           <div class="absolute bottom-5 right-5 reel-mute" data-reel-mute><span class="sr-only">Toggle sound</span></div>
           <div class="reel-play" data-reel-play><span class="sr-only">Play / pause video</span></div>
           {% if media.tagged.size > 0 %}
