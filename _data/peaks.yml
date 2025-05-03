@@ -1,3 +1,20 @@
+- title: Triple bagging
+  date: 2025-04-29
+  region: Scotland
+  distance: 17.5
+  ascent: 1260
+  number: 33
+  peaks:
+    - name: Càrn Ghluasaid
+      elevation: 957
+      category: munro
+    - name: Sgùrr nan Conbhairean
+      elevation: 1109
+      category: munro
+    - name: Sàil Chaorainn
+      elevation: 1002
+      category: munro
+  link: sgurr-nan-conbhairean
 - title: Beinn Each again
   date: 2025-03-20
   region: Scotland

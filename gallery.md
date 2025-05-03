@@ -4,6 +4,24 @@ layout: default
 
 <h1>All images</h1>
 
+<h2>Conbhairean</h2>
+
+<div class="flex flex-wrap">
+  {% for i in (1..19) %}
+    {% assign num = i %}
+    {% if i < 10 %}
+        {% assign num = "0" | append: i %}
+    {% endif %}
+    <a href="https://mathayward.imgix.net/Conbhairean-0{{ num }}.jpg" target="_blank" class="w-1/3 p-2">
+      <img src="https://mathayward.imgix.net/Conbhairean-0{{ num }}.jpg?w=600"><br>
+      Conbhairean-0{{ num }}.jpg
+    </a>
+  {% endfor %}
+</div>
+
+
+<h1>All images</h1>
+
 <h2>Lanzarote</h2>
 
 <div class="flex flex-wrap">
