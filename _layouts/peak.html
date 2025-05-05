@@ -34,12 +34,13 @@ layout: default
       &nbsp;&bull;&nbsp;
       {{ peak_data.region }}
       &nbsp;&bull;&nbsp;
-      {{ peak_data.distance }}km
+      {{ peak_data.distance | intcomma }}km
       &nbsp;&bull;&nbsp;
-      {{ peak_data.ascent }}m ascent
+      {{ peak_data.ascent | intcomma }}m ascent
     </div>
   </div>
 </div>
+
 
 <div class="md:w-9/12 md:ml-auto px-8 md:pl-0 fade-static border-b border-t br-grey py-4 xl:py-8">
   <div class="overflow-hidden">
@@ -52,7 +53,7 @@ layout: default
         {% if peak.category %}
         <span class="p-1 border br-orange c-orange">{{ peak.category | capitalize }}</span>
         {% endif %}
-        <span class="p-1">{{ peak.elevation }}m</span>
+        <span class="p-1">{{ peak.elevation | intcomma }}m</span>
       </li>
     {% endfor %}
   </ul>
@@ -67,7 +68,7 @@ layout: default
 
 <div class="overflow-hidden animate-stepped flex flex-col gap-0 md:gap-8 xl:gap-16">
 {% for group in page.images %}
-  <div class="flex md:gap-4 xl:gap-8 fade-up">
+  <div class="md:flex md:gap-8 xl:gap-16 fade-up">
    {% for image in group.images %}
     {% if group.images.size == 2 %}
       {% capture width %}900{% endcapture %}
@@ -76,7 +77,7 @@ layout: default
       {% capture width %}600{% endcapture %}
       {% capture height %}900{% endcapture %}
     {% endif %}
-    <div class="w-full {% if group.images.size == 2 %} md:w-auto {% endif %} mb-1">
+    <div class="w-full mb-1">
       {% include image.html url=image.url alt=image.alt width=width height=height %}
     </div>
    {% endfor %}

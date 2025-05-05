@@ -15,8 +15,6 @@ seo:
 
 I’m Mat Hayward, a landscape and travel photographer from the UK. I aim to capture the beauty of nature and enjoy exploring wild (and not so wild) locations in search of&nbsp;a great shot.
 
-Influenced by my love of mountains, the outdoors and adventure, I share my photography to encourage others to appreciate and explore the natural world.
-
 Have a look through some of my work, check out the locations and read about some of my experiences from my&nbsp;travels.
 
 <small>Photo by <a href="https://www.instagram.com/george_ell/" target="_blank">George Ell</a></small>

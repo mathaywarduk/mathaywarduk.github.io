@@ -2,10 +2,10 @@
 layout: peak
 date: 2025-04-29
 title: Triple bagging
-description: 
+description: After ruling out the 5 Sisters of Kintail and the Brother's ridge because we'd need a lift, we decided to take on the three Munros to the north of Loch Cluanie.
 seo:
   title: Triple bagging
-  description: 
+  description: After ruling out the 5 Sisters of Kintail and the Brother's ridge because we'd need a lift, we decided to take on the three Munros to the north of Loch Cluanie.
   image:
     url: Conbhairean-019.jpg
     alt: View from Sgùrr nan Conbhairean

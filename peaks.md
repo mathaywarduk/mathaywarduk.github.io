@@ -148,8 +148,8 @@ seo:
               <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="">{{ item.date | date: "%d %B %Y" }}</time>
             </li>
             <li class="before:content-['•'] before:mr-2">{{ item.region }}</li>
-            <li class="before:content-['•'] before:mr-2">{{ item.distance }}km</li>
-            <li class="before:content-['•'] before:mr-2">{{ item.ascent }}m ascent</li>
+            <li class="before:content-['•'] before:mr-2">{{ item.distance | intcomma }}km</li>
+            <li class="before:content-['•'] before:mr-2">{{ item.ascent | intcomma }}m ascent</li>
           </ul>
           {% if page != "" %}
             <p class="max-w-prose mb-4 md:mb-8">{{ page.description }}</p>
