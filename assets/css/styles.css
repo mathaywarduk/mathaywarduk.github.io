@@ -1472,6 +1472,7 @@ p a:hover, p a:focus {
 
 .image-loc {
   position: relative;
+  overflow: hidden;
 }
 
 .image-loc:hover .image-loc__icon,
@@ -1959,6 +1960,9 @@ p a:hover, p a:focus {
   .md\:block {
     display: block;
   }
+  .md\:flex {
+    display: flex;
+  }
   .md\:hidden {
     display: none;
   }
@@ -2006,9 +2010,6 @@ p a:hover, p a:focus {
   }
   .md\:gap-8 {
     gap: 2rem;
-  }
-  .md\:gap-4 {
-    gap: 1rem;
   }
   .md\:object-cover {
     -o-object-fit: cover;
@@ -2197,9 +2198,6 @@ p a:hover, p a:focus {
   }
   .xl\:gap-16 {
     gap: 4rem;
-  }
-  .xl\:gap-8 {
-    gap: 2rem;
   }
   .xl\:py-8 {
     padding-top: 2rem;
