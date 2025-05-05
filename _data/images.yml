@@ -352,6 +352,7 @@ west-coast:
     images:
       - url: "NC500-015.jpg"
         alt: "Layers of Cùl Mòr"
+        location: cul-mor
       - url: "NC500-043.jpg"
         alt: "Golden Hour at Upper Loch Torridon"
         location: upper-loch-torridon
@@ -359,6 +360,7 @@ west-coast:
     images:
       - url: "NC500-013.jpg"
         alt: "Howard in Torridon"
+        location: upper-loch-torridon
   - type: double
     images:
       - url: "NC500-056.jpg"
@@ -508,6 +510,7 @@ iceland:
         location: mulagljufur
       - url: "Iceland_0052.jpg"
         alt: "Green river"
+        location: landmannalaugar
   - type: double
     images:
       - url: "Iceland_0021.jpg"
@@ -544,10 +547,12 @@ iceland:
         location: landmannalaugar
       - url: "Iceland_0041.jpg"
         alt: "Abstract snow"
+        location: landmannalaugar
   - type: single
     images:
       - url: "Iceland_0063.jpg"
         alt: "Snow mountain"
+        location: landmannalaugar
   - type: single
     images:
       - url: "Iceland_0071.jpg"
@@ -562,10 +567,12 @@ iceland:
     images:
       - url: "Iceland_0081.jpg"
         alt: "Snow mountain"
+        location: landmannalaugar
   - type: double
     images:
       - url: "Iceland_0044.jpg"
         alt: "Howie"
+        location: landmannalaugar
       - url: "Iceland_0088.jpg"
         alt: "Howie sunset"
   - type: double

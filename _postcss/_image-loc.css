@@ -1,5 +1,5 @@
 .image-loc {
-  @apply relative;
+  @apply relative overflow-hidden;
 }
 
 .image-loc:hover,
@@ -25,4 +25,5 @@
     transition-all
     duration-500
     ease-in-out
+  ;
 }
