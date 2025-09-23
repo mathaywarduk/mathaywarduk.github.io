@@ -1,3 +1,14 @@
+- title: "Munro number 15"
+  date: 2025-09-22
+  region: Scotland
+  distance: 19
+  ascent: 1003
+  number: 36
+  peaks:
+    - name: Maol Chean-Dearg
+      elevation: 933
+      category: munro
+  link: maol-chean-dearg
 - title: Triple bagging
   date: 2025-04-29
   region: Scotland
