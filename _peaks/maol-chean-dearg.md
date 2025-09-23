@@ -2,16 +2,16 @@
 layout: peak
 date: 2025-09-22
 title: "Munro number 15"
-description: ""
+description: "With the weather being pretty changeable, we decided to go for the single Munro walk of Maol Chean-dearg"
 seo:
   title: "Maol Chean-dearg"
   description: "With the weather being pretty changeable, we decided to go for the single Munro walk of Maol Chean-dearg"
   image:
-    url: "MCD_005.jpg"
-    alt: ""
+    url: "MCD_006.jpg"
+    alt: "Loch a' Bealach Ruadh Stac"
 hero:
-  url: "MCD_005.jpg"
-  alt: ""
+  url: "MCD_006.jpg"
+  alt: "Loch a' Bealach Ruadh Stac"
 images:
   - type: single
     images:
