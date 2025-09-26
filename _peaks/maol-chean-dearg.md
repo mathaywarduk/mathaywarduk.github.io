@@ -2,10 +2,10 @@
 layout: peak
 date: 2025-09-22
 title: "Munro number 15"
-description: "With the weather being pretty changeable, we decided to go for the single Munro walk of Maol Chean-dearg"
+description: "With the weather being pretty changeable, we decided to go for just the single Munro walk of Maol Chean-dearg."
 seo:
   title: "Maol Chean-dearg"
-  description: "With the weather being pretty changeable, we decided to go for the single Munro walk of Maol Chean-dearg"
+  description: "With the weather being pretty changeable, we decided to go for just the single Munro walk of Maol Chean-dearg."
   image:
     url: "MCD_006.jpg"
     alt: "Loch a' Bealach Ruadh Stac"
@@ -21,12 +21,12 @@ images:
     images:
       - url: "MCD_002.jpg"
         alt: "Path up the glen, with Sgorr Ruadh behind"
-  - type: double
-    images:
-      - url: "MCD_003.jpg"
-        alt: "Rudi spotting Coire Fionnaraich"
-      - url: "MCD_006.jpg"
-        alt: "Loch a' Bealach Ruadh Stac"
+  #- type: double
+  #  images:
+  #    - url: "MCD_003.jpg"
+  #      alt: "Rudi spotting Coire Fionnaraich"
+  #    - url: "MCD_006.jpg"
+  #      alt: "Loch a' Bealach Ruadh Stac"
   - type: single
     images:
       - url: "MCD_007.jpg"
@@ -54,7 +54,7 @@ images:
 
 So we sold our house in England and decided to move up to our spiritual home in the Trossachs. In the few months between homes, we're working from a few holiday cottages and itching to get up some hills.
 
-A week off in between gave us that opportunity and, with the weather being pretty changeable, we decided to go for the single Munro walk of Maol Chean-dearg.
+A week off in between gave us that opportunity and, with the weather being pretty changeable, we decided to go for just the single Munro walk of Maol Chean-dearg.
 
 It was a 4km almost flat walk to begin with as we made our way to Coire Fionnaraich, one of the most accessible bothies I've come across. From there it's a pretty boggy section before turning to climb round the side and up Maol Chean-dearg.
 

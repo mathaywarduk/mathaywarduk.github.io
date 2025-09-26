@@ -1,3 +1,14 @@
+- title: "Goatfell from Corrie"
+  date: 2025-09-22
+  region: Scotland
+  distance: 10.5
+  ascent: 875
+  number: 37
+  peaks:
+    - name: Goatfell
+      elevation: 874
+      category: corbett
+  link: goatfell
 - title: "Munro number 15"
   date: 2025-09-22
   region: Scotland
