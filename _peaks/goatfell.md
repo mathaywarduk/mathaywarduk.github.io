@@ -2,10 +2,10 @@
 layout: peak
 date: 2025-09-25
 title: "Goatfell from Corrie"
-description: ""
+description: "After waking up with a sore back from the last hike, we spent a couple of days relaxing before hopping over to Arran in the sunshine to enjoy the beaches and tackle Goatfell."
 seo:
   title: "Goatfell from Corrie"
-  description: ""
+  description: "After waking up with a sore back from the last hike, we spent a couple of days relaxing before hopping over to Arran in the sunshine to enjoy the beaches and tackle Goatfell."
   image:
     url: "Goatfell-011.jpg"
     alt: "Kerry walking down from Goatfell"

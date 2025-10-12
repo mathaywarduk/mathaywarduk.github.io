@@ -2,10 +2,10 @@
 layout: peak
 date: 2025-10-12
 title: "West Lawers range"
-description: ""
+description: "Waiting to move into our new home in the Trossachs, we found a place on Loch Tay to stay for three weeks, so this Sunday we checked out some nearby Munros."
 seo:
   title: "West Lawers range"
-  description: ""
+  description: "Waiting to move into our new home in the Trossachs, we found a place on Loch Tay to stay for three weeks, so this Sunday we checked out some nearby Munros."
   image:
     url: "West-Lawers-025.jpg"
     alt: "Cloud inversion and Meall nan Tarmachan"
