@@ -1,5 +1,19 @@
+- title: "West Lawers range"
+  date: 2025-10-12
+  region: Scotland
+  distance: 9.5
+  ascent: 740
+  number: 38
+  peaks:
+    - name: Meall Corranaich
+      elevation: 1069
+      category: munro
+    - name: Meall a' Choire Lèith
+      elevation: 926
+      category: munro
+  link: meall-corranaich-meall-a-choire-leith
 - title: "Goatfell from Corrie"
-  date: 2025-09-22
+  date: 2025-09-25
   region: Scotland
   distance: 10.5
   ascent: 875

@@ -21,12 +21,6 @@ images:
     images:
       - url: "MCD_002.jpg"
         alt: "Path up the glen, with Sgorr Ruadh behind"
-  #- type: double
-  #  images:
-  #    - url: "MCD_003.jpg"
-  #      alt: "Rudi spotting Coire Fionnaraich"
-  #    - url: "MCD_006.jpg"
-  #      alt: "Loch a' Bealach Ruadh Stac"
   - type: single
     images:
       - url: "MCD_007.jpg"
