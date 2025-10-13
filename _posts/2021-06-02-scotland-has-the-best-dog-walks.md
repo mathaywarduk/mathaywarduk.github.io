@@ -17,6 +17,6 @@ seo:
 location: 
   label: "Scotland"
   exact: "Beinn Each"
-  collection: trossachs
+  collection: south-highlands
 postdate: 2021-05-18
 ---

@@ -31,6 +31,6 @@ seo:
 location: 
   label: "Scotland"
   exact: "Beinn Tulaichean"
-  collection: trossachs
+  collection: south-highlands
 postdate: 2021-12-24
 ---

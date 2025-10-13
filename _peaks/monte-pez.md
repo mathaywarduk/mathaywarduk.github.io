@@ -12,35 +12,44 @@ seo:
 hero:
   url: "Dolomiti-8112.jpg"
   alt: "Kerry in front of the Catinaccio mountain range"
+region: dolomites
 images:
   - type: double
     images:
       - url: "Dolomiti-7847.jpg"
         alt: "Haflinger Horse"
+        location: monte-pez
       - url: "Dolomiti-7937.jpg"
         alt: "Kerry looking down at Rifugio Bolzano"
+        location: monte-pez
   - type: single
     images:
       - url: "Dolomiti-7889.jpg"
         alt: "Rifugio Bolzano and the Catinaccio and Latemar mountains"
+        location: monte-pez
   - type: single
     images:
       - url: "Dolomiti-7962.jpg"
         alt: "Rifugio Bolzano and the Catinaccio and Latemar mountains"
+        location: monte-pez
   - type: single
     images:
       - url: "Dolomiti-8015.jpg"
         alt: "Catinaccio mountains"
+        location: monte-pez
   - type: double
     images:
       - url: "Dolomiti-8127.jpg"
         alt: "Kerry walking down to Rifugio Bolzano"
+        location: monte-pez
       - url: "Dolomiti-8112.jpg"
         alt: "Kerry in front of the Catinaccio mountain range"
+        location: monte-pez
   - type: single
     images:
       - url: "Dolomiti-8254.jpg"
         alt: "Red and white waymarker on path to Monte Pez summit"
+        location: monte-pez
 
 ---
 

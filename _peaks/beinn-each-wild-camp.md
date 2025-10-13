@@ -12,29 +12,36 @@ seo:
 hero:
   url: "Wild-Camp-008.jpg"
   alt: "Sunset in the Trossachs"
+region: scotland
 images:
   - type: single
     images:
       - url: "Wild-Camp-001.jpg"
         alt: "View over to Cruach Ardrain, Stob Binnein and Ben More"
+        location: beinn-each
   - type: single
     images:
       - url: "Wild-Camp-003.jpg"
         alt: "Our wild camp spot on Beinn Each"
+        location: beinn-each
   - type: single
     images:
       - url: "Wild-Camp-006.jpg"
         alt: "Kerry and Rudi in the last light with the Trossachs behind"
+        location: beinn-each
   - type: double
     images:
       - url: "Wild-Camp-008.jpg"
         alt: "Sunset in the Trossachs"
+        location: beinn-each
       - url: "Wild-Camp-009.jpg"
         alt: "Kerry and Rudi in the last light with the Trossachs behind"
+        location: beinn-each
   - type: single
     images:
       - url: "Wild-Camp-004.jpg"
         alt: "Kerry looking down to our tent on Beinn Each"
+        location: beinn-each
 
 ---
 

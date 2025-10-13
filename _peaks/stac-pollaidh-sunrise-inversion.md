@@ -12,35 +12,45 @@ seo:
 hero:
   url: "NC500-028.jpg"
   alt: "Howard on Stac Pollaidh"
+region: scotland
 images:
   - type: double
     images:
       - url: "NC500-022.jpg"
         alt: "sunrise and cloud inversion around Cùl Mòr"
+        location: stac-pollaidh
       - url: "NC500-007.jpg"
         alt: "Sunrise from Stac Pollaidh"
+        location: stac-pollaidh
   - type: double
     images:
       - url: "NC500-024.jpg"
         alt: "Kerry and Rudi on Stac Pollaidh"
+        location: stac-pollaidh
       - url: "NC500-028.jpg"
         alt: "Howard on Stac Pollaidh"
+        location: stac-pollaidh
   - type: single
     images:
       - url: "NC500-008.jpg"
         alt: "Howard on Stac Pollaidh"
+        location: stac-pollaidh
   - type: double
     images:
       - url: "NC500-026.jpg"
         alt: "Howard on Stac Pollaidh"
+        location: stac-pollaidh
       - url: "NC500-027.jpg"
         alt: "Cloud layers from Stac Pollaidh"
+        location: stac-pollaidh
   - type: double
     images:
       - url: "NC500-025.jpg"
         alt: "Sarah on the summit of Stac Pollaidh"
+        location: stac-pollaidh
       - url: "NC500-029.jpg"
         alt: "Sarah taking a break on Stac Pollaidh"
+        location: stac-pollaidh
 
 ---
 

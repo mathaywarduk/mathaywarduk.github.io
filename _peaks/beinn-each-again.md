@@ -12,21 +12,26 @@ seo:
 hero:
   url: "Beinn_Each-Again-05.jpg"
   alt: "View from Beinn Each"
+region: scotland
 images:
   - type: double
     images:
       - url: "Beinn_Each-Again-04.jpg"
         alt: "Rudi climbing to the top of Beinn Each"
+        location: beinn-each
       - url: "Beinn_Each-Again-05.jpg"
         alt: "View from Beinn Eachd"
+        location: beinn-each
   - type: single
     images:
       - url: "Beinn_Each-Again-03.jpg"
         alt: "Kerry and Rudi walking on Beinn Each"
+        location: beinn-each
   - type: single
     images:
       - url: "Beinn_Each-Again-01.jpg"
         alt: "Kerry and Rudi having a lunch break on Beinn Each"
+        location: beinn-each
 
 ---
 

@@ -12,25 +12,31 @@ seo:
 hero:
   url: Highlands-017.jpg
   alt: "Cloud inversion in Inverlochlarig glen"
+region: scotland
 images:
   - type: single
     images:
       - url: Highlands-018.jpg
         alt: "Inverlochlarig glen"
+        location: stob-binnein
   - type: double
     images:
       - url: Highlands-017.jpg
         alt: "Cloud inversion in Inverlochlarig glen"
+        location: stob-binnein
       - url: Highlands-020.jpg
         alt: "Inverlochlarig glen"
+        location: stob-binnein
   - type: single
     images:
       - url: Highlands-022.jpg
         alt: "View east from Stob Binnein"
+        location: stob-binnein
   - type: single
     images:
       - url: Highlands-023.jpg
         alt: "View east from Stob Binnein"
+        location: stob-binnein
 
 ---
 

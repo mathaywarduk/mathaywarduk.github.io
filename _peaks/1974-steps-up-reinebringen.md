@@ -12,13 +12,16 @@ seo:
 hero:
   url: Lofoten-046.jpg
   alt: View from Reinebringen
+region: lofoten
 images:
   - type: double
     images:
       - url: Lofoten-045.jpg
         alt: View from Reinebringen
+        location: reinebringen
       - url: Lofoten-047.jpg
         alt: View from Reinebringen
+        location: reinebringen
 
 ---
 

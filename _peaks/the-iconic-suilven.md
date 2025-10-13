@@ -12,19 +12,24 @@ seo:
 hero:
   url: "NC500-059.jpg"
   alt: "Suilven"
+region: scotland
 images:
   - type: double
     images:
       - url: "NC500-016.jpg"
         alt: "Suilven"
+        location: suilven
       - url: "NC500-017.jpg"
         alt: "Suilven" 
+        location: suilven
   - type: double
     images:
       - url: "NC500-058.jpg"
         alt: "Suilven"
+        location: suilven
       - url: "NC500-059.jpg"
         alt: "Suilven" 
+        location: suilven
 
 ---
 

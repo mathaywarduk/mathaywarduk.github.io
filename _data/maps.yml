@@ -268,6 +268,14 @@ alberta:
     category: hike
     collection: alberta
 lofoten:
+  - title: Reinebringen
+    slug: reinebringen
+    description: "It's a 45-minute walk up Reinebringen, but still pretty gruelling. The views over to Kirkefjord are worth the effort though."
+    lat: 67.927018
+    lng: 13.074808
+    hero: "Lofoten-047.jpg"
+    category: hike
+    collection: lofoten
   - title: Hamnøy
     slug: hamnoy
     description: "These little buildings on stilts are all over Lofoten, but this shot of Hamnøy with Festhaeltinden behind is pretty common. It's easy to get too, park just off the main road and walk up the bridge for 2 minutes."
@@ -333,6 +341,22 @@ lofoten:
     category: view
     collection: lofoten
 scotland:
+  - title: Goatfell
+    slug: goatfell
+    description: "Arran is a beautiful island of beaches, clear waters and mountains. Goatfell is it's highest peak and, therefore, often full of tourists. Take the back route from Corrie for better views and more alone time."
+    lat: 55.627964
+    lng: -5.192354
+    hero: "Goatfell-007.jpg"
+    category: hike
+    collection: skye-hebrides
+  - title: West Lawers range
+    slug: west-lawers
+    description: "The Ben Lawers range consists of seven munros just above Loch Tay. The western two munros have great views of Ben Lawers and the Tarmachan Ridge."
+    lat: 56.550318
+    lng: -4.266548
+    hero: "West-Lawers-018.jpg"
+    category: hike
+    collection: south-highlands
   - title: The Golden Road
     slug: golden-road
     description: "If you visit the Isle of Harris by car, be sure to take a drive down the golden road at sunset. It's spectactular!"
@@ -364,6 +388,14 @@ scotland:
     lng: -5.532568
     hero: "NC500-043.jpg"
     category: view
+    collection: west-coast
+  - title: Maol Chean-Dearg
+    slug: maol-chean-dearg
+    description: "Not a well-known Munro and one of the smaller ones, but has a great up-close view of the imposing An Rhuad-stac and magnificent summit views of Torridon."
+    lat: 57.491424
+    lng: -5.465087
+    hero: "MCD_008.jpg"
+    category: hike
     collection: west-coast
   - title: Big Sand Beach
     slug: big-sand-beach
@@ -468,7 +500,7 @@ scotland:
     lng: -4.220815
     hero: "Highlands-026.jpg"
     category: hike
-    collection: trossachs
+    collection: south-highlands
   - title: Ben A'an
     slug: ben-aan
     description: "From a purely view vs effort point of view, Ben A'an has to be the best hill in Scotland. The view over Loch Katrine to the west is beautiful at any time of day, but at sunset it's awesome. Effort-wise, we spent longer at the top than we did walking up there."
@@ -476,7 +508,7 @@ scotland:
     lng: -4.418570
     hero: "Highlands-006.jpg"
     category: hike
-    collection: trossachs
+    collection: south-highlands
   - title: Stob Binnein
     slug: stob-binnein
     description: "The first munro I climbed with my wife and dog and probably my favourite. It's tough going to start with, but if you climb it from the south, you get instant views down Inverlochlarig glen and toward the munros surrounding it. Cloud inversions here are more common than other locations too."
@@ -484,7 +516,7 @@ scotland:
     lng: -4.520221
     hero: "Highlands-017.jpg"
     category: hike
-    collection: trossachs
+    collection: south-highlands
   - title: Glentruim
     slug: glentruim
     description: "My wife and I got married in Glentruim, so had easy access to this little view point over the Spey valley. Because of the right to roam in Scotland and the fact that the view point is well away from the buildings in the estate, you're well within your rights to visit."
@@ -492,7 +524,7 @@ scotland:
     lng: -4.177290
     hero: "Highlands-028.jpg"
     category: view
-    collection: trossachs
+    collection: south-highlands
   - title: Stob Dearg
     slug: stob-dearg
     description: "Buachaille Etive Mòr is the most photographed mountain in the UK. Largely because of the larger of it's peaks, Stob Dearg, and the fact that it can be easily shot from the road through Glen Coe. Go early or late in the day to avoid the crowds, though."
@@ -500,7 +532,7 @@ scotland:
     lng: -4.861952  
     hero: "Highlands-013.jpg"
     category: view
-    collection: trossachs
+    collection: south-highlands
   - title: Glen Coe
     slug: glen-coe
     description: "There are lots of great hikes in the Glen Coe area. This shot was taken on the way up to the Hidden Valley pretty early in the morning."
@@ -508,7 +540,7 @@ scotland:
     lng: -4.984233
     hero: "Highlands-014.jpg"
     category: hike
-    collection: trossachs
+    collection: south-highlands
   - title: Beinn Each
     slug: beinn-each
     description: "Our first wild camp was on the west side of Beinn Each, but you don't need to camp to get the sunset views. It takes about an hour to get to this viewpoint where you'll be rewarded with layers of the Trossachs and beyond. Reach the top in another 30 minutes if you fancy it, or just come down."
@@ -516,7 +548,7 @@ scotland:
     lng: -4.271223
     hero: "Wild-Camp-008.jpg"
     category: hike
-    collection: trossachs
+    collection: south-highlands
   - title: Elgol Beach
     slug: elgol-beach
     description: "Elgol is the end of the road on the Strathaird peninsula in Skye, but it has one of the best and most accessible views of the Cuillin you can get. Go when the tide is on the way out, so you can walk around the huge rockface to find the view."

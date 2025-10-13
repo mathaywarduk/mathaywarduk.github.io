@@ -12,45 +12,57 @@ seo:
 hero:
   url: "Goatfell-011.jpg"
   alt: "Kerry walking down from Goatfell"
+region: scotland
 images:
   - type: single
     images:
       - url: "Goatfell-002.jpg"
         alt: "Kerry and Rudi walking up through Corrie Lan to North Goatfell"
+        location: goatfell
   - type: double
     images:
       - url: "Goatfell-003.jpg"
         alt: "Rudi on the path through Corrie Lan to North Goatfell"
+        location: goatfell
       - url: "Goatfell-004.jpg"
         alt: "Rudi on the path through Corrie Lan to North Goatfell"
+        location: goatfell
   - type: single
     images:
       - url: "Goatfell-005.jpg"
         alt: "View of Cir Mor from North Goatfell"
+        location: goatfell
   - type: single
     images:
       - url: "Goatfell-006.jpg"
         alt: "View of Cir Mor and Caisteal Abhail from North Goatfell"
+        location: goatfell
   - type: single
     images:
       - url: "Goatfell-008.jpg"
         alt: "Kerry and Rudi on the top of North Goatfell"
+        location: goatfell
   - type: double
     images:
       - url: "Goatfell-007.jpg"
         alt: "Cir Mor"
+        location: goatfell
       - url: "Goatfell-010.jpg"
         alt: "Cir Mor"
+        location: goatfell
   - type: double
     images:
       - url: "Goatfell-009.jpg"
         alt: "A lone stag on the slopes of Goatfell"
+        location: goatfell
       - url: "Goatfell-011.jpg"
         alt: "Kerry walking down from Goatfell"
+        location: goatfell
   - type: single
     images:
       - url: "Goatfell-012.jpg"
         alt: "Kerry walking down from Goatfell"
+        location: goatfell
 
 ---
 

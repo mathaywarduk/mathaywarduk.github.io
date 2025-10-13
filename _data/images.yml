@@ -594,7 +594,7 @@ iceland:
       - url: "Iceland-009.jpg"
         alt: "Sunrise at Reynisfjara"
         location: reynisfjara
-trossachs:
+south-highlands:
   - type: single
     images:
       - url: "Highlands-005.jpg"
@@ -618,6 +618,11 @@ trossachs:
         location: ben-aan
   - type: single
     images:
+      - url: "West-Lawers-018.jpg"
+        alt: "Cloud inversion between An Stuc and Ben Lawers"
+        location: west-lawers
+  - type: single
+    images:
       - url: "Wild-Camp-002.jpg"
         alt: "View from Beinn Each of Stob Binnein and Ben More"
         location: beinn-each
@@ -634,6 +639,11 @@ trossachs:
       - url: "Wild-Camp-004.jpg"
         alt: "Beinn Each wild camp"
         location: beinn-each
+  - type: single
+    images:
+      - url: "West-Lawers-006.jpg"
+        alt: "Lochan na Láirige at sunrise"
+        location: west-lawers
   - type: single
     images:
       - url: "Highlands-023.jpg"

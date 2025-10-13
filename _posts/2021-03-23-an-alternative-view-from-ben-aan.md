@@ -10,6 +10,6 @@ seo:
 location: 
   label: "Scotland"
   exact: "Ben A'An"
-  collection: trossachs
+  collection: south-highlands
 postdate: 2021-05-18
 ---

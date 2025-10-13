@@ -12,37 +12,46 @@ seo:
 hero:
   url: "MCD_006.jpg"
   alt: "Loch a' Bealach Ruadh Stac"
+region: scotland
 images:
   - type: single
     images:
       - url: "MCD_001.jpg"
         alt: "Kerry walking across the awkward bridge over the Fionn-abhainn"
+        location: maol-chean-dearg
   - type: single
     images:
       - url: "MCD_002.jpg"
         alt: "Path up the glen, with Sgorr Ruadh behind"
+        location: maol-chean-dearg
   - type: single
     images:
       - url: "MCD_007.jpg"
         alt: "An Rhuad-stac"
+        location: maol-chean-dearg
   - type: double
     images:
       - url: "MCD_008.jpg"
         alt: "Loch a' Bealach Ruadh Stac"
+        location: maol-chean-dearg
       - url: "MCD_009.jpg"
         alt: "Rudi with Beinn Damh behind"
+        location: maol-chean-dearg
   - type: single
     images:
       - url: "MCD_010.jpg"
         alt: "Sgorr Ruadh from Maol Chean-dearg"
+        location: maol-chean-dearg
   - type: single
     images:
       - url: "MCD_011.jpg"
         alt: "Kerry and Rudi walking towards the summit cairn of Maol Chean-dearg"
+        location: maol-chean-dearg
   - type: single
     images:
       - url: "MCD_012.jpg"
         alt: "A rainbow over Torridon"
+        location: maol-chean-dearg
 
 ---
 

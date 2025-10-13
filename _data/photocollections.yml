@@ -46,9 +46,9 @@ west-coast:
   hero:
     url: "NC500-013.jpg"
     alt: "Howard in Plockton"
-trossachs:
-  title:  "The Trosssachs"
-  slug: trossachs
+south-highlands:
+  title:  "South Highlands"
+  slug: south-highlands
   hero:
     url: "Highlands-005.jpg"
     alt: "Sunset from Ben A'an"

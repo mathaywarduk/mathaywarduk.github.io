@@ -12,65 +12,82 @@ seo:
 hero:
   url: "West-Lawers-006.jpg"
   alt: "Lochan na Láirige at sunrise"
+region: scotland
 images:
   - type: single
     images:
       - url: "West-Lawers-005.jpg"
         alt: "Sunrise view from the parking area at the top of Lochan na Láirige"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-006.jpg"
         alt: "Lochan na Láirige at sunrise"
+        location: west-lawers
   - type: double
     images:
       - url: "West-Lawers-001.jpg"
         alt: "Kerry walking up Meall Corranaich"
+        location: west-lawers
       - url: "West-Lawers-008.jpg"
         alt: "Cloud inversion over Loch Tay, taken from Meall Corranaich"
+        location: west-lawers
   - type: double
     images:
       - url: "West-Lawers-009.jpg"
         alt: "Meall Corranaich"
+        location: west-lawers
       - url: "West-Lawers-019.jpg"
         alt: "Kerry, Rudi and the Tarmachan Ridge from Meall Corranaich"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-002.jpg"
         alt: "Meall nan Tarmachan from Meall Corranaich"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-004.jpg"
         alt: "Cloud rolling between An Stuc and Ben Lawers"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-007.jpg"
         alt: "Meall Corranaich"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-013.jpg"
         alt: "Rudi and Kerry walk by cloud inversions between Meall Corranaich and Meall a' Choire Lèith"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-016.jpg"
         alt: "Kerry looking at cloud between An Stuc and Ben Lawers"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-018.jpg"
         alt: "Cloud inversion between An Stuc and Ben Lawers"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-020.jpg"
         alt: "Rudi walking down Meall a' Choire Lèith"
+        location: west-lawers
   - type: single
     images:
       - url: "West-Lawers-023.jpg"
         alt: "Cloud inversion and Meall nan Tarmachan"
+        location: west-lawers
   - type: souble
     images:
       - url: "West-Lawers-024.jpg"
         alt: "Kerry and Rudi, cloud inversion and Meall nan Tarmachan"
+        location: west-lawers
       - url: "West-Lawers-025.jpg"
         alt: "Cloud inversion and Meall nan Tarmachan"
+        location: west-lawers
 ---
 
 In our flip-flopping between holiday cottages while we wait to move into our new home in the Trossachs, we found a place on Loch Tay that we could stay in for over three weeks. That meant no more Saturday travelling for a bit, so this Sunday we decided to check out some of the nearby Munros.

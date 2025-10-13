@@ -100,7 +100,7 @@ isMap: true
 
             heroHTML = `<picture class="w-full">
               <img alt="${title}" 
-                src="${baseURL}${hero}?w=767"
+                src="${baseURL}${hero}?w=767&ar=2:3&fit=crop&crop=entropy"
                 width="767">
             </picture>`
 
@@ -136,13 +136,11 @@ isMap: true
                         </h2>
                       </div>
                     </div>
-                    <img src="${baseURL}${collection.hero.url}?w=767" alt="${collection.hero.alt}" class="block">
+                    <img src="${baseURL}${collection.hero.url}?w=767&ar=3:2&fit=crop&crop=entropy" alt="${collection.hero.alt}" class="block">
                   </a>
                 </div>`;
 
             // show content element
-            // contentWrapper.classList.remove("hidden");
-            // closeButton.classList.remove("hidden");
             closeButton.classList.add("slide-from-right");
             contentWrapper.classList.add("slide-from-right");
           }
