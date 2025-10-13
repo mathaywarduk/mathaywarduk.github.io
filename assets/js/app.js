@@ -55,7 +55,7 @@ function BlurLoad(el) {
   const srcset = img.dataset.srcset;
 
   // if in viewport and not large image
-  if (isInView(el)) {
+  if (isInView(el) || el.dataset.blurLoadNow !== undefined) {
     updateImage(el, img, srcset);
   }
 

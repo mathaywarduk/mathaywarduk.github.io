@@ -201,7 +201,7 @@
   peaks:
     - name: Suilven
       elevation: 731
-      category: fiona
+      category: graham
   link: the-iconic-suilven
 - title: Cruach Àrdrain & Beinn Tulaichean
   date: 2021-09-13
@@ -269,7 +269,7 @@
   peaks:
     - name: Stac Pollaidh
       elevation: 612
-      category: fiona
+      category: graham
   link: stac-pollaidh-sunrise-inversion
 - title: The four peaks of the Buachaille
   date: 2020-09-25

@@ -16,7 +16,7 @@ seo:
 {% assign wainwrights = "" | split: ',' %}
 {% assign dolomites = "" | split: ',' %}
 {% assign hewitts = "" | split: ',' %}
-{% assign fionas = "" | split: ',' %}
+{% assign grahams = "" | split: ',' %}
 
 {% for item in site.data.peaks %}
   {% assign include = item.number %}
@@ -31,8 +31,8 @@ seo:
       {% if peak.category == 'corbett' %}
         {% assign corbetts = corbetts | push: peak %}
       {% endif %}
-      {% if peak.category == 'fiona' %}
-        {% assign fionas = fionas | push: peak %}
+      {% if peak.category == 'graham' %}
+        {% assign grahams = grahams | push: peak %}
       {% endif %}
       {% if peak.category == 'wainwright' %}
         {% assign wainwrights = wainwrights | push: peak %}
@@ -69,8 +69,7 @@ seo:
         <span class="text-xl py-1 px-2 border br-orange c-orange">{{ distance | intcomma }}km</span>
       </li>
     </ul>
-    {% comment %}
-    <ul class="flex flex-wrap gap-x-8 gap-y-4">
+    <ul class="flex-wrap gap-x-8 gap-y-4 hidden xl:flex">
       {% if munros.size > 0 %}
       <li class="text-slide-up animate-stepped">
         <h3 class="font-bold mb-4">Munros</h3>
@@ -83,10 +82,10 @@ seo:
         <span class="text-xl py-1 px-2 border br-orange c-orange">{{ corbetts.size }}</span>
       </li>
       {% endif %}
-      {% if fionas.size > 0 %}
+      {% if grahams.size > 0 %}
       <li class="text-slide-up animate-stepped">
-        <h3 class="font-bold mb-4">Fionas</h3>
-        <span class="text-xl py-1 px-2 border br-orange c-orange">{{ fionas.size }}</span>
+        <h3 class="font-bold mb-4">Grahams</h3>
+        <span class="text-xl py-1 px-2 border br-orange c-orange">{{ grahams.size }}</span>
       </li>
       {% endif %}
       {% if wainwrights.size > 0 %}
@@ -108,12 +107,13 @@ seo:
       </li>
       {% endif %}
     </ul>
-    {% endcomment %}
   </div>
 
   <ul class="flex flex-col gap-16 py-4 xl:py-8">
     {% for item in site.data.peaks %}
     {% assign page = "" %}
+    {% assign focus = false %}
+    {% if forloop.first %}{% assign focus = true %}{% endif %}
     {% if item.link %}
       {% assign page = site.peaks | where: "slug", item.link | first %}
     {% endif %}
@@ -124,7 +124,7 @@ seo:
         <article class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-8">
       {% endif %}
       {% if page.hero %}
-        {% include image.html url=page.hero.url alt=page.hero.alt width=200 height=300 ar="3:4" block_classes="w-full md:w-1/2" classes=" opacity-100 transition-all duration-1000 ease-in-out filter group-hover:opacity-50 group-hover:grayscale"  %}
+        {% include image.html url=page.hero.url alt=page.hero.alt width=200 height=300 ar="3:4" block_classes="w-full md:w-1/2" classes=" opacity-100 transition-all duration-1000 ease-in-out filter group-hover:opacity-50 group-hover:grayscale" focus=focus  %}
       {% endif %}
         <div class="flex {% if item.link %} flex-col items-start gap-2 {% else %} flex-wrap items-end gap-4 {% endif %} w-full py-4">
           <ul class="flex flex-row gap-2">

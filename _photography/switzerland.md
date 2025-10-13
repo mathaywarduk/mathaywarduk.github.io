@@ -1,8 +1,9 @@
 ---
 layout: photography
 title:  "Swiss Alps"
-region: "Europe"
+region: "Switzerland"
 year: 2024
+metacolor: white
 id: switzerland
 intro: "Cable cars and mountain huts, hiling in Switzerland is a bit of luxury."
 seo:

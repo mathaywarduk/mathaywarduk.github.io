@@ -4,8 +4,7 @@
   {% capture opts %}&auto=format{% endcapture %}
 {% endif %}
 
-
-<picture class="{{ include.block_classes }}" data-blur-load>
+<picture class="{{ include.block_classes }}" data-blur-load{% if include.focus %} data-blur-load-now{% endif %}>
   <img src="{{ site.image_base }}{{ include.url }}?w=10&q=30{{opts}}" alt="{{ include.alt }}" {% if include.hero != "true" %}loading="lazy"{% endif %} sizes="(max-width: 1600px) 100vw, 1600px" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" data-srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
     {{ site.image_base }}{{ include.url }}?w=1600{{opts}} 1600w,
     {{ site.image_base }}{{ include.url }}?w=1280{{opts}} 1280w,

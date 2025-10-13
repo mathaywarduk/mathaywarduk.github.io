@@ -38,15 +38,18 @@ layout: default
 
     </div>
 
-    <div class="w-full md:w-5/12 h-auto md:h-full relative order-1 md:order-2 fade-static {% if page.hero.location %}image-loc{% endif %}">
+    <div class="w-full md:w-5/12 h-auto md:h-full relative order-1 md:order-2 fade-static">
+      <p class="text-lg md:text-xl lg:text-2xl uppercase font-sans tracking-widest upright absolute top-0  right-0 mt-6 z-10 mr-3 fade-static anim-delay-400{% if page.metacolor == 'white' %} text-white{% endif %}">{{ page.region }} &bull; {{ page.year }}</p>
+
+      <div class="w-full h-full {% if page.hero.location %}image-loc{% endif %}">
       {% include image.html url=page.hero.url alt=page.hero.alt classes=" w-full md:h-full md:object-cover" hero="true" width=600 height=900 %}
-        <p class="text-lg md:text-xl lg:text-2xl uppercase font-sans tracking-widest upright absolute bottom-0 md:bottom-auto md:top-0 right-0 md:right-auto md:left-0 md:mt-16 md:-ml-4 lg:-ml-5 z-10 mr-3 md:mr-0 mb-12 md:mb-0 fade-static anim-delay-400">{{ page.region }} &bull; {{ page.year }}</p>
         {% if page.hero.location %}
           <a href="/locations/{{ location_slug }}?l={{ page.hero.location }}" class="b-white image-loc__icon image-loc__icon--hero">
             <img src="/assets/images/icons/pin.svg" class="w-4" role="presentation" width="16" height="16">
             <span class="sr-only">Where is this?</span>
           </a>
         {% endif %}
+      </div>
     </div>
 
   </div>

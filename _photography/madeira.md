@@ -3,6 +3,7 @@ layout: photography
 title:  "Madeira"
 region: "Portugal"
 year: 2023
+metacolor: white
 id: madeira
 intro: "If you're not going uphill or downhill in Madeira, you're probably in the sea. The landscape is full of lush green mountains, lit by some of the best sunsets I've seen."
 seo:

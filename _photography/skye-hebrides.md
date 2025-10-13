@@ -12,8 +12,8 @@ seo:
     url: "Skye-027.jpg"
     alt: "Sunset on Skye near Tarskavaig"
 hero:
-  url: "Skye-014.jpg"
-  alt: "Howard looking over Loch Creitheach"
+  url: "Skye-012.jpg"
+  alt: "The Cuillin from Camasunary Bay"
   location: camasunary-bay
 thumb:
   - url: "Skye-008.jpg"
