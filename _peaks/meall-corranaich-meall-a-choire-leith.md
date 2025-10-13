@@ -7,8 +7,8 @@ seo:
   title: "West Lawers range"
   description: "Waiting to move into our new home in the Trossachs, we found a place on Loch Tay to stay for three weeks, so this Sunday we checked out some nearby Munros."
   image:
-    url: "West-Lawers-025.jpg"
-    alt: "Cloud inversion and Meall nan Tarmachan"
+    url: "West-Lawers-006.jpg"
+    alt: "Lochan na Láirige at sunrise"
 hero:
   url: "West-Lawers-006.jpg"
   alt: "Lochan na Láirige at sunrise"

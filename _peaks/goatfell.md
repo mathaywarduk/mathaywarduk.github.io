@@ -7,8 +7,8 @@ seo:
   title: "Goatfell from Corrie"
   description: "After waking up with a sore back from the last hike, we spent a couple of days relaxing before hopping over to Arran in the sunshine to enjoy the beaches and tackle Goatfell."
   image:
-    url: "Goatfell-011.jpg"
-    alt: "Kerry walking down from Goatfell"
+    url: "Goatfell-002.jpg"
+    alt: "Kerry and Rudi walking up through Corrie Lan to North Goatfell"
 hero:
   url: "Goatfell-011.jpg"
   alt: "Kerry walking down from Goatfell"

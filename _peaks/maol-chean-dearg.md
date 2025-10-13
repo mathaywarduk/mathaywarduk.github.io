@@ -7,8 +7,8 @@ seo:
   title: "Maol Chean-dearg"
   description: "With the weather being pretty changeable, we decided to go for just the single Munro walk of Maol Chean-dearg."
   image:
-    url: "MCD_006.jpg"
-    alt: "Loch a' Bealach Ruadh Stac"
+    url: "MCD_007.jpg"
+    alt: "An Rhuad-stac"
 hero:
   url: "MCD_006.jpg"
   alt: "Loch a' Bealach Ruadh Stac"
