@@ -103,7 +103,7 @@
     let contentContainer = document.getElementById("mapContent");
     let closeButton = document.getElementById("mapContentClose");
     let locations = [{"title":"Medicine Lake","slug":"medicine-lake","description":"Driving past this lake on the way to Maligne Lake I saw some incredible reflections, but for some reason never shot them! Either way it's a beautiful spot.","lat":52.838551,"lng":-117.719025,"hero":"Canada-009.jpg","category":"view","collection":"alberta"},{"title":"Mount Lorette","slug":"mount-lorette","description":"We stayed at Sundance Lodges for a night when in Canada and, because it was off-season, had the place to ourselves. Just through the trees from our tent was the river and an amazing view of Mount Lorette.","lat":50.953974,"lng":-115.125016,"hero":"Canada-002.jpg","category":"view","collection":"alberta"},{"title":"Peyto Lake","slug":"peyto-lake","description":"One of those views that's all over Instagram so, as you'd expect, it's pretty easy to get to. Park in the car park and walk 20 minutes to the viewpoint. You won't be alone.","lat":51.71828,"lng":-116.508286,"hero":"Canada-019.jpg","category":"view","collection":"alberta"},{"title":"Maligne Lake","slug":"maligne-lake","description":"It's a bit of a drive down a one-way in, one-way out road to Maligne Lake, but you arrive to a peaceful view of mountains and pine trees and a pretty cool looking boathouse.","lat":52.728815,"lng":-117.641685,"hero":"Canada-007.jpg","category":"view","collection":"alberta"},{"title":"Vermillion Lakes","slug":"vermillion-lakes","description":"Easy to shoot from the road, Vermillion Lakes are a group of lakes just outside the town of Banff, which means you'll often get kayakers and canoers in the foreground.","lat":51.182168,"lng":-115.603571,"hero":"Canada-014.jpg","category":"view","collection":"alberta"},{"title":"Bow Glacier Falls","slug":"bow-glacier-falls","description":"I loved this walk through a forest, up and small canyon and over river. There's so much variety in things to shoot and it always feels good to get outside in the landscape.","lat":51.659769,"lng":-116.488941,"hero":"Canada-012.jpg","category":"hike","collection":"alberta"}];
-    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"trossachs":{"title":"The Trosssachs","slug":"trossachs","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
+    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"south-highlands":{"title":"South Highlands","slug":"south-highlands","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
     let allMarkers = [];
     let baseURL = "https://mathayward.imgix.net/";
 
@@ -174,7 +174,7 @@
 
             heroHTML = `<picture class="w-full">
               <img alt="${title}" 
-                src="${baseURL}${hero}?w=767"
+                src="${baseURL}${hero}?w=767&ar=2:3&fit=crop&crop=entropy"
                 width="767">
             </picture>`
 
@@ -210,13 +210,11 @@
                         </h2>
                       </div>
                     </div>
-                    <img src="${baseURL}${collection.hero.url}?w=767" alt="${collection.hero.alt}" class="block">
+                    <img src="${baseURL}${collection.hero.url}?w=767&ar=3:2&fit=crop&crop=entropy" alt="${collection.hero.alt}" class="block">
                   </a>
                 </div>`;
 
             // show content element
-            // contentWrapper.classList.remove("hidden");
-            // closeButton.classList.remove("hidden");
             closeButton.classList.add("slide-from-right");
             contentWrapper.classList.add("slide-from-right");
           }

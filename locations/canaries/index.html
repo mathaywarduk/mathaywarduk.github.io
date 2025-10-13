@@ -106,7 +106,7 @@
     let contentContainer = document.getElementById("mapContent");
     let closeButton = document.getElementById("mapContentClose");
     let locations = [{"title":"El Golfo","slug":"elgolfo","description":"Easily, the most beautiful sunset on our trip to Lanzarote.","lat":28.978792,"lng":-13.829453,"hero":"Lanzarote-030.jpg","category":"view","collection":"lanzarote"},{"title":"Timanfaya National Park","slug":"timanfaya","description":"Trips into the heart of Timanfaya are by bus only, but there are roads where you can drive yourself through incredibly eerie lava fields.","lat":29.02196,"lng":-13.763492,"hero":"Lanzarote-003.jpg","category":"view","collection":"lanzarote"},{"title":"Charco Verde","slug":"charcoverde","description":"Strange rock formations and a volcanic green lake, just a short walk from the car park at El Golfo.","lat":28.976997,"lng":-13.827897,"hero":"Lanzarote-024.jpg","category":"view","collection":"lanzarote"},{"title":"Anaga","slug":"anaga","description":"I'm not sure exactly where in Anaga this shot was taken, but the whole area is full of lush green mountains with winding roads working their way through the valley. You can't miss.","lat":28.544055,"lng":-16.205056,"hero":"Tenerife-008.jpg","category":"view","collection":"tenerife"},{"title":"Masca Valley","slug":"masca-valley","description":"The village of Masca is pretty hidden. It takes driving some pretty windy roads to get there and you have to time it prefectly to get the sunlight poking through the spaces between the mountains.","lat":28.304526,"lng":-16.829807,"hero":"Tenerife-004.jpg","category":"view","collection":"tenerife"},{"title":"Teide","slug":"teide","description":"Tenerife is a volcanic island and Teide the active volcano at it's centre. You can easily drive to Teide through mountain forests before you reach a large plateau with incredible rock formations everywhere.","lat":28.210999,"lng":-16.636865,"hero":"Tenerife-002.jpg","category":"view","collection":"tenerife"},{"title":"Playa de Benijo","slug":"playa-de-benijo","description":"Situated at the north coast of Tenerife, in Anaga, it's less likely to be a beach to sunbathe on and more likely that you'll just enjoy shooting the sea stacks and the black sand.","lat":28.572187,"lng":-16.192852,"hero":"Tenerife-014.jpg","category":"view","collection":"tenerife"}];
-    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"trossachs":{"title":"The Trosssachs","slug":"trossachs","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
+    let collections = {"switzerland":{"title":"Switzerland","slug":"switzerland","hero":{"url":"Switzerland-029.jpg","alt":"Berggasthaus Meglisalp from the slopes of Schäfler Ridge"}},"madeira":{"title":"Madeira","slug":"madeira","hero":{"url":"Madeira-007.jpg","alt":"First light on the hills below Bica da Cana"}},"iceland":{"title":"Iceland","slug":"iceland","hero":{"url":"Iceland-007.jpg","alt":"Sunrise at Reynisfjara"}},"dolomites":{"title":"Dolomites","slug":"dolomites","hero":{"url":"Dolomiti-7610.jpg","alt":"Alpe di Siusi"}},"alberta":{"title":"Alberta","slug":"alberta","hero":{"url":"Canada-016.jpg","alt":"Canadian Rockies"}},"lofoten":{"title":"Lofoten Islands","slug":"lofoten","hero":{"url":"Lofoten-052.jpg","alt":"Sakrisøya"}},"skye-hebrides":{"title":"Skye and the Hebrides","slug":"skye-hebrides","hero":{"url":"Skye-027.jpg","alt":"Sunset on Skye near Tarskavaig"}},"west-coast":{"title":"West Coast","slug":"west-coast","hero":{"url":"NC500-013.jpg","alt":"Howard in Plockton"}},"south-highlands":{"title":"South Highlands","slug":"south-highlands","hero":{"url":"Highlands-005.jpg","alt":"Sunset from Ben A'an"}},"lanzarote":{"title":"Lanzarote","slug":"lanzarote","hero":{"url":"Lanzarote-008.jpg","alt":"View from the car at Timanfaya National Park"}},"tenerife":{"title":"Tenerife","slug":"tenerife","hero":{"url":"Tenerife-003.jpg","alt":"Masca valley - sunset in the mist"}},"jericho":{"title":"Restaurant Jericho","slug":"jericho"}};
     let allMarkers = [];
     let baseURL = "https://mathayward.imgix.net/";
 
@@ -177,7 +177,7 @@
 
             heroHTML = `<picture class="w-full">
               <img alt="${title}" 
-                src="${baseURL}${hero}?w=767"
+                src="${baseURL}${hero}?w=767&ar=2:3&fit=crop&crop=entropy"
                 width="767">
             </picture>`
 
@@ -213,13 +213,11 @@
                         </h2>
                       </div>
                     </div>
-                    <img src="${baseURL}${collection.hero.url}?w=767" alt="${collection.hero.alt}" class="block">
+                    <img src="${baseURL}${collection.hero.url}?w=767&ar=3:2&fit=crop&crop=entropy" alt="${collection.hero.alt}" class="block">
                   </a>
                 </div>`;
 
             // show content element
-            // contentWrapper.classList.remove("hidden");
-            // closeButton.classList.remove("hidden");
             closeButton.classList.add("slide-from-right");
             contentWrapper.classList.add("slide-from-right");
           }
