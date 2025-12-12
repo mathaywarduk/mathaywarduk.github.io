@@ -69,6 +69,7 @@ seo:
         <span class="text-xl py-1 px-2 border br-orange c-orange">{{ distance | intcomma }}km</span>
       </li>
     </ul>
+    {% comment %}
     <ul class="flex-wrap gap-x-8 gap-y-4 hidden xl:flex">
       {% if munros.size > 0 %}
       <li class="text-slide-up animate-stepped">
@@ -107,6 +108,7 @@ seo:
       </li>
       {% endif %}
     </ul>
+    {% endcomment %}
   </div>
 
   <ul class="flex flex-col gap-16 py-4 xl:py-8">

@@ -1,3 +1,13 @@
+- title: "Beinn an t-Sidhein"
+  date: 2025-11-16
+  region: Scotland
+  distance: 8
+  ascent: 587
+  number: 40
+  peaks:
+    - name: Beinn an t-Sidhein
+      elevation: 570
+  link: beinn-an-t-sidhein
 - title: "West Lawers range"
   date: 2025-10-12
   region: Scotland
