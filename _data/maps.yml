@@ -341,6 +341,14 @@ lofoten:
     category: view
     collection: lofoten
 scotland:
+  - title: Beinn an t-Sìdhean
+    slug: beinn-an-t-sidhein
+    description: "Also known as Ben Sheann. Either way it's a quick climb to great views of munros and the Trossachs."
+    lat: 56.331326
+    lng: -4.351258
+    hero: "Ben-Sheann-06.jpg"
+    category: hike
+    collection: south-highlands
   - title: Goatfell
     slug: goatfell
     description: "Arran is a beautiful island of beaches, clear waters and mountains. Goatfell is it's highest peak and, therefore, often full of tourists. Take the back route from Corrie for better views and more alone time."
