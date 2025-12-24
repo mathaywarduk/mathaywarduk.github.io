@@ -51,7 +51,7 @@ layout: default
               <li class="glide__slide relative"{% if media.tagged.size %} data-image-tag-src="container" {% endif %}>
                 {% if media.video %}
                   <div class="reel" data-media>
-                    <video src="{{ site.image_base }}{{ media.video }}" poster="{{ site.image_base }}{{ media.poster }}" data-reel loop muted></video>
+                    <video src="{{ site.image_base }}{{ media.video }}" poster="{{ site.image_base }}{{ media.poster }}" data-reel loop muted playsinline></video>
                     <div class="absolute bottom-5 right-5 reel-mute" data-reel-mute><span class="sr-only">Toggle sound</span></div>
                     <div class="reel-play" data-reel-play><span class="sr-only">Play / pause video</span></div>
                     {% if media.tagged.size > 0 %}
