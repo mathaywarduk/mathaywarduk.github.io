@@ -1,3 +1,14 @@
+- title: "Meall na Fearna"
+  date: 2026-02-28
+  region: Scotland
+  distance: 7.6
+  ascent: 817
+  number: 41
+  peaks:
+    - name: Meall na Fearna
+      elevation: 809
+      category: corbett
+  link: meall-na-fearna
 - title: "Beinn an t-Sidhein"
   date: 2025-11-16
   region: Scotland
