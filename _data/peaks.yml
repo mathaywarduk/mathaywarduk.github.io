@@ -213,12 +213,25 @@
       elevation: 813
       category: corbett
   link: beinn-each-wild-camp
+- title: Buachaille Etive Beag
+  date: 2021-09-21
+  region: Scotland
+  distance: 13
+  ascent: 900
+  number: 16
+  peaks:
+    - name: Stob Coire Raineach
+      elevation: 925
+      category: munro
+    - name: Stob Dubh
+      elevation: 956
+      category: munro
 - title: The iconic Suilven
   date: 2021-09-16
   region: Scotland
   distance: 20
   ascent: 947
-  number: 17
+  number: 15
   peaks:
     - name: Suilven
       elevation: 731
@@ -229,26 +242,13 @@
   region: Scotland
   distance: 12.5
   ascent: 1019
-  number: 15
+  number: 13
   peaks:
     - name: Cruach Àrdrain
       elevation: 1046
       category: munro
     - name: Beinn Tulaichean
       elevation: 946
-      category: munro
-- title: Buachaille Etive Beag
-  date: 2021-09-21
-  region: Scotland
-  distance: 13
-  ascent: 900
-  number: 13
-  peaks:
-    - name: Stob Coire Raineach
-      elevation: 925
-      category: munro
-    - name: Stob Dubh
-      elevation: 956
       category: munro
 - title: Tom na Gruagaich
   date: 2021-05-28
@@ -271,33 +271,12 @@
       elevation: 849
       category: corbett
   link: sunset-trip-up-cul-mor
-- title: Cnicht
-  date: 2020-09-05
-  region: Wales
-  distance: 10.5
-  ascent: 576
-  number: 10
-  peaks:
-    - name: Cnicht
-      elevation: 689
-      category: hewitt
-- title: Stac Pollaidh sunrise inversion
-  date: 2020-09-20
-  region: Scotland
-  distance: 4.5
-  ascent: 510
-  number: 9
-  peaks:
-    - name: Stac Pollaidh
-      elevation: 612
-      category: graham
-  link: stac-pollaidh-sunrise-inversion
 - title: The four peaks of the Buachaille
   date: 2020-09-25
   region: Scotland
   distance: 13
   ascent: 1110
-  number: 7
+  number: 9
   peaks:
     - name: Stob Dearg
       elevation: 1021
@@ -306,6 +285,27 @@
       elevation: 956
       category: munro
   link: the-four-peaks-of-the-buachaille
+- title: Stac Pollaidh sunrise inversion
+  date: 2020-09-20
+  region: Scotland
+  distance: 4.5
+  ascent: 510
+  number: 8
+  peaks:
+    - name: Stac Pollaidh
+      elevation: 612
+      category: graham
+  link: stac-pollaidh-sunrise-inversion
+- title: Cnicht
+  date: 2020-09-05
+  region: Wales
+  distance: 10.5
+  ascent: 576
+  number: 7
+  peaks:
+    - name: Cnicht
+      elevation: 689
+      category: hewitt
 - title: Ben Vorlich (Loch Earn)
   date: 2019-10-26
   region: Scotland
