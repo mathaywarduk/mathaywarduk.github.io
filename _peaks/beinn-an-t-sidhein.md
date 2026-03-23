@@ -50,6 +50,7 @@ images:
       - url: "Ben-Sheann-05.jpg"
         alt: "Ben Vorlich from Beinn an t-Sìdhean"
         location: beinn-an-t-sidhein
+schema_type: Blog
 ---
 
 It's three years since I set myself the challenge of getting to 40 peaks by the time I turned 41. Covid, living in England and an ankle injury put paid to that idea and, in general, slowed things down. But I've finally made it to 40 and I've got refreshed hope that I can bag a good amount more over the next few years.

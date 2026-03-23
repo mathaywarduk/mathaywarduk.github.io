@@ -20,4 +20,5 @@ thumb:
     alt: "Sarah and Vinnie on Ben A'an Summit"
   - url: "Wild-Camp-008.jpg"
     alt: "Beinn Each sunset"
+schema_type: ImageGallery
 ---

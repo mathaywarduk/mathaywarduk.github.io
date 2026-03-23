@@ -11,4 +11,5 @@ thumb:
     alt: "Sassolungo and Alpe di Siusi"
   - url: "Dolomiti-7187.jpg"
     alt: "Sarah and the moutains around Rifugio Auronzo"
+schema_type: CollectionPage
 ---

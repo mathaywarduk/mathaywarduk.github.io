@@ -11,4 +11,5 @@ thumb:
     alt: "Haukland Beach"
   - url: "Lofoten-056.jpg"
     alt: "Sakrisøya"
+schema_type: CollectionPage
 ---

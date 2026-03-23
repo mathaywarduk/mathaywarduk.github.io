@@ -2,12 +2,16 @@
 layout: default
 title:  "Photography"
 seo:
-    title: "Photography"
-    description: "Photography from travels around Scotland, Canada, Northern England and more"
+  title: "Photography"
+  description: "Photography from travels around Scotland, Canada, Northern England and more"
+  image:
+    url: "Madeira-015.jpg"
+    alt: "A view of mountains at sunset from Pico do Arieiro"
+schema_type: CollectionPage
 ---
 
 <div class="pt-12 md:pt-40 pb-24 md:pb-40">
-  <nav class="w-full md:w-7/10 md:ml-3/10 relative mb-12 px-8 md:px-0">
+  <nav class="w-full md:w-7/10 md:ml-3/10 relative mb-12 px-8 md:px-0" aria-label="Photography collections">
     <ul>
       {% for item in site.photography %}
         {% if item.slug != 'jericho' %}
@@ -32,8 +36,8 @@ seo:
 
   {% for item in site.photography %}
     {% for image in item.thumb %}
-      <img src="{{ site.image_base }}{{ image.url }}?w=10&h=13&fit=crop" class="fixed z-10 hidden opacity-0 thumb-{{ item.slug }} {% cycle item.slug: 'bottom-20 left-0 w-1/4 h-auto md:block', 'top-1/2 -right-px -mt-80 w-1/6 h-auto xl:block', '-top-80 left-1/2 -ml-60 w-1/6 h-auto xxl:block' %}" loading="lazy" alt="{{ image.alt }}" srcset="{{ site.image_base }}{{ image.url }}??w=720&h=960&fit=crop 1200w,
-      {{ site.image_base }}{{ image.url }}??w=480&h=640&fit=crop 300w" id="{{ image.url | replace: '.jpg', '' }}">
+      <img src="{{ site.image_base }}{{ image.url }}?w=10&h=13&fit=crop" class="fixed z-10 hidden opacity-0 thumb-{{ item.slug }} {% cycle item.slug: 'bottom-20 left-0 w-1/4 h-auto md:block', 'top-1/2 -right-px -mt-80 w-1/6 h-auto xl:block', '-top-80 left-1/2 -ml-60 w-1/6 h-auto xxl:block' %}" loading="lazy" alt="{{ image.alt }}" srcset="{{ site.image_base }}{{ image.url }}?w=720&h=960&fit=crop 1200w,
+      {{ site.image_base }}{{ image.url }}?w=480&h=640&fit=crop 300w" id="{{ image.url | replace: '.jpg', '' }}">
     {% endfor %}
   {% endfor %}
 

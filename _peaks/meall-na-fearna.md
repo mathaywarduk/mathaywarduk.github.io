@@ -7,8 +7,8 @@ seo:
   title: "Meall na Fearna"
   description: "This weekend we'd been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk."
   image:
-    url: "Fearna_009.jpg"
-    alt: "Rudi on Meall na Fearna"
+    url: "Fearna_005.jpg"
+    alt: "Ben Vorlich from Meall na Fearna"
 hero:
   url: "Fearna_005.jpg"
   alt: "Ben Vorlich from Meall na Fearna"
@@ -44,6 +44,7 @@ images:
         alt: "Rudi on Meall na Fearna"
       - url: "Fearna_010.jpg"
         alt: "Rudi and Kerry on Meall na Fearna"
+schema_type: Blog
 ---
 
 This weekend we'd been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk. It would be the earliest in the year we'll have checked one off; another of the many benefits of living in Scotland.

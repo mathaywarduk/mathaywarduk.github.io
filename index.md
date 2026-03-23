@@ -11,6 +11,7 @@ seo:
     image:
         url: Switzerland-029.jpg
         alt: "Berggasthaus Meglisalp from the slopes of Schäfler Ridge"
+schema_type: Person
 ---
 
 I’m Mat Hayward, a landscape and travel photographer from the UK. I aim to capture the beauty of nature and enjoy exploring wild (and not so wild) locations in search of&nbsp;a great shot.

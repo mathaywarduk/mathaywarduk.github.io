@@ -21,4 +21,5 @@ thumb:
     alt: "Berggasthaus Meglisalp from the slopes of Schäfler Ridge"
   - url: "Switzerland-003.jpg"
     alt: "A cable car in the clouds, on the way to Gimmelwald"
+schema_type: ImageGallery
 ---

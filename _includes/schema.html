@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {% if include.page.schema_type == 'Person' %}
+  "@type": "Person",
+  "name": "Mat Hayward",
+  "url": "{{ site.url }}",
+  "description": "{{ include.page.seo.description }}",
+  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}"
+  {% elsif include.page.schema_type == 'BlogPosting' %}
+  "@type": "BlogPosting",
+  "headline": "{{ include.page.title }}",
+  "url": "{{ include.page.url | absolute_url }}",
+  "description": "{{ include.page.seo.description }}",
+  "datePublished": "{{ include.page.date | date_to_xmlschema }}",
+  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "Mat Hayward",
+    "url": "{{ site.url }}"
+  }
+  {% elsif include.page.schema_type == 'ImageGallery' %}
+  "@type": "ImageGallery",
+  "name": "{{ include.page.title }}",
+  "url": "{{ include.page.url | absolute_url }}",
+  "description": "{{ include.page.seo.description }}",
+  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "Mat Hayward",
+    "url": "{{ site.url }}"
+  }
+  {% elsif include.page.schema_type == 'Blog' %}
+  "@type": "Blog",
+  "name": "{{ include.page.title }}",
+  "url": "{{ include.page.url | absolute_url }}",
+  "description": "{{ include.page.seo.description }}",
+  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "Mat Hayward",
+    "url": "{{ site.url }}"
+  }
+  {% else %}
+  "@type": "CollectionPage",
+  "name": "{{ include.page.title }}",
+  "url": "{{ include.page.url | absolute_url }}",
+  "description": "{{ include.page.seo.description }}",
+  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}"
+  {% endif %}
+}
+</script>

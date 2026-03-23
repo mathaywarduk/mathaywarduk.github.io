@@ -11,4 +11,5 @@ thumb:
     alt: "Sunset at El Golfo beach"
   - url: "Tenerife-011.jpg"
     alt: "El Sombrero at sunset"
+schema_type: CollectionPage
 ---

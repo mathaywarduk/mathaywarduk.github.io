@@ -20,4 +20,5 @@ thumb:
     alt: "Around Þórsmörk on the F261"
   - url: "Iceland-006.jpg"
     alt: "Sunrise at Reynisfjara"
+schema_type: ImageGallery
 ---

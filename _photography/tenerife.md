@@ -20,4 +20,5 @@ thumb:
     alt: "Looking out over El Sombrero"
   - url: "Tenerife-002.jpg"
     alt: "Mount Teide and Roques de García in the last of the sun"
+schema_type: ImageGallery
 ---

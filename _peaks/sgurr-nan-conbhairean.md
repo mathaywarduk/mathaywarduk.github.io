@@ -53,6 +53,7 @@ images:
     images:
       - url: Conbhairean-010.jpg
         alt: Kerry and Rudi on Sàil Chaorainn
+schema_type: Blog
 
 ---
 

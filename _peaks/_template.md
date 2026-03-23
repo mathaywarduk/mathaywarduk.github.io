@@ -23,6 +23,7 @@ images:
         alt: 
       - url: 
         alt: 
+schema_type: Blog
 
 ---
 

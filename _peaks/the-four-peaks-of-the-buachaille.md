@@ -27,6 +27,7 @@ images:
         alt: ""
       - url: "Highlands-030.jpg"
         alt: ""
+schema_type: Blog
 
 ---
 

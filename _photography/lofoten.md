@@ -20,4 +20,5 @@ thumb:
     alt: "Road to Henningsvær"
   - url: "Lofoten-059.jpg"
     alt: "Howard in Sakrisøya"
+schema_type: ImageGallery
 ---

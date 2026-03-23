@@ -20,4 +20,5 @@ thumb:
     alt: "Alpe di Siusi"
   - url: "Dolomiti-8265.jpg"
     alt: "Stairway on Monte Pez mountain path"
+schema_type: ImageGallery
 ---

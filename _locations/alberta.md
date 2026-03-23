@@ -11,4 +11,5 @@ thumb:
     alt: "Peyto Lake"
   - url: "Canada-014.jpg"
     alt: "Vermillion Lakes"
+schema_type: CollectionPage
 ---

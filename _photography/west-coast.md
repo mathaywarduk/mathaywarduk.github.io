@@ -20,4 +20,5 @@ thumb:
     alt: "Howard on Stac Pollaidh"
   - url: "NC500-038.jpg"
     alt: "Private cove near Plockton"
+schema_type: ImageGallery
 ---

@@ -11,4 +11,5 @@ thumb:
     alt: "A view of mountains at sunset from Pico do Arieiro"
   - url: "Madeira-001.jpg"
     alt: "First light on the hills around Bica da Cana"
+schema_type: CollectionPage
 ---

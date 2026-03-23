@@ -52,6 +52,7 @@ images:
       - url: "MCD_012.jpg"
         alt: "A rainbow over Torridon"
         location: maol-chean-dearg
+schema_type: Blog
 
 ---
 

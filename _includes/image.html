@@ -13,3 +13,14 @@
     {{ site.image_base }}{{ include.url }}?w=480{{opts}} 480w,
     {{ site.image_base }}{{ include.url }}?w=300{{opts}} 300w">
 </picture>
+<noscript>
+  <picture class="{{ include.block_classes }}">
+    <img src="{{ site.image_base }}{{ include.url }}?w=1280{{opts}}" alt="{{ include.alt }}" {% if include.hero != "true" %}loading="lazy"{% endif %} sizes="(max-width: 1600px) 100vw, 1600px" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
+      {{ site.image_base }}{{ include.url }}?w=1600{{opts}} 1600w,
+      {{ site.image_base }}{{ include.url }}?w=1280{{opts}} 1280w,
+      {{ site.image_base }}{{ include.url }}?w=1024{{opts}} 1024w,
+      {{ site.image_base }}{{ include.url }}?w=768{{opts}} 768w,
+      {{ site.image_base }}{{ include.url }}?w=480{{opts}} 480w,
+      {{ site.image_base }}{{ include.url }}?w=300{{opts}} 300w">
+  </picture>
+</noscript>

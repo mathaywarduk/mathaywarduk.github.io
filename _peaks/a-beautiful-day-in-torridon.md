@@ -25,6 +25,7 @@ images:
     images:
       - url: Beinn_Damh_005.jpg
         alt: Beinn Dàmh
+schema_type: Blog
 
 ---
 

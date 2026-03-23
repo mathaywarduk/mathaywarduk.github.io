@@ -43,6 +43,7 @@ images:
       - url: "Madeira-041.jpg"
         alt: "Casa de Abrigo do Pico Ruivo after sunset"
         location: pico-ruivo
+schema_type: Blog
 ---
 
 We took a last minute trip to [Madeira](/photography/madeira) for some final sun before the misery of the British winter hit and the weather did not disappoint.

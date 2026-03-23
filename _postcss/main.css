@@ -13,3 +13,7 @@
 
 
 @import "_animations";
+
+.no-js [data-blur-load] {
+  display: none;
+}

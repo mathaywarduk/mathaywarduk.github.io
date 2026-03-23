@@ -27,6 +27,7 @@ images:
     images:
       - url: Highlands-008.jpg
         alt: Kerry and Rudi on Ben Ledi
+schema_type: Blog
 
 ---
 

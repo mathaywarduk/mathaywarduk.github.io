@@ -11,4 +11,5 @@ thumb:
     alt: "Sunrise at Reynisfjara"
   - url: "Iceland-018.jpg"
     alt: "Múlagljúfur Canyon"
+schema_type: CollectionPage
 ---

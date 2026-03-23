@@ -32,6 +32,7 @@ images:
       - url: "Beinn_Each-Again-01.jpg"
         alt: "Kerry and Rudi having a lunch break on Beinn Each"
         location: beinn-each
+schema_type: Blog
 
 ---
 

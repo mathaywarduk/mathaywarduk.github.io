@@ -63,6 +63,7 @@ images:
       - url: "Goatfell-012.jpg"
         alt: "Kerry walking down from Goatfell"
         location: goatfell
+schema_type: Blog
 
 ---
 

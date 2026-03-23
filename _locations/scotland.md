@@ -11,4 +11,5 @@ thumb:
     alt: "Sunset from Ben A'an"
   - url: "Skye-046.jpg"
     alt: "Tarskavaig"
+schema_type: CollectionPage
 ---

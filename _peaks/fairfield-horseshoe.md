@@ -25,6 +25,7 @@ images:
         alt: "A mountain sheep on top of Nab Scar"
       - url: "Fairfield-004.jpg"
         alt: "Grasmere from Nab Scar"
+schema_type: Blog
 
 ---
 

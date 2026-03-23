@@ -43,6 +43,7 @@ images:
       - url: "NC500-063.jpg"
         alt: "Rudi walking down Cùl Mòr"
         location: cul-mor
+schema_type: Blog
 
 ---
 

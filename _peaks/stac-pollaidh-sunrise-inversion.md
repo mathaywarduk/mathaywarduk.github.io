@@ -51,6 +51,7 @@ images:
       - url: "NC500-029.jpg"
         alt: "Sarah taking a break on Stac Pollaidh"
         location: stac-pollaidh
+schema_type: Blog
 
 ---
 

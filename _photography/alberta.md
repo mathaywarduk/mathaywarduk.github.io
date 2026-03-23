@@ -20,4 +20,5 @@ thumb:
     alt: "Maligne Lake"
   - url: "Canada-018.jpg"
     alt: "Kananaskis"
+schema_type: ImageGallery
 ---

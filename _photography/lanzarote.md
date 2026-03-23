@@ -20,4 +20,5 @@ thumb:
     alt: "View from the car at Timanfaya National Park"
   - url: "Lanzarote-011.jpg"
     alt: "Motorbikes in Timanfaya National Park"
+schema_type: ImageGallery
 ---

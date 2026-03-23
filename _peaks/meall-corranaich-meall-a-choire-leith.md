@@ -88,6 +88,7 @@ images:
       - url: "West-Lawers-025.jpg"
         alt: "Cloud inversion and Meall nan Tarmachan"
         location: west-lawers
+schema_type: Blog
 ---
 
 In our flip-flopping between holiday cottages while we wait to move into our new home in the Trossachs, we found a place on Loch Tay that we could stay in for over three weeks. That meant no more Saturday travelling for a bit, so this Sunday we decided to check out some of the nearby Munros.

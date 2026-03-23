@@ -17,4 +17,5 @@ hero:
 cta:
   text: "Visit Restaurant Jericho"
   url: "https://restaurantjericho.com"
+schema_type: ImageGallery
 ---

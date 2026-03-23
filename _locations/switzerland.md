@@ -11,4 +11,5 @@ thumb:
     alt: "Birds flying above a mountain hut near Zermatt"
   - url: "Switzerland-009.jpg"
     alt: "Aescher guesthouse"
+schema_type: CollectionPage
 ---

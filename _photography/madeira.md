@@ -21,4 +21,5 @@ thumb:
     alt: "Sunbeams showing the layers of mountains around Pico Ruivo."
   - url: "Madeira-028.jpg"
     alt: "A white dead tree with orange tinged mountains in the background"
+schema_type: ImageGallery
 ---

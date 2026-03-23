@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
+  <script>document.documentElement.classList.replace('no-js', 'js')</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.seo.title | default: page.title }} - Mat Hayward</title>
     <link rel="preconnect" href="https://use.typekit.net">
-    <link rel="stylesheet" href="https://use.typekit.net/ttu5hld.css" rel="preload" as="style">
+    <link rel="preload" href="https://use.typekit.net/ttu5hld.css" as="style">
+    <link rel="stylesheet" href="https://use.typekit.net/ttu5hld.css">
     
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/app.js" defer></script>
 
     <script defer data-domain="mathayward.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 
@@ -51,6 +53,9 @@
         <link rel="preload" as="image" href="{{ site.image_base }}{{location.collection.hero.url}}?w=767">
       {% endfor %}
     {% endif %}
+
+    {% include schema.html page=page %}
+
   </head>
   <body>
     {% if layout.isMap %}
@@ -66,7 +71,7 @@
     <header class="md:fixed top-0 left-0 z-10 p-8 pb-0 md:p-12 lg:p-16 uppercase">
       <div class="flex flex-wrap md:block">
         <a href="/" class="font-bold tracking-widest mb-6 block">Mat Hayward</a>
-        <nav class="ml-auto md:ml-0 text-right md:text-left">
+        <nav class="ml-auto md:ml-0 text-right md:text-left" aria-label="Main menu">
           <ul>
             {% for nav_item in site.data.nav %}
               <li><a href="{{ nav_item.url }}" {% if nav_item.target %} target="{{ nav_item.target }}" {% endif %} class="text-sm inline-block mb-2 nav-item
@@ -75,7 +80,7 @@
                 {% elsif page.url contains nav_item.url and nav_item.url != '/' %}
                   is-active
                 {% endif %}
-              ">{{ nav_item.title }}</a></li>
+              " {% if nav_item.url == page.url %} aria-current="page" {% elsif page.url contains nav_item.url and nav_item.url != '/' %} aria-current="page" {% endif %}>{{ nav_item.title }}</a></li>
             {% endfor %}
           </ul>
         </nav>

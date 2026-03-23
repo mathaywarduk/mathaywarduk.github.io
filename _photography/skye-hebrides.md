@@ -20,4 +20,5 @@ thumb:
     alt: "Pinnacle Ridge and Loch na Creitheach"
   - url: "Skye-036.jpg"
     alt: "Neist Point Lighthouse"
+schema_type: ImageGallery
 ---

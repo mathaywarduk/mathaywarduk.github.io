@@ -37,6 +37,7 @@ images:
       - url: Highlands-023.jpg
         alt: "View east from Stob Binnein"
         location: stob-binnein
+schema_type: Blog
 
 ---
 
