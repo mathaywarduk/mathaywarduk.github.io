@@ -1839,6 +1839,10 @@ p a:hover, p a:focus {
     opacity: 1;
   }
 }
+.no-js [data-blur-load] {
+  display: none;
+}
+
 .before\:mr-2::before {
   content: var(--tw-content);
   margin-right: 0.5rem;
