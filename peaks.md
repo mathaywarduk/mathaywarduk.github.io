@@ -17,6 +17,7 @@ seo:
 {% assign dolomites = "" | split: ',' %}
 {% assign hewitts = "" | split: ',' %}
 {% assign grahams = "" | split: ',' %}
+{% assign grahamtops = "" | split: ',' %}
 
 {% for item in site.data.peaks %}
   {% assign include = item.number %}
@@ -33,6 +34,9 @@ seo:
       {% endif %}
       {% if peak.category == 'graham' %}
         {% assign grahams = grahams | push: peak %}
+      {% endif %}
+      {% if peak.category == 'graham_top' %}
+        {% assign grahamtops = grahamtops | push: peak %}
       {% endif %}
       {% if peak.category == 'wainwright' %}
         {% assign wainwrights = wainwrights | push: peak %}
@@ -87,6 +91,12 @@ seo:
       <li class="text-slide-up animate-stepped">
         <h3 class="font-bold mb-4">Grahams</h3>
         <span class="text-xl py-1 px-2 border br-orange c-orange">{{ grahams.size }}</span>
+      </li>
+      {% endif %}
+      {% if grahamtops.size > 0 %}
+      <li class="text-slide-up animate-stepped">
+        <h3 class="font-bold mb-4">Graham Tops</h3>
+        <span class="text-xl py-1 px-2 border br-orange c-orange">{{ grahamtops.size }}</span>
       </li>
       {% endif %}
       {% if wainwrights.size > 0 %}

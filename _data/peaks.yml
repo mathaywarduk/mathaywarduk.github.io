@@ -1,3 +1,17 @@
+- title: "Ardnandave"
+  date: 2026-04-14
+  region: Scotland
+  distance: 17.6
+  ascent: 1015
+  number: 42
+  peaks:
+    - name: Ardnandave Hill
+      elevation: 715
+      category: graham_top
+    - name: Bioran na Circe
+      elevation: 722
+      category: graham_top
+  link: ardnandave
 - title: "Meall na Fearna"
   date: 2026-02-28
   region: Scotland
