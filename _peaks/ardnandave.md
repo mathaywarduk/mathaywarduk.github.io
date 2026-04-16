@@ -57,7 +57,7 @@ Just as I was thinking about changing the plan completely, I spotted an old ATV 
 
 As we made our way up toward the top, some small birds (which I later found out were Meadow Pipits) kept appearing, I assume protecting their nests. If only they knew I wasn't a threat. Behind us, Rudi's first ever summit, [Ben Ledi](/peaks/accidental-summit-of-ben-ledi/) looked awesome and still had plenty of snow on top.
 
-After a pretty breathy 40 minutes or so we got to the top where I could [Beinn Each](/peaks/beinn-each-wild-camp) and Stuc a' Chroin to the east, [Stob Binnein](/peaks/stob-binnein-from-the-south) and Ben More to the North West and, to the North... our house! I had signal too, so I spoke to Kerry on the phone. She could see me through her binocluars!
+After a pretty breathy 40 minutes or so we got to the top where I could see [Beinn Each](/peaks/beinn-each-wild-camp) and Stuc a' Chroin to the east, [Stob Binnein](/peaks/stob-binnein-from-the-south) and Ben More to the North West and, to the North... our house! I had signal too, so I spoke to Kerry on the phone. She could see me through her binocluars!
 
 Some pretty heavy bog between the west and east tops meant Rudi's legs were so black, it looked like he was wearing tights. From the second top I picked up the path between Ben Ledi and Benvane and followed the fence posts over Bioran na Circe, the highest point of the day, before dropping to the bealach and descending alongside the pools and waterfalls of Stank Burn (a lot nicer than it sounds!).
 
