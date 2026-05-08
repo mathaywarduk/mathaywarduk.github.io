@@ -50,10 +50,10 @@ layout: default
     {% for peak in peak_data.peaks %}
       <li class="text-slide-up animate-stepped">
         <h3 class="text-xl font-bold mb-4">{{ peak.name }}</h3>
+        <span class="p-1 pl-0">{{ peak.elevation | intcomma }}m</span>
         {% if peak.category %}
         <span class="p-1 border br-orange c-orange">{{ peak.category | replace: "_", " " | capitalize }}</span>
         {% endif %}
-        <span class="p-1">{{ peak.elevation | intcomma }}m</span>
       </li>
     {% endfor %}
   </ul>
@@ -73,12 +73,14 @@ layout: default
     {% if group.images.size == 2 %}
       {% capture width %}900{% endcapture %}
       {% capture height %}600{% endcapture %}
+      {% capture classes %}h-full object-cover{% endcapture %}
     {% else %}
       {% capture width %}600{% endcapture %}
       {% capture height %}900{% endcapture %}
+      {% capture classes %}{% endcapture %}
     {% endif %}
     <div class="w-full mb-1{% if image.location %} image-loc{% endif %}">
-      {% include image.html url=image.url alt=image.alt width=width height=height %}
+      {% include image.html url=image.url alt=image.alt width=width height=height classes=classes %}
         {% if image.location %}
         <a href="/locations/{{ page.region }}?l={{ image.location }}" class="b-white image-loc__icon">
         <img src="/assets/images/icons/pin.svg" width="16" height="16" class="w-4" role="presentation">

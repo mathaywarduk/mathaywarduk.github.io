@@ -164,7 +164,7 @@ seo:
             <li class="before:content-['•'] before:mr-2">{{ item.ascent | intcomma }}m ascent</li>
           </ul>
           {% if page != "" %}
-            <p class="max-w-prose mb-4 md:mb-8">{{ page.description }}</p>
+            <p class="max-w-prose mb-4 md:mb-8 text-balance">{{ page.description }}</p>
             <div class="text-slide-up anim-delay-500 flex items-center gap-2 relative z-10 md:mt-4">
               <span>&rsaquo;</span>
               <button class="peak-nav-button text-lg font-display tracking-wide underline md:no-underline md:text-2xl">Read <span class="sr-only">{{ page.title }}</span> article</button>
