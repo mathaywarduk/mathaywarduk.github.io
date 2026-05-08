@@ -41,12 +41,12 @@ Finally starting to feel normal again, so decided to take on a Munro today.
 
 We’re staying on the outskirts of the Cairngorms, where we got married nearly nine years ago. After a few map calculations, I found the closest Munro to our wedding venue and decided we should tackle that one, to see if we could see it from the top. Meall Chuaich. 
 
-The parking bay on the A9 was pretty scary, with lorries flying past at speed and making the van wobble. One even blew the hat off my head, which I hope someone saw and had a laugh at.
+The parking bay on the A9 was pretty scary, with lorries flying past at speed and making the van wobble. One even blew the hat clean off my head, which I hope someone saw and had a laugh at.
 
-On starting the hike, we were, thankfully, very quickly off the main road but now on a boring dirt track following an aqueduct.
+On starting the hike, we were (thankfully) very quickly off the main road but now on a boring dirt track following an aqueduct.
 
-After about 5km we finally started the climb. It was really steep to begin with and still felt like a boring trudge with not much to look at for a while.
+After about 5km of boredom, we finally started the climb. It was really steep to begin with and still felt like a tiresome trudge with not much to look at for a while.
 
-I moaned for next 300m of ascent before spotting a couple of Rock Ptarmigans. That gave us a boost to get the rest of the way to the top, which had 360 views, the best being of Ben Alder. Views like that usually mean one thing, wind. We set back down pretty quickly and spotted a Willow Ptarmigan on the way.
+I moaned for next 300m of ascent before spotting a couple of Rock Ptarmigans. That gave us a boost to get the rest of the way to the top, which had 360&deg; views, the best being of Ben Alder and Sgòr Iutharn. Views like that usually mean one thing though... wind. We set back down pretty quickly and spotted a Willow Ptarmigan on the way.
 
 Munro done, but probably in my top 3 most boring peaks.

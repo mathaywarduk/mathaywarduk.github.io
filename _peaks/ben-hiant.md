@@ -27,4 +27,4 @@ Inver was still great and in such a peaceful spot on the quieter side of Loch Fy
 
 After a couple of days recovering on the Ardnamurchan peninsula, watching otters, oystercatchers and visiting Sanna Bay, we decided to try a climb up Ben Hiant. It’s the highest peak on the peninsula, although somewhat small at 528m. The perfect “recovery” hill.
 
-Still, it was pretty steep to start with, and felt a struggle int current state. We soon got to the top though, with great views down the coast to our campsite. Feeling better already.
+Still, it was pretty steep to start with, and felt a struggle in my current state. We soon got to the top though, with great views down the coast to our campsite. Starting to feel better already.

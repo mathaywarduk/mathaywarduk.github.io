@@ -2,10 +2,10 @@
 layout: peak
 date: 2024-08-24
 title: 1974 steps up Reinebringen
-description: While in Lofoten recently, we decided to do the tourist thing and climb Reinebringen, hoping for a sunset
+description: While in Lofoten recently, we decided to do the tourist thing and climb Reinebringen, hoping for a sunset.
 seo:
   title: 1974 steps up Reinebringen
-  description: We decided to do the tourist thing and climb Reinebringen, hoping for a sunset
+  description: We decided to do the tourist thing and climb Reinebringen, hoping for a sunset.
   image:
     url: Lofoten-046.jpg
     alt: View from Reinebringen

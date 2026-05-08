@@ -2,10 +2,10 @@
 layout: peak
 date: 2023-11-09
 title: The easy route up Pico Ruivo
-description: "After watching sunset from Pico do Areeiro the evening before, we decided to take a walk to the top of Pico Ruivo to see if the view was better"
+description: "After watching sunset from Pico do Areeiro the evening before, we decided to take a walk to the top of Pico Ruivo to see if the view was better."
 seo:
   title: "The easy route up Pico Ruivo"
-  description: "After watching sunset from Pico do Areeiro the evening before, we decided to take a walk to the top of Pico Ruivo to see if the view was better"
+  description: "After watching sunset from Pico do Areeiro the evening before, we decided to take a walk to the top of Pico Ruivo to see if the view was better."
   image:
     url: "Madeira-029.jpg"
     alt: "Sunset on Pico Ruivo"
