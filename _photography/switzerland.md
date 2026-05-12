@@ -5,7 +5,7 @@ region: "Switzerland"
 year: 2024
 metacolor: white
 id: switzerland
-intro: "Cable cars and mountain huts, hiling in Switzerland is a bit of luxury."
+intro: "Cable cars and mountain huts, hiking in Switzerland is a bit of luxury."
 seo:
   title: "Travel Photography - Switzerland"
   description: "Photography from around Switzerland, including Schäfler Ridge, Oeschinen Lake, and the Matterhorn."
