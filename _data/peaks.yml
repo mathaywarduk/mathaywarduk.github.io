@@ -1,3 +1,17 @@
+- title: "Two munros; almost as many trees"
+  date: 2026-08-22
+  region: Scotland
+  distance: 13.1
+  ascent: 942
+  number: 47
+  peaks:
+    - name: Beinn Ghlas
+      elevation: 1103
+      category: munro
+    - name: Beinn Lawers
+      elevation: 1214
+      category: munro
+  link: ben-lawers
 - title: "A tale of two Ptarmigans"
   date: 2026-05-04
   region: Scotland
