@@ -2,6 +2,15 @@
 layout: instagram
 title:  "Climbing Ben Lawers"
 media:
+  - url: "Ben_Lawers_026.jpg"
+    alt: "Kerry and Rudi on Ben Lawers"
+    tagged:
+      - handle: kerryahayward
+        x: 37
+        y: 55
+      - handle: rudi
+        x: 40
+        y: 64
   - url: "Ben_Lawers_001.jpg"
     alt: "Bein Ghlass through the Ben Lawers nature reserve"
   - url: "Ben_Lawers_002.jpg"
