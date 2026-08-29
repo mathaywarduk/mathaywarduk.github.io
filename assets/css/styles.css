@@ -1896,6 +1896,10 @@ p a:hover, p a:focus {
   content: var(--tw-content);
 }
 
+.hover\:z-20:hover {
+  z-index: 20;
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
