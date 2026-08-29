@@ -29,9 +29,9 @@ layout: default
     <ul class="grid grid-cols-3 gap-1 md:pr-12" id="instagrid">
 
       {% for post in site.posts %}
-        <li id="{{ post.slug }}">
+        <li class="relative" id="{{ post.slug }}">
           {% for media in post.media limit: 1 %}
-            <a href="{{ post.url }}" data-insta-modal data-modal-image="{{ media.url }}" data-modal-alt="{{ media.alt }}" data-modal-title="{{ post.title }}" data-modal-content="{{ post.description }}" class="relative group">
+            <a href="{{ post.url }}" data-insta-modal data-modal-image="{{ media.url }}" data-modal-alt="{{ media.alt }}" data-modal-title="{{ post.title }}" data-modal-content="{{ post.description }}" class="group">
               {% include image.html url=media.url alt=media.alt ar="1:1" fit="crop" width=320 height=320 %}
               <div class="absolute z-20 inset-0 flex items-center justify-center gap-2 text-white bg-black/30 hidden text-xs md:text-sm uppercase tracking-wider font-bold lg:group-hover:flex lg:group-focus:flex">
                 <img src="/assets/images/icons/pin-solid.svg" class="w-3" role="presentation" width="16" height="16">

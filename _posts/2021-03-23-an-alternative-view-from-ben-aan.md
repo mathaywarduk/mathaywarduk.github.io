@@ -9,7 +9,7 @@ seo:
   hidden: true
 location: 
   label: "Scotland"
-  exact: "Ben A'An"
+  exact: "Ben A'an"
   collection: south-highlands
 postdate: 2021-05-18
 ---

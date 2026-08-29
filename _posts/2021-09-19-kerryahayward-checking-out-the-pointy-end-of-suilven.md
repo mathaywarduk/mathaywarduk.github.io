@@ -1,6 +1,6 @@
 ---
 layout: instagram
-title:  "[@kerryahayward](/instagram/tagged/kerryahayward) checking out the pointy end of Suilven."
+title:  "Kerry checking out the pointy end of Suilven."
 media:
   - url: "instagram/242211249_555812575632654_7095527912996431280_n_17961116383472222.jpg"
     alt: ""

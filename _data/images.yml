@@ -46,14 +46,6 @@ lanzarote:
       - url: "Lanzarote-029.jpg"
         alt: "Sunset at El Golfo"
         location: elgolfo
-  - type: double
-    images:
-      - url: "Lanzarote-028.jpg"
-        alt: "Sunset at El Golfo"
-        location: elgolfo
-      - url: "Lanzarote-030.jpg"
-        alt: "Sunset at El Golfo"
-        location: elgolfo
   - type: single
     images:
       - url: "Lanzarote-037.jpg"
