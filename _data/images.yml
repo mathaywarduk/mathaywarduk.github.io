@@ -1,3 +1,132 @@
+chamonix:
+  - type: single
+    images:
+      - url: "Chamonix_007.jpg"
+        alt: "Slopes of Mont Blanc"
+        location: aiguille-du-midi
+  - type: double
+    images:
+      - url: "Chamonix_009.jpg"
+        alt: "Climbers on slopes of Mont Blanc"
+        location: aiguille-du-midi
+      - url: "Chamonix_002.jpg"
+        alt: "Slopes of Mont Blanc"
+        location: aiguille-du-midi
+  - type: double
+    images:
+      - url: "Chamonix_003.jpg"
+        alt: "Tourists at Aiguille du Midi"
+        location: aiguille-du-midi
+      - url: "Chamonix_004.jpg"
+        alt: "Kerry at Aiguille du Midi"
+        location: aiguille-du-midi
+  - type: single
+    images:
+      - url: "Chamonix_006.jpg"
+        alt: "Kerry at Aiguille du Midi"
+        location: aiguille-du-midi
+  - type: single
+    images:
+      - url: "Chamonix_012.jpg"
+        alt: "Howard en route to Refuge Albert"
+  - type: double
+    images:
+      - url: "Chamonix_013.jpg"
+        alt: "Climbing up to Refuge Albert"
+        location: refuge-albert
+      - url: "Chamonix_014.jpg"
+        alt: "Refuge Albert"
+  - type: double
+    images:
+      - url: "Chamonix_015.jpg"
+        alt: "Refuge Albert"
+        location: refuge-albert
+      - url: "Chamonix_017.jpg"
+        alt: "An Alpine Chough and a crow at Refuge Albert"
+        location: refuge-albert
+  - type: double
+    images:
+      - url: "Chamonix_016.jpg"
+        alt: "Climbing up to Refuge Albert"
+        location: refuge-albert
+      - url: "Chamonix_018.jpg"
+        alt: "Howard at Refuge Albert"
+  - type: double
+    images:
+      - url: "Chamonix_019.jpg"
+        alt: "Climbing down from Refuge Albert"
+        location: refuge-albert
+      - url: "Chamonix_020.jpg"
+        alt: "Climbing down from Refuge Albert"
+        location: refuge-albert
+  - type: single
+    images:
+      - url: "Chamonix_021.jpg"
+        alt: "Climbing down from Refuge Albert"
+        location: refuge-albert
+  - type: double
+    images:
+      - url: "Chamonix_023.jpg"
+        alt: "A crow on Grand Balcon Nord"
+        location: grand-balcon-nord
+      - url: "Chamonix_024.jpg"
+        alt: "Glacier from Grand Balcon Nord"
+        location: grand-balcon-nord
+  - type: double
+    images:
+      - url: "Chamonix_025.jpg"
+        alt: "Walkers on Grand Balcon Nord"
+        location: grand-balcon-nord
+      - url: "Chamonix_010.jpg"
+        alt: "Lac Bleu"
+        location: lac-bleu
+  - type: double
+    images:
+      - url: "Chamonix_027.jpg"
+        alt: "Viewa from Signal Forbes"
+        location: signal-forbes
+      - url: "Chamonix_030.jpg"
+        alt: "Pointe Croux"
+        location: signal-forbes
+  - type: double
+    images:
+      - url: "Chamonix_028.jpg"
+        alt: "Kerry at Signal Forbes"
+        location: signal-forbes
+      - url: "Chamonix_029.jpg"
+        alt: "Kerry at Signal Forbes"
+        location: signal-forbes
+  - type: double
+    images:
+      - url: "Chamonix_033.jpg"
+        alt: "Kerry on the route to La Flégère"
+        location: balcon-du-sud
+      - url: "Chamonix_022.jpg"
+        alt: "Kerry and Sarah below Aiguille du Midi"
+        location: aiguille-du-midi
+  - type: single
+    images:
+      - url: "Chamonix_034.jpg"
+        alt: "Kerry on the route to La Flégère"
+        location: tete-de-la-raverettaz 
+  - type: single
+    images:
+      - url: "Chamonix_036.jpg"
+        alt: "Kerry on the route to La Flégère"
+        location: tete-de-la-raverettaz 
+  - type: double
+    images:
+      - url: "Chamonix_031.jpg"
+        alt: "Sunset at Aiguille du Midi"
+        location: argentiere
+      - url: "Chamonix_0038.jpg"
+        alt: "Sunset on Mont Blanc"
+        location: argentiere
+  - type: single
+    images:
+      - url: "Chamonix_032.jpg"
+        alt: "Sunset at Aiguille du Midi"
+        location: argentiere
 lanzarote:
   - type: double
     images:

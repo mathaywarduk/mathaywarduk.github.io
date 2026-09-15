@@ -8,6 +8,7 @@ collections:
   photography:
     output: true
     order:
+      - chamonix.md
       - madeira.md
       - iceland.md
       - switzerland.md
@@ -25,30 +26,13 @@ collections:
       - scotland.md
       - dolomites.md
       - lofoten.md
+      - chamonix.md
       - madeira.md
       - iceland.md
       - tenerife.md
       - alberta.md
   peaks:
     output: true
-    order: 
-      - sgurr-nan-conbhairean.md
-      - beinn-each-again.md
-      - 1974-steps-up-reinebringen.md
-      - a-beautiful-day-in-torridon.md
-      - 2.9-peaks-of-quinag.md
-      - easy-route-pico-ruivo.md
-      - canisp-and-covid.md
-      - monte-pez.md
-      - fairfield-horseshoe.md
-      - loch-long-the-cobbler.md
-      - beinn-each-wild-camp.md
-      - the-iconic-suilven.md
-      - sunset-trip-up-cul-mor.md
-      - stac-pollaidh-sunrise-inversion.md
-      - the-four-peaks-of-the-buachaille.md
-      - stob-binnein-from-the-south.md
-      - accidental-summit-of-ben-ledi.md
 image_base: https://mathayward.imgix.net/
 exclude:
   - package-lock.json

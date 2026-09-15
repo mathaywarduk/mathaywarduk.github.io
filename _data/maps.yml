@@ -1,3 +1,60 @@
+chamonix:
+  - title: Aiguille du Midi
+    slug: aiguille-du-midi
+    description: "The cable car to Aiguille du Midi is large and swingy, but the views of Mont Blanc and the rest of the alps are worth it."
+    lat: 45.879203
+    lng: 6.887287
+    hero: "Chamonix_009.jpg"
+    category: view
+    collection: chamonix
+  - title: Refuge Albert
+    slug: refuge-albert
+    description: "Take the cable car from Le Tour and the Autannes ski-lift, before setting off for a long walk to Refuge Albert. Stunning views of the Galcier du Tour and surrounding mountains - if the cloud stays away."
+    lat: 45.996679
+    lng: 6.986539
+    hero: "Chamonix_015.jpg"
+    category: hike
+    collection: chamonix
+  - title: Grand Balcon Nord
+    slug: grand-balcon-nord
+    description: "Running from Plan de l'Aiguille to the Montenvers–Mer de Glace, this is an easy hike for most with great views of Mont Blanc and over to Tête de la Raverettaz."
+    lat: 45.917118
+    lng: 6.902288
+    hero: "Chamonix_022.jpg"
+    category: hike
+    collection: chamonix
+  - title: Signal Forbes
+    slug: signal-forbes
+    description: "A short detour off the Grand Balcon Nord is a climb up to Signal Forbes. From here you can see the famous Mer de Glace glacier, and the huge pointed peaks that surround it. Continue down the other side to take the Montenvers train back to Chamonix."
+    lat: 45.928692
+    lng: 6.910502
+    hero: "Chamonix_029.jpg"
+    category: hike
+    collection: chamonix
+  - title: Tête de la Raverettaz
+    slug: tete-de-la-raverettaz
+    description: "To the north west of Mont Blanc is Tête de la Raverettaz. Walk up from Argentière, through the forest and then across to La Flégère for beautiful views."
+    lat: 45.970716
+    lng: 6.894846
+    hero: "Chamonix_037.jpg"
+    category: hike
+    collection: chamonix
+  - title: Argentière
+    slug: argentiere
+    description: "Far less busy that Chamonix, but still with some nice bars and restaurants, Argentière has incredible views of Mont Blanc."
+    lat: 45.983147
+    lng: 6.926405
+    hero: "Chamonix_031.jpg"
+    category: view
+    collection: chamonix
+  - title: Lac Bleu
+    slug: lac-bleu
+    description: "Just a short walk from the Aiguille du Midi mid-station, Lac Bleu is exactly as described."
+    lat: 45.901537
+    lng: 6.891937
+    hero: "Chamonix_011.jpg"
+    category: hike
+    collection: chamonix
 switzerland:
   - title: Schäfler Ridge
     slug: schafler-ridge

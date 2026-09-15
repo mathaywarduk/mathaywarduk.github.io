@@ -4,6 +4,12 @@ switzerland:
   hero:
     url: "Switzerland-029.jpg"
     alt: "Berggasthaus Meglisalp from the slopes of Schäfler Ridge"
+chamonix:
+  title:  "Chamonix"
+  slug: chamonix
+  hero:
+    url: "Chamonix_006.jpg"
+    alt: "Slopes of Mont Blanc"
 madeira:
   title:  "Madeira"
   slug: madeira
