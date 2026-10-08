@@ -1,3 +1,14 @@
+- title: Bunking off
+  date: 2026-10-07
+  region: Scotland
+  distance: 10.3
+  ascent: 953
+  repeat: true
+  peaks:
+    - name: Ben Vorlich
+      elevation: 985
+      category: munro
+  link: bunking-off
 - title: "Two munros; almost as many trees"
   date: 2026-08-22
   region: Scotland

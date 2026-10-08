@@ -20,7 +20,7 @@ images:
         alt: "Rudi climbing to the top of Beinn Each"
         location: beinn-each
       - url: "Beinn_Each-Again-05.jpg"
-        alt: "View from Beinn Eachd"
+        alt: "View from Beinn Each"
         location: beinn-each
   - type: single
     images:
