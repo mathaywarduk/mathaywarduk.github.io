@@ -51,7 +51,7 @@ This weekend we'd been forecast good weather on Saturday, so we decided to get b
 
 We chose one of the easier Munros in Ben Chonzie and set off in what we thought was good time, leaving my camera behind as it was going to be a 'boring' hike. When we got to the parking area it was full and, after helping to push one car off the muddy verge we decided against parking there ourselves. Plenty more hills to climb in our new backyard.
 
-I quickly looked up some of the hills on the way back home and decided on Meall na Fearna, just north of Ben Vorlich near Loch Earn. We'd climbed the bigger hill years before and were quite happy to be tackling a Corbett on our first outing of the year.
+I quickly looked up some of the hills on the way back home and decided on Meall na Fearna, just north of [Ben Vorlich](/peaks/bunking-off) near Loch Earn. We'd climbed the bigger hill years before and were quite happy to be tackling a Corbett on our first outing of the year.
 
 I soon regretted not having my camera with me. We followed a decent ATV path, with great views of Ben Vorlich in the low cloud and intermittent sun. Gutted, we diverted straight up the open ground toward the summit of Meall na Fearna. iPhone shots would have to do.
 

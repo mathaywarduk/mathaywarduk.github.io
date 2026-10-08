@@ -99,9 +99,9 @@ Still, we got out of the house early and made our way up the road to the start p
 
 We’d planned to start with the shorter Meall a’ Choire Lèith, but got a little lost in the peat bog, and it ended up being easier to follow the fence posts up Meall Corranaich. A short slog later, we were at the top, where we met some friendly solo hikers and tried to decide whether to attempt Beinn Ghlas.
 
-Cloud was rolling over the ridge between An Stuc and Ben Lawers, so it was tempting to try for a different angle for a photograph. But after an early sandwich, we agreed we’d come back for Beinn Ghlas when we tackle Ben Lawers.
+Cloud was rolling over the ridge between An Stuc and [Ben Lawers](/peaks/ben-lawers), so it was tempting to try for a different angle for a photograph. But after an early sandwich, we agreed we’d come back for Beinn Ghlas when we tackle Ben Lawers.
 
-I pointed out [Ben Ledi](accidental-summit-of-ben-ledi), Ben Vorlich, [Beinn Each](/peaks/beinn-each-wild-camp) and [Stob Binnein](/peaks/stob-binnein-from-the-south) to Kerry before we set off across the ridge to our second, and last, Munro of the day.
+I pointed out [Ben Ledi](accidental-summit-of-ben-ledi), [Ben Vorlich](/peaks/bunking-off), [Beinn Each](/peaks/beinn-each-wild-camp) and [Stob Binnein](/peaks/stob-binnein-from-the-south) to Kerry before we set off across the ridge to our second, and last, Munro of the day.
 
 It looked pretty straightforward, but I was really struggling for the last 100m or so of ascent before we reached the top. Thankfully, we were rewarded with incredible views over to the Tarmachan Ridge as clouds rolled through the glen below.
 
