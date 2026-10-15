@@ -8,7 +8,9 @@ Jekyll::Hooks.register :site, :post_write do |site|
   css_path = File.join(site.dest, "assets/css/styles.css")
   next unless File.exist?(css_path)
 
-  css = File.read(css_path, encoding: "UTF-8").strip
+  # Compressed Sass output can start with a byte-order mark, which would
+  # break the first rule when inlined, so strip it
+  css = File.read(css_path, encoding: "UTF-8").delete_prefix("\uFEFF").strip
   link = %r{<link rel="?stylesheet"? href="?/assets/css/styles\.css"?\s*/?>}
 
   Dir.glob(File.join(site.dest, "**/*.html")).each do |path|

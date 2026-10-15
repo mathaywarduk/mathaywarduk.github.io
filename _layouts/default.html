@@ -8,6 +8,7 @@
     <link rel="preconnect" href="{{ site.image_base | split: '/' | slice: 0, 3 | join: '/' }}">
     <link rel="preconnect" href="https://use.typekit.net" crossorigin>
     <link rel="preconnect" href="https://p.typekit.net" crossorigin>
+    <link rel="preload" href="/assets/fonts/SuisseIntl-Book.woff2" as="font" type="font/woff2" crossorigin>
     {% comment %} Load the Typekit font CSS without blocking the first render (fonts swap in) {% endcomment %}
     <link rel="preload" href="https://use.typekit.net/ttu5hld.css" as="style">
     <link rel="stylesheet" href="https://use.typekit.net/ttu5hld.css" media="print" onload="this.media='all'">

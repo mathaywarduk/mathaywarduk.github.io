@@ -39,3 +39,7 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - publish.sh
+
+# Minify the compiled stylesheet
+sass:
+  style: compressed
