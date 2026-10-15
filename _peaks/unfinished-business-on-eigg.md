@@ -45,7 +45,7 @@ images:
         alt: An Sgurr from the ferry
       - url: An_Sgurr_002.jpg
         alt: An Sgurr under cloud
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

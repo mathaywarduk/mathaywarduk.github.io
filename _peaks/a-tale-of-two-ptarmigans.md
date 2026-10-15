@@ -33,7 +33,7 @@ images:
     images:
       - url: Meall_Chuaich_005.jpg
         alt: Kerry and Rudi on Meall Chuaich
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

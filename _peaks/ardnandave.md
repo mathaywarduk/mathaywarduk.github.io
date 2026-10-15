@@ -46,7 +46,7 @@ images:
     images:
       - url: "Ardnandave_009.jpg"
         alt: "Stuc 'a Chroin from Ardnandave Hill"
-schema_type: Blog
+schema_type: BlogPosting
 ---
 
 I've had my eye on Ardnandave Hill since we moved here. Looking at it through the kitchen window, looking all knobbly, awesome and covered in snow over the winter. I've been desperate to get up there. The snow has melted on most of the hills now and, as it's my birthday today, I decided to take a last-minute day off and finally get up there.

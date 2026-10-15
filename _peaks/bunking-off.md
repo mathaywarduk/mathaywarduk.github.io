@@ -89,7 +89,7 @@ images:
       - url: "BenV_2026_022.jpg"
         alt: "Rudi under a tree in Glen Vorlich"
         location: ben-vorlich
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

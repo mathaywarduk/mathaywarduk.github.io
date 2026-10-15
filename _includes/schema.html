@@ -1,52 +1,54 @@
+{% comment %}
+  schema.org structured data. Every value goes through jsonify so quotes and
+  line breaks in titles or descriptions can't break the JSON.
+{% endcomment %}
+{%- assign p = include.page -%}
+{%- assign image = site.image_base | append: p.seo.image.url -%}
+{%- assign page_url = p.url | absolute_url -%}
+{%- capture person -%}
+{"@type": "Person", "@id": "{{ site.url }}/#mat", "name": "Mat Hayward", "url": {{ site.url | jsonify }}, "sameAs": {{ site.same_as | jsonify }}}
+{%- endcapture -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  {% if include.page.schema_type == 'Person' %}
+  {% if p.schema_type == 'Person' %}
   "@type": "Person",
+  "@id": "{{ site.url }}/#mat",
   "name": "Mat Hayward",
-  "url": "{{ site.url }}",
-  "description": "{{ include.page.seo.description }}",
-  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}"
-  {% elsif include.page.schema_type == 'BlogPosting' %}
+  "url": {{ site.url | jsonify }},
+  "description": {{ p.seo.description | jsonify }},
+  "image": {{ image | jsonify }},
+  "sameAs": {{ site.same_as | jsonify }}
+  {% elsif p.schema_type == 'BlogPosting' %}
   "@type": "BlogPosting",
-  "headline": "{{ include.page.title }}",
-  "url": "{{ include.page.url | absolute_url }}",
-  "description": "{{ include.page.seo.description }}",
-  "datePublished": "{{ include.page.date | date_to_xmlschema }}",
-  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}",
-  "author": {
-    "@type": "Person",
-    "name": "Mat Hayward",
-    "url": "{{ site.url }}"
-  }
-  {% elsif include.page.schema_type == 'ImageGallery' %}
+  "headline": {{ p.title | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "mainEntityOfPage": {{ page_url | jsonify }},
+  "description": {{ p.seo.description | jsonify }},
+  "datePublished": {{ p.date | date_to_xmlschema | jsonify }},
+  "image": {{ image | jsonify }},
+  "author": {{ person }},
+  "isPartOf": {"@type": "Blog", "name": "Peaks", "url": "{{ site.url }}/peaks/"}
+  {% elsif p.schema_type == 'ImageGallery' %}
   "@type": "ImageGallery",
-  "name": "{{ include.page.title }}",
-  "url": "{{ include.page.url | absolute_url }}",
-  "description": "{{ include.page.seo.description }}",
-  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}",
-  "author": {
-    "@type": "Person",
-    "name": "Mat Hayward",
-    "url": "{{ site.url }}"
-  }
-  {% elsif include.page.schema_type == 'Blog' %}
+  "name": {{ p.title | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "description": {{ p.seo.description | jsonify }},
+  "image": {{ image | jsonify }},
+  "author": {{ person }}
+  {% elsif p.schema_type == 'Blog' %}
   "@type": "Blog",
-  "name": "{{ include.page.title }}",
-  "url": "{{ include.page.url | absolute_url }}",
-  "description": "{{ include.page.seo.description }}",
-  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}",
-  "author": {
-    "@type": "Person",
-    "name": "Mat Hayward",
-    "url": "{{ site.url }}"
-  }
+  "name": {{ p.title | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "description": {{ p.seo.description | jsonify }},
+  "image": {{ image | jsonify }},
+  "author": {{ person }}
   {% else %}
   "@type": "CollectionPage",
-  "name": "{{ include.page.title }}",
-  "url": "{{ include.page.url | absolute_url }}",
-  "description": "{{ include.page.seo.description }}",
-  "image": "{{ site.image_base }}{{ include.page.seo.image.url }}"
+  "name": {{ p.title | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "description": {{ p.seo.description | jsonify }},
+  "image": {{ image | jsonify }}
   {% endif %}
 }
 </script>

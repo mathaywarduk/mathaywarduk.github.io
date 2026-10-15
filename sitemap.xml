@@ -1,39 +1,20 @@
 ---
 layout: null
 ---
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-      <loc>{{ site.url }}</loc>
-      <lastmod>{{ "2022-03-29" | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    <url>
-      <loc>{{ site.url }}/photography</loc>
-      <lastmod>{{ "2022-03-29" | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    <url>
-      <loc>{{ site.url }}/peaks</loc>
-      <lastmod>{{ "2024-03-19" | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  {% for page in site.photography %}
-    <url>
-      <loc>{{ site.url }}{{ page.url }}</loc>
-      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  {% endfor %}
-  {% for page in site.peaks %}
-    <url>
-      <loc>{{ site.url }}{{ page.url }}</loc>
-      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  {% endfor %}
+{%- comment %} Every page that isn't hidden (seo.hidden) {% endcomment %}
+{%- assign pages = site.html_pages | where_exp: "p", "p.seo.hidden != true" %}
+{%- for p in pages %}
+  <url><loc>{{ site.url }}{{ p.url }}</loc></url>
+{%- endfor %}
+{%- for p in site.photography %}{% unless p.seo.hidden %}
+  <url><loc>{{ site.url }}{{ p.url }}</loc>{% if p.date %}<lastmod>{{ p.date | date_to_xmlschema }}</lastmod>{% endif %}</url>
+{%- endunless %}{% endfor %}
+{%- for p in site.peaks %}{% unless p.seo.hidden %}
+  <url><loc>{{ site.url }}{{ p.url }}</loc><lastmod>{{ p.date | date_to_xmlschema }}</lastmod></url>
+{%- endunless %}{% endfor %}
+{%- for p in site.locations %}{% unless p.seo.hidden %}
+  <url><loc>{{ site.url }}{{ p.url }}</loc></url>
+{%- endunless %}{% endfor %}
 </urlset>

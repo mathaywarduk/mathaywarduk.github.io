@@ -22,7 +22,7 @@ images:
       - url: Lofoten-047.jpg
         alt: View from Reinebringen
         location: reinebringen
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

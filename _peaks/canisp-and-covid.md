@@ -29,7 +29,7 @@ images:
         alt: "Rudi enjoying the river"
       - url: "Canisp-003.jpg"
         alt: "Kerry on the way up Canisp"
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

@@ -44,7 +44,7 @@ images:
         alt: "Rudi on Meall na Fearna"
       - url: "Fearna_010.jpg"
         alt: "Rudi and Kerry on Meall na Fearna"
-schema_type: Blog
+schema_type: BlogPosting
 ---
 
 This weekend we'd been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk. It would be the earliest in the year we'll have checked one off; another of the many benefits of living in Scotland.

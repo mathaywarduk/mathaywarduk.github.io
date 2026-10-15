@@ -7,6 +7,7 @@ seo:
     image:
       url: "Wild-Camp-004.jpg"
       alt: "Wild Camping on Beinn Each"
+schema_type: Blog
 ---
 {% assign peaks = 0 %}
 {% assign ascent = 0 %}

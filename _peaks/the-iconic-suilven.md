@@ -30,7 +30,7 @@ images:
       - url: "NC500-059.jpg"
         alt: "Suilven" 
         location: suilven
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

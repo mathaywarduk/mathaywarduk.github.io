@@ -34,6 +34,10 @@ collections:
   peaks:
     output: true
 image_base: https://mathayward.imgix.net/
+# Other profiles, for search engines (schema.org sameAs)
+same_as:
+  - https://slowscotland.uk
+  - https://www.linkedin.com/in/mathaywarduk
 exclude:
   - package-lock.json
   - postcss.config.js

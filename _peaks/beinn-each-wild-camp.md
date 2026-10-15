@@ -42,7 +42,7 @@ images:
       - url: "Wild-Camp-004.jpg"
         alt: "Kerry looking down to our tent on Beinn Each"
         location: beinn-each
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

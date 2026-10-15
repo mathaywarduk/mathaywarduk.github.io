@@ -6,7 +6,7 @@ hero:
     url: mh-hero.jpg
     alt: "Silhouette of a man with a camera. He is on a beach with a sea stack in the distance. The sky is orange."
 seo:
-    title: "Biography"
+    title: "Landscape photography from Scotland, Lofoten, Iceland and the Alps"
     description: "I’m Mat Hayward, a landscape and travel photographer from the UK."
     image:
         url: Switzerland-029.jpg

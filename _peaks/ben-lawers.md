@@ -67,7 +67,7 @@ images:
     images:
       - url: Ben_Lawers_023.jpg
         alt: Valley between Ben Ghlas and Meall Corranaich
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

@@ -37,7 +37,7 @@ images:
     images:
       - url: "LochLong_014.jpg"
         alt: "Zan on The Cobbler"
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

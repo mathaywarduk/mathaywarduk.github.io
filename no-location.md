@@ -1,4 +1,6 @@
 ---
+seo:
+  hidden: true
 layout: default
 ---
 

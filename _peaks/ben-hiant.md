@@ -17,7 +17,7 @@ images:
     images:
       - url: Ben_Hiant_001.jpg
         alt: Kerry looking at the view from Ben Hiant
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 

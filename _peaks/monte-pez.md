@@ -50,7 +50,7 @@ images:
       - url: "Dolomiti-8254.jpg"
         alt: "Red and white waymarker on path to Monte Pez summit"
         location: monte-pez
-schema_type: Blog
+schema_type: BlogPosting
 
 ---
 
