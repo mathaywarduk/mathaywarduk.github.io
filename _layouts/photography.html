@@ -42,7 +42,7 @@ layout: default
       <p class="text-lg md:text-xl lg:text-2xl uppercase font-sans tracking-widest upright absolute top-0  right-0 mt-6 z-10 mr-3 fade-static anim-delay-400{% if page.metacolor == 'white' %} text-white{% endif %}">{{ page.region }} &bull; {{ page.year }}</p>
 
       <div class="w-full h-full {% if page.hero.location %}image-loc{% endif %}">
-      {% include image.html url=page.hero.url alt=page.hero.alt classes=" w-full md:h-full md:object-cover" hero="true" width=600 height=900 %}
+      {% include image.html url=page.hero.url alt=page.hero.alt classes=" w-full md:h-full md:object-cover" hero="true" sizes="(min-width: 768px) 50vw, 100vw" width=600 height=900 %}
         {% if page.hero.location %}
           <a href="/locations/{{ location_slug }}?l={{ page.hero.location }}" class="b-white image-loc__icon image-loc__icon--hero">
             <img src="/assets/images/icons/pin.svg" class="w-4" role="presentation" width="16" height="16">

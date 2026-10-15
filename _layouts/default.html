@@ -5,10 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.seo.title | default: page.title }} - Mat Hayward</title>
-    <link rel="preconnect" href="https://use.typekit.net">
+    <link rel="preconnect" href="{{ site.image_base | split: '/' | slice: 0, 3 | join: '/' }}">
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+    <link rel="preconnect" href="https://p.typekit.net" crossorigin>
+    {% comment %} Load the Typekit font CSS without blocking the first render (fonts swap in) {% endcomment %}
     <link rel="preload" href="https://use.typekit.net/ttu5hld.css" as="style">
-    <link rel="stylesheet" href="https://use.typekit.net/ttu5hld.css">
-    
+    <link rel="stylesheet" href="https://use.typekit.net/ttu5hld.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://use.typekit.net/ttu5hld.css"></noscript>
+
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/app.js" defer></script>
 
