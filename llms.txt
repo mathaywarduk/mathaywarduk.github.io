@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Mat Hayward
+
+> Landscape and travel photography by Mat Hayward, a photographer based in the Trossachs, Scotland. Galleries from Scotland and further afield, maps of the locations where photos were taken, and short write-ups of mountains climbed.
+
+Mat also writes [Slow Scotland](https://slowscotland.uk), a free 12-week email journey through Scotland's quieter places.
+
+## Photography
+
+{% assign collections = site.photography | where_exp: "p", "p.seo.hidden != true" -%}
+{% for p in collections -%}
+- [{{ p.title }}]({{ site.url }}{{ p.url }}){% if p.seo.description %}: {{ p.seo.description }}{% endif %}
+{% endfor %}
+## Peaks
+
+Write-ups of mountains and hills climbed, newest first.
+
+{% assign peaks = site.peaks | sort: "date" | reverse -%}
+{% for p in peaks -%}
+- [{{ p.title }}]({{ site.url }}{{ p.url }}) ({{ p.date | date: "%B %Y" }}){% if p.description %}: {{ p.description | strip_html | strip_newlines }}{% endif %}
+{% endfor %}
+## Locations
+
+Maps of where photos were taken.
+
+{% for p in site.locations -%}
+- [{{ p.title }}]({{ site.url }}{{ p.url }})
+{% endfor %}
+## Optional
+
+- [Instagram archive]({{ site.url }}/instagram/): photos posted here since leaving Instagram
+- [Biography]({{ site.url }}/)

@@ -7,7 +7,7 @@ id: west-coast
 intro: "Home to some of the most intriguing mountains and broken landscapes, I'll just keep going back to this place."
 seo:
   title: "Travel Photography - West Coast of Scotland"
-  description: "Photography from the West Coast of Scotland including the North Coast 500, the Assyny, Torridon, Sandwood Bay, Plockton, Suilven and Stac Pollaidh."
+  description: "Photography from the West Coast of Scotland including the North Coast 500, the Assynt, Torridon, Sandwood Bay, Plockton, Suilven and Stac Pollaidh."
   image:
     url: "NC500-013.jpg"
     alt: "Howard in Plockton"

@@ -7,10 +7,10 @@ id: lanzarote
 intro: "Small coastal villages and huge lava fields. Lanzarote is more than just a holiday destination."
 seo:
   title: "Travel Photography - Lanzarote"
-  description: "Photography from around Lanzarote, Canary Islands including {{XXX}}"
+  description: "Photography from around Lanzarote, Canary Islands including Timanfaya National Park and El Golfo"
   image:
     url: "Lanzarote-004.jpg"
-    alt: "{{ ALT }}"
+    alt: "View from the car at Timanfaya National Park"
 hero:
   url: "Lanzarote-003.jpg"
   alt: "Timanfaya National Park"
