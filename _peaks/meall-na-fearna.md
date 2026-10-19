@@ -2,10 +2,10 @@
 layout: peak
 date: 2025-11-16
 title: "Meall na Fearna"
-description: "This weekend we'd been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk."
+description: "This weekend we’d been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk."
 seo:
   title: "Meall na Fearna"
-  description: "This weekend we'd been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk."
+  description: "This weekend we’d been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk."
   image:
     url: "Fearna_005.jpg"
     alt: "Ben Vorlich from Meall na Fearna"
@@ -47,11 +47,11 @@ images:
 schema_type: BlogPosting
 ---
 
-This weekend we'd been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk. It would be the earliest in the year we'll have checked one off; another of the many benefits of living in Scotland.
+This weekend we’d been forecast good weather on Saturday, so we decided to get back in the swing of things with a mountain walk. It would be the earliest in the year we’ll have checked one off; another of the many benefits of living in Scotland.
 
-We chose one of the easier Munros in Ben Chonzie and set off in what we thought was good time, leaving my camera behind as it was going to be a 'boring' hike. When we got to the parking area it was full and, after helping to push one car off the muddy verge we decided against parking there ourselves. Plenty more hills to climb in our new backyard.
+We chose one of the easier Munros in Ben Chonzie and set off in what we thought was good time, leaving my camera behind as it was going to be a ‘boring’ hike. When we got to the parking area it was full and, after helping to push one car off the muddy verge we decided against parking there ourselves. Plenty more hills to climb in our new backyard.
 
-I quickly looked up some of the hills on the way back home and decided on Meall na Fearna, just north of [Ben Vorlich](/peaks/bunking-off) near Loch Earn. We'd climbed the bigger hill years before and were quite happy to be tackling a Corbett on our first outing of the year.
+I quickly looked up some of the hills on the way back home and decided on Meall na Fearna, just north of [Ben Vorlich](/peaks/bunking-off) near Loch Earn. We’d climbed the bigger hill years before and were quite happy to be tackling a Corbett on our first outing of the year.
 
 I soon regretted not having my camera with me. We followed a decent ATV path, with great views of Ben Vorlich in the low cloud and intermittent sun. Gutted, we diverted straight up the open ground toward the summit of Meall na Fearna. iPhone shots would have to do.
 

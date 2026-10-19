@@ -41,7 +41,7 @@ schema_type: BlogPosting
 
 ---
 
-Back in January, I invited my closest friends to drive up to Scotland for a wild camp and mountain climb. I spent the last two weeks regularly checking the weather forecast for Loch Long and the hills around Arrochar, but I hadn't seen a -15&deg;C wind chill coming.
+Back in January, I invited my closest friends to drive up to Scotland for a wild camp and mountain climb. I spent the last two weeks regularly checking the weather forecast for Loch Long and the hills around Arrochar, but I hadn’t seen a -15&deg;C wind chill coming.
 
 That put a stop to our plan to camp part way up Beinn Íme and bag 2 or 3 peaks the next day. Instead we found a great spot on the Loch and enjoyed an eventful wild camp with a fire and some decent whisky.
 

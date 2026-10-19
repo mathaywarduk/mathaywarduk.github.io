@@ -4,7 +4,7 @@ title:  "The Hebrides"
 region: "Scotland"
 year: 2019-23
 id: skye-hebrides
-intro: "Huge mountains, great beaches, coves and beautiful scenery. If the weather is good, any of Scotland's islands are a great place to be."
+intro: "Huge mountains, great beaches, coves and beautiful scenery. If the weather is good, any of Scotland’s islands are a great place to be."
 seo:
   title: "Travel Photography - Skye and the Hebrides"
   description: "Photography from around Skye and the Hebrides, including the Quiraing, Camasunary Bay, the Cuillin range, Neist Point, Isle of Harris, Isle of Lewis and Isle of Mull."

@@ -1,6 +1,6 @@
 ---
 layout: instagram
-title:  "Honeymoon roadtrip around the north coast of Scotland with my new wife (not pictured) in the Defender... doesn't get much better than that!"
+title:  "Honeymoon roadtrip around the north coast of Scotland with my new wife (not pictured) in the Defender... doesn’t get much better than that!"
 media:
   - url: "instagram/nc500-Defender.jpg"
     alt: ""

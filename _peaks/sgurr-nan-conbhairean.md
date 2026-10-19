@@ -2,10 +2,10 @@
 layout: peak
 date: 2025-04-29
 title: Triple bagging
-description: After ruling out the 5 Sisters of Kintail and the Brother's ridge because we'd need a lift, we decided to take on the three Munros to the north of Loch Cluanie.
+description: After ruling out the 5 Sisters of Kintail and the Brother’s ridge because we’d need a lift, we decided to take on the three Munros to the north of Loch Cluanie.
 seo:
   title: Triple bagging
-  description: After ruling out the 5 Sisters of Kintail and the Brother's ridge because we'd need a lift, we decided to take on the three Munros to the north of Loch Cluanie.
+  description: After ruling out the 5 Sisters of Kintail and the Brother’s ridge because we’d need a lift, we decided to take on the three Munros to the north of Loch Cluanie.
   image:
     url: Conbhairean-019.jpg
     alt: View from Sgùrr nan Conbhairean
@@ -57,15 +57,15 @@ schema_type: BlogPosting
 
 ---
 
-After working remotely from Scotland for two weeks, we'd planned to spend the next week exploring but made no plans otherwise.
+After working remotely from Scotland for two weeks, we’d planned to spend the next week exploring but made no plans otherwise.
 
-As the weather got better, we decided to drive north to Glen Shiel. We considered the 5 sisters and the Brother's ridge, but neither were circular, so took a short drive to take on the three Munros to the north of Loch Cluanie.
+As the weather got better, we decided to drive north to Glen Shiel. We considered the 5 sisters and the Brother’s ridge, but neither were circular, so took a short drive to take on the three Munros to the north of Loch Cluanie.
 
-It'd been a while since we tackled any real hills, so we were both out of breath pretty early on, but that quickly subsided and we soon reached the top of Càrn Ghluasaid.
+It’d been a while since we tackled any real hills, so we were both out of breath pretty early on, but that quickly subsided and we soon reached the top of Càrn Ghluasaid.
 
 From there we could see the top of Sgùrr nan Conbhairean looking massive and Sàil Chaorainn behind. We also caught site of a solo hiker as we made our way across to the second summit.
 
-Once at the top of Sgùrr nan Conbhairean, the route over to Sàil Chaorainn was so straightforward I was surprised it was classed as a Munro in it's own right. But we'll take it.
+Once at the top of Sgùrr nan Conbhairean, the route over to Sàil Chaorainn was so straightforward I was surprised it was classed as a Munro in it’s own right. But we’ll take it.
 
-A long walk back to the car through a pathless and boggy terrain was the biggest pain of the day, but we'd well and truly scratched that itch and earned a couple of glasses of wine back at the campsite.
+A long walk back to the car through a pathless and boggy terrain was the biggest pain of the day, but we’d well and truly scratched that itch and earned a couple of glasses of wine back at the campsite.
 

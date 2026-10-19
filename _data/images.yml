@@ -719,12 +719,12 @@ south-highlands:
   - type: single
     images:
       - url: "Highlands-005.jpg"
-        alt: "Kerry and Ben A'an sunset"
+        alt: "Kerry and Ben A’an sunset"
         location: ben-aan
   - type: double
     images:
       - url: "Highlands-003.jpg"
-        alt: "Sarah, Kerry and the dogs on Ben A'an summit"
+        alt: "Sarah, Kerry and the dogs on Ben A’an summit"
         location: ben-aan
       - url: "Highlands-006.jpg"
         alt: "Sunset over Loch Katrine"
@@ -732,7 +732,7 @@ south-highlands:
   - type: double
     images:
       - url: "Highlands-002.jpg"
-        alt: "Sarah and Vinnie on Ben A'an Summit"
+        alt: "Sarah and Vinnie on Ben A’an Summit"
         location: ben-aan
       - url: "Highlands-001.jpg"
         alt: "Howard looking over Loch Katrine"

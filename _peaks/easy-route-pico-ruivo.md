@@ -48,6 +48,6 @@ schema_type: BlogPosting
 
 We took a last minute trip to [Madeira](/photography/madeira) for some final sun before the misery of the British winter hit and the weather did not disappoint.
 
-We'd done our research on places to visit and so drove our way to the top of Pico do Areeiro one evening to watch the sunset with a few hundred other tourists!
+We’d done our research on places to visit and so drove our way to the top of Pico do Areeiro one evening to watch the sunset with a few hundred other tourists!
 
 They next day, we decided to take the less busy [PR1.2 route](https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-12-vereda-do-pico-ruivo/) from Achada do Teixeira to the summit of Pico Ruivo for an incredible sunset view and only a handful of other people around.

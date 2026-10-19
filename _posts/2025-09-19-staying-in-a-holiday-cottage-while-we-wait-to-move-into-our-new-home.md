@@ -1,6 +1,6 @@
 ---
 layout: instagram
-title:  "Staying in a holiday cottage while we wait to move into our new home. Here's Rudi on the beach and the cottage in the background."
+title:  "Staying in a holiday cottage while we wait to move into our new home. Here’s Rudi on the beach and the cottage in the background."
 media:
   - url: "ormiscaig-013.jpg"
     alt: "Rudi on the beach at Ormiscaig"

@@ -73,7 +73,7 @@ Rather than take the busy tourist route, we decided to approach from the east, s
 
 The path climbs quickly up to Coire Lan, where the path leads directly through the centre of the valley to the bealach between North Goatfell and Mullach Buidhe. Once at the bealach the views over to Cir Mor and Caisteal Abhail are stunning and they remained so as we scrambled to the top of North Goatfell.
 
-Having an 'enthusiastic' Labrador with us, and having seen a beautiful lone stag just a few metres away, we opted for the bypass route around the pinnacle scrambles and reached the peak of Goatfell with relative ease, finding many more people when we did.
+Having an ‘enthusiastic’ Labrador with us, and having seen a beautiful lone stag just a few metres away, we opted for the bypass route around the pinnacle scrambles and reached the peak of Goatfell with relative ease, finding many more people when we did.
 
 The route back followed some of the tourist route, so there was the inevitable traffic in places, but that soon disappeared as they forked off... so to speak.
 

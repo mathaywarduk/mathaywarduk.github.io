@@ -2,10 +2,10 @@
 layout: peak
 date: 2022-03-19
 title: Beinn Each wild camp
-description: "I kicked off the year with an 'easy' climb in the Trossachs. To make it more memorable we set up our first wild camp near the top and watched the sun setting behind Stob Binnein and Ben More."
+description: "I kicked off the year with an ‘easy’ climb in the Trossachs. To make it more memorable we set up our first wild camp near the top and watched the sun setting behind Stob Binnein and Ben More."
 seo:
   title: "Wild Camping on Beinn Each"
-  description: "I kicked off the year-long challenge with an 'easy' climb in the Trossachs."
+  description: "I kicked off the year-long challenge with an ‘easy’ climb in the Trossachs."
   image:
     url: "Wild-Camp-004.jpg"
     alt: "Wild Camping on Beinn Each"

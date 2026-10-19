@@ -54,7 +54,7 @@ schema_type: BlogPosting
 
 ---
 
-It's been a bit slow progress with the peak bagging so far. Our trip to [Lofoten](/photography/lofoten) was great but avalanche warnings and strong winds meant climbing anything wasn't advisable.
+It’s been a bit slow progress with the peak bagging so far. Our trip to [Lofoten](/photography/lofoten) was great but avalanche warnings and strong winds meant climbing anything wasn’t advisable.
 
 So, when our friends asked us to go to the [Italian Dolomites](/photography/dolomites) we jumped at the chance and this time the weather was definitely on our side.
 

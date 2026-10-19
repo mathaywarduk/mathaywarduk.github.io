@@ -2,10 +2,10 @@
 layout: peak
 date: 2021-05-22
 title: Sunset trip up Cùl Mòr
-description: "We've become obsessed with sunrise and sunset and there's no better time to be up a mountain."
+description: "We’ve become obsessed with sunrise and sunset and there’s no better time to be up a mountain."
 seo:
   title: Sunset trip up Cùl Mòr
-  description: "We've become obsessed with sunrise and sunset and there's no better time to be up a mountain."
+  description: "We’ve become obsessed with sunrise and sunset and there’s no better time to be up a mountain."
   image:
     url: "Assynt-003.jpg"
     alt: "View of Assynt from Cùl Mòr"
@@ -47,6 +47,6 @@ schema_type: BlogPosting
 
 ---
 
-"You're brave going up at this time!"
+“You’re brave going up at this time!”
 
-We've become obsessed with sunrise and sunset and there's no better time to be up a mountain. Especially one like Cùl Mòr, which has incredible views over to [Suilven](/peaks/the-iconic-suilven) and [Stac Pollaidh](stac-pollaidh-sunrise-inversion), without being at all difficult to navigate.
+We’ve become obsessed with sunrise and sunset and there’s no better time to be up a mountain. Especially one like Cùl Mòr, which has incredible views over to [Suilven](/peaks/the-iconic-suilven) and [Stac Pollaidh](stac-pollaidh-sunrise-inversion), without being at all difficult to navigate.

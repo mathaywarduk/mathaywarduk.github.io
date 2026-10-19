@@ -11,7 +11,7 @@ seo:
     alt: "An Rhuad-stac"
 hero:
   url: "MCD_006.jpg"
-  alt: "Loch a' Bealach Ruadh Stac"
+  alt: "Loch a’ Bealach Ruadh Stac"
 region: scotland
 images:
   - type: single
@@ -32,7 +32,7 @@ images:
   - type: double
     images:
       - url: "MCD_008.jpg"
-        alt: "Loch a' Bealach Ruadh Stac"
+        alt: "Loch a’ Bealach Ruadh Stac"
         location: maol-chean-dearg
       - url: "MCD_009.jpg"
         alt: "Rudi with Beinn Damh behind"
@@ -56,11 +56,11 @@ schema_type: BlogPosting
 
 ---
 
-So we sold our house in England and decided to move up to our spiritual home in the Trossachs. In the few months between homes, we're working from a few holiday cottages and itching to get up some hills.
+So we sold our house in England and decided to move up to our spiritual home in the Trossachs. In the few months between homes, we’re working from a few holiday cottages and itching to get up some hills.
 
 A week off in between gave us that opportunity and, with the weather being pretty changeable, we decided to go for just the single Munro walk of Maol Chean-dearg.
 
-It was a 4km almost flat walk to begin with as we made our way to Coire Fionnaraich, one of the most accessible bothies I've come across. From there it's a pretty boggy section before turning to climb round the side and up Maol Chean-dearg.
+It was a 4km almost flat walk to begin with as we made our way to Coire Fionnaraich, one of the most accessible bothies I’ve come across. From there it’s a pretty boggy section before turning to climb round the side and up Maol Chean-dearg.
 
 I struggled quite a bit to begin with, feeling like I had no juice in the legs, but we gradually made our way up to a lochan and the incredible sight of An Ruadh-stac, shortly before the final, and fun, climb up the boulder field to the summit. Here we were rewarded with views of [Beinn Damh](/peaks/a-beautiful-day-in-torridon/), Liathach and the rest of the huge mountains of Torridon just as the sun came out.
 

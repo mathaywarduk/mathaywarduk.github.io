@@ -2,10 +2,10 @@
 layout: peak
 date: 2020-09-25
 title: The four peaks of the Buachaille
-description: I've stopped and photographed Stob Dearg just about every time I've driven past it.
+description: I’ve stopped and photographed Stob Dearg just about every time I’ve driven past it.
 seo:
   title: The four peaks of the Buachaille
-  description: I've stopped and photographed Stob Dearg just about every time I've driven past it.
+  description: I’ve stopped and photographed Stob Dearg just about every time I’ve driven past it.
   image:
     url: "NC500-011.jpg"
     alt: "View of the Mamores from Stob Dearg"
@@ -31,7 +31,7 @@ schema_type: BlogPosting
 
 ---
 
-I've stopped and photographed Stob Dearg just about every time I've driven past it. It's such an imposing and beautiful peak. So the option to get to the top as part of climbing Buachaille Etive Mòr was really exciting to me!
+I’ve stopped and photographed Stob Dearg just about every time I’ve driven past it. It’s such an imposing and beautiful peak. So the option to get to the top as part of climbing Buachaille Etive Mòr was really exciting to me!
 
-It's a bit of a slog up the corrie to the reach the ridgeline, but after that it's just a big walk with great views!
+It’s a bit of a slog up the corrie to the reach the ridgeline, but after that it’s just a big walk with great views!
 

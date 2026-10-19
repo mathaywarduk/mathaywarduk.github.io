@@ -22,6 +22,6 @@ seo:
   hidden: true
 location:
   label: "Scotland"
-  exact: "Ben A'an"
+  exact: "Ben A’an"
 postdate: 2020-10-06
 ---

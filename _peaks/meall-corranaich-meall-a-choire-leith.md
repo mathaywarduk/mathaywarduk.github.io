@@ -58,7 +58,7 @@ images:
   - type: single
     images:
       - url: "West-Lawers-013.jpg"
-        alt: "Rudi and Kerry walk by cloud inversions between Meall Corranaich and Meall a' Choire Lèith"
+        alt: "Rudi and Kerry walk by cloud inversions between Meall Corranaich and Meall a’ Choire Lèith"
         location: west-lawers
   - type: single
     images:
@@ -73,7 +73,7 @@ images:
   - type: single
     images:
       - url: "West-Lawers-020.jpg"
-        alt: "Rudi walking down Meall a' Choire Lèith"
+        alt: "Rudi walking down Meall a’ Choire Lèith"
         location: west-lawers
   - type: single
     images:

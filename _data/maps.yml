@@ -17,7 +17,7 @@ chamonix:
     collection: chamonix
   - title: Grand Balcon Nord
     slug: grand-balcon-nord
-    description: "Running from Plan de l'Aiguille to the Montenvers–Mer de Glace, this is an easy hike for most with great views of Mont Blanc and over to Tête de la Raverettaz."
+    description: "Running from Plan de l’Aiguille to the Montenvers–Mer de Glace, this is an easy hike for most with great views of Mont Blanc and over to Tête de la Raverettaz."
     lat: 45.917118
     lng: 6.902288
     hero: "Chamonix_022.jpg"
@@ -58,7 +58,7 @@ chamonix:
 switzerland:
   - title: Schäfler Ridge
     slug: schafler-ridge
-    description: "Take a cable car up to Ebenalp and Schäfler Ridge is about an hour's hike away. The views of the peaks in the clouds are incredible."
+    description: "Take a cable car up to Ebenalp and Schäfler Ridge is about an hour’s hike away. The views of the peaks in the clouds are incredible."
     lat: 47.276198
     lng: 9.389817
     hero: "Switzerland-020.jpg"
@@ -66,7 +66,7 @@ switzerland:
     collection: switzerland
   - title: Zermatt
     slug: zermatt
-    description: "Zermatt is a beautiful town that you can only reach by train or taxi. It's surrounded by huge mountains, which are pretty breathtaking in certain lights"
+    description: "Zermatt is a beautiful town that you can only reach by train or taxi. It’s surrounded by huge mountains, which are pretty breathtaking in certain lights"
     lat: 46.022044
     lng: 7.754314
     hero: "Switzerland-040.jpg"
@@ -148,7 +148,7 @@ madeira:
 iceland:
   - title: Múlagljúfur Canyon
     slug: mulagljufur
-    description: "This is a great location that you rarely see on Iceland travel guides. It's two minutes drive from Fjallsárlón glacier and then a 30-minute walk up to the canyon. You can then walk along the side of the canyon, taking in massive waterfalls and tiny looking birds."
+    description: "This is a great location that you rarely see on Iceland travel guides. It’s two minutes drive from Fjallsárlón glacier and then a 30-minute walk up to the canyon. You can then walk along the side of the canyon, taking in massive waterfalls and tiny looking birds."
     lat: 63.989393
     lng: -16.459858
     hero: "Iceland-018.jpg"
@@ -156,7 +156,7 @@ iceland:
     collection: iceland
   - title: Stokksnes
     slug: stokksnes
-    description: "Stokksnes beach is privately owned, so it costs a few krone to visit (even on foot). If the weather's bad you can get some great moody shots on the black sands. If it's good, the view is incredible, with the world famous Vestrahorn mountain reflecting in the shallow water."
+    description: "Stokksnes beach is privately owned, so it costs a few krone to visit (even on foot). If the weather’s bad you can get some great moody shots on the black sands. If it’s good, the view is incredible, with the world famous Vestrahorn mountain reflecting in the shallow water."
     lat: 64.248717
     lng: -14.971737
     hero: "Iceland-014.jpg"
@@ -164,7 +164,7 @@ iceland:
     collection: iceland
   - title: Þórsmörk
     slug: thorsmork
-    description: "The area around Þórsmörk is only really accesssible via an F-road, so you'll need a 4x4 and plenty of time. You'll be rewarded with surreal views and what feels like true wilderness."
+    description: "The area around Þórsmörk is only really accesssible via an F-road, so you’ll need a 4x4 and plenty of time. You’ll be rewarded with surreal views and what feels like true wilderness."
     lat: 63.702245
     lng: -19.645839
     hero: "Iceland-004.jpg"
@@ -172,7 +172,7 @@ iceland:
     collection: iceland
   - title: Reynisfjara
     slug: reynisfjara
-    description: "It's easy to get to this black sand beach and it shows with the number of tourists and tripod owners you spot there. We went at sunrise, which brought out some great colour in the sky along with a shit-ton of birds."
+    description: "It’s easy to get to this black sand beach and it shows with the number of tourists and tripod owners you spot there. We went at sunrise, which brought out some great colour in the sky along with a shit-ton of birds."
     lat: 63.403454
     lng: -19.046474
     hero: "Iceland-006.jpg"
@@ -180,7 +180,7 @@ iceland:
     collection: iceland
   - title: Hjörleifshöfði
     slug: hjorleifshofoi
-    description: "There's not a lot here really. Just a cave which looks like Yoda (if you're into that kind of thing) and a vast, flat black sand beach that you can drive on."
+    description: "There’s not a lot here really. Just a cave which looks like Yoda (if you’re into that kind of thing) and a vast, flat black sand beach that you can drive on."
     lat: 63.416524
     lng: -18.763081
     hero: "Iceland-011.jpg"
@@ -188,7 +188,7 @@ iceland:
     collection: iceland
   - title: Landmannalaugar
     slug: landmannalaugar
-    description: "A drive along F225 is quite straightforward, but takes a while because of all the great photo opportunities. Once you get to Landmannalaugar, you're greated with a decent campsite, hot springs and some strangley coloured mountains."
+    description: "A drive along F225 is quite straightforward, but takes a while because of all the great photo opportunities. Once you get to Landmannalaugar, you’re greated with a decent campsite, hot springs and some strangley coloured mountains."
     lat: 63.982755
     lng: -19.065884
     hero: "Iceland_0076.jpg"
@@ -196,7 +196,7 @@ iceland:
     collection: iceland
   - title: Gullfoss
     slug: gullfoss
-    description: "This is tourist hell, because it's really easy to get to. Despite that, Gullfoss is pretty awesome, but if you're looking for a bit more peace go very early or very late."
+    description: "This is tourist hell, because it’s really easy to get to. Despite that, Gullfoss is pretty awesome, but if you’re looking for a bit more peace go very early or very late."
     lat: 64.327042
     lng: -20.120123
     hero: "Iceland_0021.jpg"
@@ -212,7 +212,7 @@ iceland:
     collection: iceland
   - title: Sigöldugljúfur
     slug: sigoldugljufur
-    description: "Just off the northern part of the F208, you could easily drive straight past Sigöldugljúfur without noticing it. It's worth 2-minute walk away from the road though."
+    description: "Just off the northern part of the F208, you could easily drive straight past Sigöldugljúfur without noticing it. It’s worth 2-minute walk away from the road though."
     lat: 64.157673
     lng: -19.126116
     hero: "Iceland_0026.jpg"
@@ -229,7 +229,7 @@ iceland:
 dolomites:
   - title: Tre Cime Di Lavaredo
     slug: tre-cime-di-lavaredo
-    description: "It costs €30 to take your car on the toll road that leads to Tre Cime Di Lavaredo. You can walk it for free, but it'll take a few hours. The area is full of rocky monoliths and dotted with refuges for hikers."
+    description: "It costs €30 to take your car on the toll road that leads to Tre Cime Di Lavaredo. You can walk it for free, but it’ll take a few hours. The area is full of rocky monoliths and dotted with refuges for hikers."
     lat: 46.611687
     lng: 12.297310
     hero: "Dolomiti-7187.jpg"
@@ -237,7 +237,7 @@ dolomites:
     collection: dolomites
   - title: Cadini di Misurina
     slug: cadini-di-misurina
-    description: "About a 20-30 minute walk from Rifugio Auronzo, you'll find an incredible viewpoint of the Cadini di Misurina. Known as the best viewpoint in the Dolomites, if the clouds are on your side!"
+    description: "About a 20-30 minute walk from Rifugio Auronzo, you’ll find an incredible viewpoint of the Cadini di Misurina. Known as the best viewpoint in the Dolomites, if the clouds are on your side!"
     lat: 46.600221
     lng: 12.296343
     hero: "Dolomiti-7344.jpg"
@@ -245,7 +245,7 @@ dolomites:
     collection: dolomites
   - title: Seceda
     slug: seceda
-    description: "Two cable-car trips from Ortesei will take you 2,500m up the Odle mountains. From there you'll get some great views of the surrounding ranges, and a close up of the famous south side of Seceda."
+    description: "Two cable-car trips from Ortesei will take you 2,500m up the Odle mountains. From there you’ll get some great views of the surrounding ranges, and a close up of the famous south side of Seceda."
     lat: 46.597869
     lng: 11.724829
     hero: "Dolomiti-6782.jpg"
@@ -269,7 +269,7 @@ dolomites:
     collection: dolomites
   - title: St Johann in Ranui
     slug: st-johann-in-ranui
-    description: "This little church is all over Instagram, because it's so easy to get to you barely have to get out of the car. If you're looking for a bit more space, take a walk up the hill to Chiesa di Santa Maddalena instead."
+    description: "This little church is all over Instagram, because it’s so easy to get to you barely have to get out of the car. If you’re looking for a bit more space, take a walk up the hill to Chiesa di Santa Maddalena instead."
     lat: 46.636703
     lng: 11.722170
     hero: "Dolomiti-7380.jpg"
@@ -278,7 +278,7 @@ dolomites:
 alberta:
   - title: Medicine Lake
     slug: medicine-lake
-    description: "Driving past this lake on the way to Maligne Lake I saw some incredible reflections, but for some reason never shot them! Either way it's a beautiful spot."
+    description: "Driving past this lake on the way to Maligne Lake I saw some incredible reflections, but for some reason never shot them! Either way it’s a beautiful spot."
     lat: 52.838551
     lng: -117.719025
     hero: "Canada-009.jpg"
@@ -294,7 +294,7 @@ alberta:
     collection: alberta
   - title: Peyto Lake
     slug: peyto-lake
-    description: "One of those views that's all over Instagram so, as you'd expect, it's pretty easy to get to. Park in the car park and walk 20 minutes to the viewpoint. You won't be alone."
+    description: "One of those views that’s all over Instagram so, as you’d expect, it’s pretty easy to get to. Park in the car park and walk 20 minutes to the viewpoint. You won’t be alone."
     lat: 51.718280
     lng: -116.508286
     hero: "Canada-019.jpg"
@@ -302,7 +302,7 @@ alberta:
     collection: alberta
   - title: Maligne Lake
     slug: maligne-lake
-    description: "It's a bit of a drive down a one-way in, one-way out road to Maligne Lake, but you arrive to a peaceful view of mountains and pine trees and a pretty cool looking boathouse."
+    description: "It’s a bit of a drive down a one-way in, one-way out road to Maligne Lake, but you arrive to a peaceful view of mountains and pine trees and a pretty cool looking boathouse."
     lat: 52.728815
     lng: -117.641685
     hero: "Canada-007.jpg"
@@ -310,7 +310,7 @@ alberta:
     collection: alberta
   - title: Vermillion Lakes
     slug: vermillion-lakes
-    description: "Easy to shoot from the road, Vermillion Lakes are a group of lakes just outside the town of Banff, which means you'll often get kayakers and canoers in the foreground."
+    description: "Easy to shoot from the road, Vermillion Lakes are a group of lakes just outside the town of Banff, which means you’ll often get kayakers and canoers in the foreground."
     lat: 51.182168
     lng: -115.603571
     hero: "Canada-014.jpg"
@@ -318,7 +318,7 @@ alberta:
     collection: alberta
   - title: Bow Glacier Falls
     slug: bow-glacier-falls
-    description: "I loved this walk through a forest, up and small canyon and over river. There's so much variety in things to shoot and it always feels good to get outside in the landscape."
+    description: "I loved this walk through a forest, up and small canyon and over river. There’s so much variety in things to shoot and it always feels good to get outside in the landscape."
     lat: 51.659769
     lng: -116.488941
     hero: "Canada-012.jpg"
@@ -327,7 +327,7 @@ alberta:
 lofoten:
   - title: Reinebringen
     slug: reinebringen
-    description: "It's a 45-minute walk up Reinebringen, but still pretty gruelling. The views over to Kirkefjord are worth the effort though."
+    description: "It’s a 45-minute walk up Reinebringen, but still pretty gruelling. The views over to Kirkefjord are worth the effort though."
     lat: 67.927018
     lng: 13.074808
     hero: "Lofoten-047.jpg"
@@ -335,7 +335,7 @@ lofoten:
     collection: lofoten
   - title: Hamnøy
     slug: hamnoy
-    description: "These little buildings on stilts are all over Lofoten, but this shot of Hamnøy with Festhaeltinden behind is pretty common. It's easy to get too, park just off the main road and walk up the bridge for 2 minutes."
+    description: "These little buildings on stilts are all over Lofoten, but this shot of Hamnøy with Festhaeltinden behind is pretty common. It’s easy to get too, park just off the main road and walk up the bridge for 2 minutes."
     lat: 67.945328
     lng: 13.132247
     hero: "Lofoten-003.jpg"
@@ -375,7 +375,7 @@ lofoten:
     collection: lofoten
   - title: Sakrisøya
     slug: sakrisoya
-    description: "One of Lofoten's villages on stilts, this time with mostly orange buildings. You can get a great view of the houses in Sakrisøya by parking just before the bridge and walking up towards Olenilsøy cabins."
+    description: "One of Lofoten’s villages on stilts, this time with mostly orange buildings. You can get a great view of the houses in Sakrisøya by parking just before the bridge and walking up towards Olenilsøy cabins."
     lat: 67.940914
     lng: 13.116106
     hero: "Lofoten-007.jpg"
@@ -383,7 +383,7 @@ lofoten:
     collection: lofoten
   - title: Henningsvær
     slug: henningsvaer
-    description: "Almost everywhere in Henningsvær is a great shot of the harbour. While you're there, be sure to visit <a href='https://www.trevarefabrikken.no/' target='_blank'>Trevarefabrikken</a> for pizza, coffee, beer or a sauna with a sea view."
+    description: "Almost everywhere in Henningsvær is a great shot of the harbour. While you’re there, be sure to visit <a href='https://www.trevarefabrikken.no/' target='_blank'>Trevarefabrikken</a> for pizza, coffee, beer or a sauna with a sea view."
     lat: 68.154646 
     lng: 14.204560
     hero: "Lofoten-014.jpg"
@@ -400,7 +400,7 @@ lofoten:
 scotland:
   - title: Beinn an t-Sìdhean
     slug: beinn-an-t-sidhein
-    description: "Also known as Ben Sheann. Either way it's a quick climb to great views of munros and the Trossachs."
+    description: "Also known as Ben Sheann. Either way it’s a quick climb to great views of munros and the Trossachs."
     lat: 56.331326
     lng: -4.351258
     hero: "Ben-Sheann-06.jpg"
@@ -408,7 +408,7 @@ scotland:
     collection: south-highlands
   - title: Goatfell
     slug: goatfell
-    description: "Arran is a beautiful island of beaches, clear waters and mountains. Goatfell is it's highest peak and, therefore, often full of tourists. Take the back route from Corrie for better views and more alone time."
+    description: "Arran is a beautiful island of beaches, clear waters and mountains. Goatfell is it’s highest peak and, therefore, often full of tourists. Take the back route from Corrie for better views and more alone time."
     lat: 55.627964
     lng: -5.192354
     hero: "Goatfell-007.jpg"
@@ -424,7 +424,7 @@ scotland:
     collection: south-highlands
   - title: The Golden Road
     slug: golden-road
-    description: "If you visit the Isle of Harris by car, be sure to take a drive down the golden road at sunset. It's spectactular!"
+    description: "If you visit the Isle of Harris by car, be sure to take a drive down the golden road at sunset. It’s spectactular!"
     lat: 57.801433
     lng: -6.862021
     hero: "Hebrides-011.jpg"
@@ -432,7 +432,7 @@ scotland:
     collection: skye-hebrides
   - title: Traigh Ghearadha
     slug: traigh-ghearadha
-    description: "There's not a lot to look at on the Isle of Lewis, it's all pretty flat. But at the far north there are a couple of really nice beaches, like Traigh Ghearadha aka Garry Beach."
+    description: "There’s not a lot to look at on the Isle of Lewis, it’s all pretty flat. But at the far north there are a couple of really nice beaches, like Traigh Ghearadha aka Garry Beach."
     lat: 58.367425
     lng: -6.216030
     hero: "Hebrides-010.jpg"
@@ -464,7 +464,7 @@ scotland:
     collection: west-coast
   - title: Big Sand Beach
     slug: big-sand-beach
-    description: "The name of the beach is about as perfect as it gets. Walk through the campsite and over huge sand dunes to get there. When you're there you'll get great views of the Torridon range the south-east, as well as plenty rocks and sand to explore."
+    description: "The name of the beach is about as perfect as it gets. Walk through the campsite and over huge sand dunes to get there. When you’re there you’ll get great views of the Torridon range the south-east, as well as plenty rocks and sand to explore."
     lat: 57.734061
     lng: -5.764749
     hero: "NC500-039.jpg"
@@ -480,7 +480,7 @@ scotland:
     collection: west-coast
   - title: Shores around Plockton
     slug: plockton-shores
-    description: "We stayed at <a href='https://www.unique-cottages.co.uk/cottages/west-coast/lochalsh-wester-ross/gb7-nead-an-eoin' target='_blank'>Nead an Eoin</a> just outside Plockton, which had it's own private slipway and cove for wild swimming and time outdoors with views toward Applecross."
+    description: "We stayed at <a href='https://www.unique-cottages.co.uk/cottages/west-coast/lochalsh-wester-ross/gb7-nead-an-eoin' target='_blank'>Nead an Eoin</a> just outside Plockton, which had it’s own private slipway and cove for wild swimming and time outdoors with views toward Applecross."
     lat: 57.340089
     lng: -5.672324
     hero: "NC500-038.jpg"
@@ -488,7 +488,7 @@ scotland:
     collection: west-coast
   - title: Sandwood Bay
     slug: sandwood-bay
-    description: "It's a relatively boring 2-hour walk over to Sandwood Bay and the final part of it is rife with midges. Once you get there though, it's incredible. Probably the best beach I've visited in the UK with large pink-tinged sand dunes, a loch behind, the sea in front and huge cliff faces in the distance. I loved it and so did the dog!"
+    description: "It’s a relatively boring 2-hour walk over to Sandwood Bay and the final part of it is rife with midges. Once you get there though, it’s incredible. Probably the best beach I’ve visited in the UK with large pink-tinged sand dunes, a loch behind, the sea in front and huge cliff faces in the distance. I loved it and so did the dog!"
     lat: 58.539982
     lng: -5.058773
     hero: "NC500-056.jpg"
@@ -504,7 +504,7 @@ scotland:
     collection: west-coast
   - title: Duncansby Head
     slug: duncansby-head
-    description: "I've not found much to see or do around the north east coast of Scotland. One pretty wet walk we did manage to do though was from John o'Groats to Duncansby Head to sea the sea stacks."
+    description: "I’ve not found much to see or do around the north east coast of Scotland. One pretty wet walk we did manage to do though was from John o’Groats to Duncansby Head to sea the sea stacks."
     lat: 58.638602
     lng: -3.028452
     hero: "NC500-002.jpg"
@@ -520,7 +520,7 @@ scotland:
     collection: west-coast
   - title: Cam Loch
     slug: cam-loch
-    description: "Most people approach Suilven from Lochinver, but there are a number of other routes to the foot of the mountain. The route from Cam Loch gives great views of the south side of Suilven. If you don't fancy the hike, visit around sunset and you'll get rewarded with some amazing views."
+    description: "Most people approach Suilven from Lochinver, but there are a number of other routes to the foot of the mountain. The route from Cam Loch gives great views of the south side of Suilven. If you don’t fancy the hike, visit around sunset and you’ll get rewarded with some amazing views."
     lat: 58.065350
     lng: -4.998111
     hero: "NC500-017.jpg"
@@ -528,7 +528,7 @@ scotland:
     collection: west-coast
   - title: Drumbeg Road
     slug: drumbeg-road
-    description: "The coastal road around Drumbeg is one of my favourites. It's narrow and not suitable for large vehicles and, because it ends up back at the main road eventually, you often get it to yourself. It winds around Lochans and hills and is host to some of the most beautiful beaches in Scotland."
+    description: "The coastal road around Drumbeg is one of my favourites. It’s narrow and not suitable for large vehicles and, because it ends up back at the main road eventually, you often get it to yourself. It winds around Lochans and hills and is host to some of the most beautiful beaches in Scotland."
     lat: 58.177886
     lng: -5.283133
     hero: "NC500-055.jpg"
@@ -536,7 +536,7 @@ scotland:
     collection: west-coast
   - title: Stac Pollaidh
     slug: stac-pollaidh
-    description: "It's known as a mountain, but the climb isn't too difficult. Set off as early enough and by the time you reach the east top you might be lucky enough to see the cloud clearing above the surrounding lochs."
+    description: "It’s known as a mountain, but the climb isn’t too difficult. Set off as early enough and by the time you reach the east top you might be lucky enough to see the cloud clearing above the surrounding lochs."
     lat: 58.043943
     lng: -5.206258
     hero: "NC500-028.jpg"
@@ -552,7 +552,7 @@ scotland:
     collection: west-coast
   - title: Suilven
     slug: suilven
-    description: "I wanted to climb Suilven the first time I saw it. After a few failed or called off attempts, I finally got up there in 2021 and it didn't disappoint. The walk in is long but not difficult, which is in contrast to the climb after you reach the base."
+    description: "I wanted to climb Suilven the first time I saw it. After a few failed or called off attempts, I finally got up there in 2021 and it didn’t disappoint. The walk in is long but not difficult, which is in contrast to the climb after you reach the base."
     lat: 58.114965
     lng: -5.134797
     hero: "NC500-058.jpg"
@@ -560,15 +560,15 @@ scotland:
     collection: west-coast
   - title: Ben Vorlich
     slug: ben-vorlich
-    description: 'This is a relatively "easy" munro in the summer months and even was when we did it in October (but obviously check the weather first). The mountain often has a snow-capped top which makes for some dramatic shots.'
+    description: 'This is a relatively “easy” munro in the summer months and even was when we did it in October (but obviously check the weather first). The mountain often has a snow-capped top which makes for some dramatic shots.'
     lat: 56.344015
     lng: -4.220815
     hero: "Highlands-026.jpg"
     category: hike
     collection: south-highlands
-  - title: Ben A'an
+  - title: Ben A’an
     slug: ben-aan
-    description: "From a purely view vs effort point of view, Ben A'an has to be the best hill in Scotland. The view over Loch Katrine to the west is beautiful at any time of day, but at sunset it's awesome. Effort-wise, we spent longer at the top than we did walking up there."
+    description: "From a purely view vs effort point of view, Ben A’an has to be the best hill in Scotland. The view over Loch Katrine to the west is beautiful at any time of day, but at sunset it’s awesome. Effort-wise, we spent longer at the top than we did walking up there."
     lat: 56.242641
     lng: -4.418570
     hero: "Highlands-006.jpg"
@@ -576,7 +576,7 @@ scotland:
     collection: south-highlands
   - title: Stob Binnein
     slug: stob-binnein
-    description: "The first munro I climbed with my wife and dog and probably my favourite. It's tough going to start with, but if you climb it from the south, you get instant views down Inverlochlarig glen and toward the munros surrounding it. Cloud inversions here are more common than other locations too."
+    description: "The first munro I climbed with my wife and dog and probably my favourite. It’s tough going to start with, but if you climb it from the south, you get instant views down Inverlochlarig glen and toward the munros surrounding it. Cloud inversions here are more common than other locations too."
     lat: 56.346114
     lng: -4.520221
     hero: "Highlands-017.jpg"
@@ -584,7 +584,7 @@ scotland:
     collection: south-highlands
   - title: Glentruim
     slug: glentruim
-    description: "My wife and I got married in Glentruim, so had easy access to this little view point over the Spey valley. Because of the right to roam in Scotland and the fact that the view point is well away from the buildings in the estate, you're well within your rights to visit."
+    description: "My wife and I got married in Glentruim, so had easy access to this little view point over the Spey valley. Because of the right to roam in Scotland and the fact that the view point is well away from the buildings in the estate, you’re well within your rights to visit."
     lat: 57.029772
     lng: -4.177290
     hero: "Highlands-028.jpg"
@@ -592,7 +592,7 @@ scotland:
     collection: south-highlands
   - title: Stob Dearg
     slug: stob-dearg
-    description: "Buachaille Etive Mòr is the most photographed mountain in the UK. Largely because of the larger of it's peaks, Stob Dearg, and the fact that it can be easily shot from the road through Glen Coe. Go early or late in the day to avoid the crowds, though."
+    description: "Buachaille Etive Mòr is the most photographed mountain in the UK. Largely because of the larger of it’s peaks, Stob Dearg, and the fact that it can be easily shot from the road through Glen Coe. Go early or late in the day to avoid the crowds, though."
     lat: 56.653637
     lng: -4.861952  
     hero: "Highlands-013.jpg"
@@ -608,7 +608,7 @@ scotland:
     collection: south-highlands
   - title: Beinn Each
     slug: beinn-each
-    description: "Our first wild camp was on the west side of Beinn Each, but you don't need to camp to get the sunset views. It takes about an hour to get to this viewpoint where you'll be rewarded with layers of the Trossachs and beyond. Reach the top in another 30 minutes if you fancy it, or just come down."
+    description: "Our first wild camp was on the west side of Beinn Each, but you don’t need to camp to get the sunset views. It takes about an hour to get to this viewpoint where you’ll be rewarded with layers of the Trossachs and beyond. Reach the top in another 30 minutes if you fancy it, or just come down."
     lat: 56.311323
     lng: -4.271223
     hero: "Wild-Camp-008.jpg"
@@ -624,7 +624,7 @@ scotland:
     collection: skye-hebrides
   - title: Neist Point
     slug: neist-point
-    description: "The classic lighthouse at the end of a peninsula shot is pretty well known on Instagram and, like always, it's because it's easy to get to. If you fancy something a little more, walk down the steep steps for a different angle."
+    description: "The classic lighthouse at the end of a peninsula shot is pretty well known on Instagram and, like always, it’s because it’s easy to get to. If you fancy something a little more, walk down the steep steps for a different angle."
     lat: 57.428056
     lng: -6.783102
     hero: "Skye-036.jpg"
@@ -640,7 +640,7 @@ scotland:
     collection: skye-hebrides
   - title: Camasunary Bay
     slug: camasunary-bay
-    description: "Probably the best walk I've done on Skye. The walk over the Camasunary Bay starts out pretty run-of-the-mill, but once you reach the top of the hill, there are incredible views over the the massive Cuillin and Sgurr na Stri. Carry on down to the bay itself and explore for more shots, but be aware of the amount of plastic waste that's washed up."
+    description: "Probably the best walk I’ve done on Skye. The walk over the Camasunary Bay starts out pretty run-of-the-mill, but once you reach the top of the hill, there are incredible views over the the massive Cuillin and Sgurr na Stri. Carry on down to the bay itself and explore for more shots, but be aware of the amount of plastic waste that’s washed up."
     lat: 57.186677
     lng: -6.096459
     hero: "Skye-015.jpg"
@@ -681,7 +681,7 @@ canaries:
     collection: lanzarote
   - title: Anaga
     slug: anaga
-    description: "I'm not sure exactly where in Anaga this shot was taken, but the whole area is full of lush green mountains with winding roads working their way through the valley. You can't miss."
+    description: "I’m not sure exactly where in Anaga this shot was taken, but the whole area is full of lush green mountains with winding roads working their way through the valley. You can’t miss."
     lat: 28.544055
     lng: -16.205056
     hero: "Tenerife-008.jpg"
@@ -697,7 +697,7 @@ canaries:
     collection: tenerife
   - title: Teide
     slug: teide
-    description: "Tenerife is a volcanic island and Teide the active volcano at it's centre. You can easily drive to Teide through mountain forests before you reach a large plateau with incredible rock formations everywhere."
+    description: "Tenerife is a volcanic island and Teide the active volcano at it’s centre. You can easily drive to Teide through mountain forests before you reach a large plateau with incredible rock formations everywhere."
     lat: 28.210999
     lng: -16.636865
     hero: "Tenerife-002.jpg"
@@ -705,7 +705,7 @@ canaries:
     collection: tenerife
   - title: Playa de Benijo
     slug: playa-de-benijo
-    description: "Situated at the north coast of Tenerife, in Anaga, it's less likely to be a beach to sunbathe on and more likely that you'll just enjoy shooting the sea stacks and the black sand."
+    description: "Situated at the north coast of Tenerife, in Anaga, it’s less likely to be a beach to sunbathe on and more likely that you’ll just enjoy shooting the sea stacks and the black sand."
     lat: 28.572187
     lng: -16.192852
     hero: "Tenerife-014.jpg"

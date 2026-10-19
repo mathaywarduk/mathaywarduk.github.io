@@ -31,7 +31,7 @@ schema_type: BlogPosting
 
 After a trip to Lofoten ended with no peaks due to unseasonal avalanche warnings, we were itching to get some walking done when we got home. With 3 days left before returning to work, we booked a last minute trip to the Lake District and tackled the Fairfield Horseshoe.
 
-The full route actually consists of 8 fell peaks, but I'm only counting those that a) were over 500m and b) took at least 100m of ascent to reach.
+The full route actually consists of 8 fell peaks, but I’m only counting those that a) were over 500m and b) took at least 100m of ascent to reach.
 
-This one was not the typical hike I'd go for (I prefer a bit more wilderness) but it was good to get out, even if it did lead to some painful knee and hip issues afterwards.
+This one was not the typical hike I’d go for (I prefer a bit more wilderness) but it was good to get out, even if it did lead to some painful knee and hip issues afterwards.
 

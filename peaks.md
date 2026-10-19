@@ -3,7 +3,7 @@ layout: default
 title:  "Peaks"
 seo:
     title: "Peaks"
-    description: "A record of the mountains (and big hills) I've climbed."
+    description: "A record of the mountains (and big hills) I’ve climbed."
     image:
       url: "Wild-Camp-004.jpg"
       alt: "Wild Camping on Beinn Each"
@@ -55,7 +55,7 @@ schema_type: Blog
 <div class="md:w-9/12 md:ml-auto md:pl-8 pt-10 md:pt-12 lg:pt-16 pb-24 md:pb-40 px-8">
   <h1 class="font-display text-4xl md:text-6xl lg:text-7xl mb-0 pb-0 fade-down anim-delay-200">{{ page.title }}</h1>
   <div class="w-full lg:w-2/3 fade-down anim-delay-400">
-    <p>A record of the mountains (and big hills) I've climbed. Some with pictures!</p>
+    <p>A record of the mountains (and big hills) I’ve climbed. Some with pictures!</p>
   </div>
 
   <!-- Stats -->

@@ -4,7 +4,7 @@ title:  "Lofoten Islands"
 region: "Norway"
 year: "2022-24"
 id: lofoten
-intro: "Both times I've been to Lofoten the weather has been... changeable... but the few days there was good weather showed me just how beautiful&nbsp;it&nbsp;is."
+intro: "Both times I’ve been to Lofoten the weather has been... changeable... but the few days there was good weather showed me just how beautiful&nbsp;it&nbsp;is."
 seo:
   title: "Travel Photography - Lofoten Islands"
   description: "Photography from around the Lofoten Islands, Norway including Reine, Henningsvær, Sakrisøya, Storsandnes beach and Hamnøy"
