@@ -39,6 +39,13 @@ function updateImage(el, img, srcset) {
       webpSource.setAttribute("srcset", webpSrcSet);
       webpSource.setAttribute("type", "image/webp");
 
+      // <source> ignores the <img>'s sizes, so copy it across
+      const sizes = img.getAttribute("sizes");
+      if (sizes) {
+        jpgSource.setAttribute("sizes", sizes);
+        webpSource.setAttribute("sizes", sizes);
+      }
+
       // Add source elements
       el.prepend(jpgSource);
       el.prepend(webpSource);
@@ -164,6 +171,14 @@ function ToggleClass(el) {
   el.addEventListener("click", function() {
     el.classList.toggle('active');
     target.classList.toggle(className);
+
+    // swap the image sizes hints to match the new layout
+    const sizesOn = target.dataset.sizesOn;
+    const sizesOff = target.dataset.sizesOff;
+    if (sizesOn && sizesOff) {
+      const sizes = target.classList.contains(className) ? sizesOn : sizesOff;
+      target.querySelectorAll('img[sizes], source').forEach((node) => node.setAttribute('sizes', sizes));
+    }
   })
 }
 
