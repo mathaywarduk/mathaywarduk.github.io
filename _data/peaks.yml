@@ -1,3 +1,13 @@
+- title: Creag a’ Gheata
+  date: 2026-10-19
+  region: Scotland
+  distance: 11.2
+  ascent: 653
+  number: 49
+  peaks:
+    - name: Creag a’ Gheata
+      elevation: 552
+  link: creag-a-gheata
 - title: Bunking off
   date: 2026-10-07
   region: Scotland
@@ -99,7 +109,7 @@
     - name: Meall Corranaich
       elevation: 1069
       category: munro
-    - name: Meall a' Choire Lèith
+    - name: Meall a’ Choire Lèith
       elevation: 926
       category: munro
   link: meall-corranaich-meall-a-choire-leith

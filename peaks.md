@@ -60,6 +60,7 @@ schema_type: Blog
 
   <!-- Stats -->
   <div class="flex flex-wrap justify-between gap-x-8 gap-y-4 py-4 border-t border-b">
+    <h2 class="sr-only">Stats</h2>
     <ul class="flex flex-wrap gap-x-8 gap-y-4">
       <li class="text-slide-up animate-stepped">
         <h3 class="font-bold mb-4">Peaks</h3>
