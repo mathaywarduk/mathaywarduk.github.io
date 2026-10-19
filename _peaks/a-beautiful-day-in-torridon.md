@@ -37,7 +37,7 @@ When we woke up and got sorted we had no plan for the day, so looking out of the
 
 Almost as soon as we arrived at the start point (which is the car park to the Beinn Bar at the Torridon Hotel) the sun came out and I started a Scottish mountain climb without a jacket on!
 
-My legs were still tired from climbing most of [Quinag](/peaks/2.9-peaks-of-quinag) a couple of days before, so the walk up to the ridge felt like a trudge. But the weather was perfect and the views of Beinn Alligin and Liathach were incredible.
+My legs were still tired from climbing most of [Quinag](/peaks/2.9-peaks-of-quinag/) a couple of days before, so the walk up to the ridge felt like a trudge. But the weather was perfect and the views of Beinn Alligin and Liathach were incredible.
 
 Once we got to the ridge we had the choice between climbing Beinn Dàmh or the smaller peak of Sgùrr na Bana Mhoraire. We opted for the big one and started the next part of the ascent which became rockier and rockier the further we went.
 

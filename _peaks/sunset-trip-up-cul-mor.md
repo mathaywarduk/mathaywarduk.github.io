@@ -49,4 +49,4 @@ schema_type: BlogPosting
 
 “You’re brave going up at this time!”
 
-We’ve become obsessed with sunrise and sunset and there’s no better time to be up a mountain. Especially one like Cùl Mòr, which has incredible views over to [Suilven](/peaks/the-iconic-suilven) and [Stac Pollaidh](stac-pollaidh-sunrise-inversion), without being at all difficult to navigate.
+We’ve become obsessed with sunrise and sunset and there’s no better time to be up a mountain. Especially one like Cùl Mòr, which has incredible views over to [Suilven](/peaks/the-iconic-suilven/) and [Stac Pollaidh](/peaks/stac-pollaidh-sunrise-inversion/), without being at all difficult to navigate.

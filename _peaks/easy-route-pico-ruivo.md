@@ -46,7 +46,7 @@ images:
 schema_type: BlogPosting
 ---
 
-We took a last minute trip to [Madeira](/photography/madeira) for some final sun before the misery of the British winter hit and the weather did not disappoint.
+We took a last minute trip to [Madeira](/photography/madeira/) for some final sun before the misery of the British winter hit and the weather did not disappoint.
 
 We’d done our research on places to visit and so drove our way to the top of Pico do Areeiro one evening to watch the sunset with a few hundred other tourists!
 

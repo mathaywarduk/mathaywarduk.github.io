@@ -7,6 +7,8 @@ layout: default
 {% case page.slug %}
   {% when "skye-hebrides", "south-highlands", "west-coast" %}
      {% assign location_slug = "scotland" %}
+  {% when "lanzarote", "tenerife" %}
+     {% assign location_slug = "canaries" %}
   {% else %}
      {% assign location_slug = page.slug %}
 {% endcase %}
@@ -44,7 +46,7 @@ layout: default
       <div class="w-full h-full {% if page.hero.location %}image-loc{% endif %}">
       {% include image.html url=page.hero.url alt=page.hero.alt classes=" w-full md:h-full md:object-cover" hero="true" sizes="(min-width: 768px) 50vw, 100vw" width=600 height=900 %}
         {% if page.hero.location %}
-          <a href="/locations/{{ location_slug }}?l={{ page.hero.location }}" class="b-white image-loc__icon image-loc__icon--hero">
+          <a href="/locations/{{ location_slug }}/#{{ page.hero.location }}" class="b-white image-loc__icon image-loc__icon--hero">
             <img src="/assets/images/icons/pin.svg" class="w-4" role="presentation" width="16" height="16">
             <span class="sr-only">Where is this?</span>
           </a>
@@ -69,7 +71,7 @@ layout: default
         <div class="w-full {% if image.location %}image-loc{% endif %}" id="{{ image.url | replace: '.jpg', '' }}">
           {% include image.html url=image.url alt=image.alt classes=" w-full md:h-full md:object-cover" width=width height=height %}
         {% if image.location %}
-        <a href="/locations/{{ location_slug }}?l={{ image.location }}" class="b-white image-loc__icon">
+        <a href="/locations/{{ location_slug }}/#{{ image.location }}" class="b-white image-loc__icon">
         <img src="/assets/images/icons/pin.svg" width="16" height="16" class="w-4" role="presentation">
         <span class="sr-only">Where is this?</span>
         </a>

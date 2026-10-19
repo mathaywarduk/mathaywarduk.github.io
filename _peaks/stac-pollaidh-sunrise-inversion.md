@@ -57,4 +57,4 @@ schema_type: BlogPosting
 
 Getting up at 5am is rarely something I’m happy to do, but it was ‘necessary’ to give us the best chance of reaching the top of Stac Pollaidh around sunrise. The only real problem is that, in the darkness before sunrise, we hadn’t seen how cloudy and grey it was!
 
-Our rush up to toward the top was rewarded though, when the clouds started clearing and gave use incredible views of cloud inversions over Loch Lurgainn and towards [Cùl Mòr](/peaks/sunset-trip-up-cul-mor).
+Our rush up to toward the top was rewarded though, when the clouds started clearing and gave use incredible views of cloud inversions over Loch Lurgainn and towards [Cùl Mòr](/peaks/sunset-trip-up-cul-mor/).

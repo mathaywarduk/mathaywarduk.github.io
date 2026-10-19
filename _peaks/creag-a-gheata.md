@@ -79,12 +79,12 @@ But, with a long drive home, they left early on Sunday morning, leaving us to wo
 
 We met at a bridge in the forest, scoffed a couple of hash browns that Kerry had brought along, and made our way up the foresty road. Eventually we reached an area where the pine trees were younger, and spotted a stag a few metres away. He spotted us too, so didn’t hang around.
 
-After a while we turned off the road and into the trees again, on a narrow, boggy path. Single file for a while, we emerged into a clearing and views across to Ben Vane, [Stob Binnein](/peaks/stob-binnein-from-the-south), Cruach Àrdrain and Beinn Tulaichean.
+After a while we turned off the road and into the trees again, on a narrow, boggy path. Single file for a while, we emerged into a clearing and views across to Ben Vane, [Stob Binnein](/peaks/stob-binnein-from-the-south/), Cruach Àrdrain and Beinn Tulaichean.
 
-From here we climbed a very steep grassy bank (hands and knees stuff) before getting to the top of a small peak; Tom na Moine. The view here is incredible, down to Loch Lubnaig and over to [Ardnandave](/peaks/ardnandave) and Ben Vane. It was sunny and dry too. A perfect spot for lunch.
+From here we climbed a very steep grassy bank (hands and knees stuff) before getting to the top of a small peak; Tom na Moine. The view here is incredible, down to Loch Lubnaig and over to [Ardnandave](/peaks/ardnandave/) and Ben Vane. It was sunny and dry too. A perfect spot for lunch.
 
 That, in itself, would have been a great Sunday walk, but we came to do a hill. Behind us were Meall Mòr and Creag a’ Gheata. I wanted to see our house from the top, so opted for what we thought was the right one. After a few minutes trying to find a way over, through or round the large deer fence we were squelching across bog and then up the hill to the cairn at the top.
 
-More views. Again of Loch Lubnaig, but also of [Beinn Each](/peaks/beinn-each-wild-camp), Stuc a’ Chroin and [Ben Vorlich](/peaks/bunking-off). But, annoyingly, not of our house. We’d picked the wrong hill!
+More views. Again of Loch Lubnaig, but also of [Beinn Each](/peaks/beinn-each-wild-camp/), Stuc a’ Chroin and [Ben Vorlich](/peaks/bunking-off/). But, annoyingly, not of our house. We’d picked the wrong hill!
 
 With the sun getting lower and it being a Sunday, we decided to get the ‘right’ hill another time. Made our way down to the pub instead for fish and chips and an accidental burning of my walking poles.

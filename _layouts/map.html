@@ -33,9 +33,10 @@ isMap: true
     let allMarkers = [];
     let baseURL = "{{ site.image_base }}";
 
-    // get location from query string
+    // get location from the URL hash (/locations/scotland/#cul-mor), or the
+    // older ?l=cul-mor query string that existing links still use
     const urlParams = new URLSearchParams(window.location.search);
-    const qloc = urlParams.get('l');
+    const qloc = window.location.hash.slice(1) || urlParams.get('l');
 
     const map = new google.maps.Map(mapContainer, {
       zoom: 10,
@@ -125,7 +126,7 @@ isMap: true
                 </div>
 
                 <div class="relative mt-auto">
-                  <a href="/photography/${collection.slug}" class="collection-nav-item">
+                  <a href="/photography/${collection.slug}/" class="collection-nav-item">
                     <div class="absolute bottom-0 left-0 p-4 z-10 c-white">
                       <div class="overflow-hidden">
                         <span class="meta text-slide-down anim-delay-600">Photography collection</span>
