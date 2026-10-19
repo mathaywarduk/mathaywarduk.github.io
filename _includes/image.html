@@ -1,13 +1,14 @@
+{% assign img_sizes = include.sizes | default: '(max-width: 1600px) 100vw, 1600px' %}
 {% if include.ar %}
   {% capture opts %}&auto=format&ar={{ include.ar }}&fit=crop{% endcapture %}
 {% else %}
   {% capture opts %}&auto=format{% endcapture %}
 {% endif %}
 
-{% if include.hero == "true" %}
-{% comment %} Hero images load straight away (no blur-up, no JavaScript) so they paint as soon as possible {% endcomment %}
+{% if include.hero == "true" or include.eager == "true" %}
+{% comment %} Hero (and eager) images load straight away (no blur-up, no JavaScript) so they paint as soon as possible {% endcomment %}
 <picture class="{{ include.block_classes }}">
-  <img src="{{ site.image_base }}{{ include.url }}?w=1024{{opts}}" alt="{{ include.alt }}" fetchpriority="high" sizes="{{ include.sizes | default: '(max-width: 1600px) 100vw, 1600px' }}" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
+  <img src="{{ site.image_base }}{{ include.url }}?w=1024{{opts}}" alt="{{ include.alt }}" fetchpriority="{{ include.priority | default: 'high' }}" sizes="{{ img_sizes }}" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
     {{ site.image_base }}{{ include.url }}?w=1600{{opts}} 1600w,
     {{ site.image_base }}{{ include.url }}?w=1280{{opts}} 1280w,
     {{ site.image_base }}{{ include.url }}?w=1024{{opts}} 1024w,
@@ -17,7 +18,7 @@
 </picture>
 {% else %}
 <picture class="{{ include.block_classes }}" data-blur-load{% if include.focus %} data-blur-load-now{% endif %}>
-  <img src="{{ site.image_base }}{{ include.url }}?w=10&q=30{{opts}}" alt="{{ include.alt }}" {% if include.hero != "true" %}loading="lazy"{% endif %} sizes="(max-width: 1600px) 100vw, 1600px" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" data-srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
+  <img src="{{ site.image_base }}{{ include.url }}?w=10&q=30{{opts}}" alt="{{ include.alt }}" {% if include.hero != "true" %}loading="lazy"{% endif %} sizes="{{ img_sizes }}" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" data-srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
     {{ site.image_base }}{{ include.url }}?w=1600{{opts}} 1600w,
     {{ site.image_base }}{{ include.url }}?w=1280{{opts}} 1280w,
     {{ site.image_base }}{{ include.url }}?w=1024{{opts}} 1024w,
@@ -27,7 +28,7 @@
 </picture>
 <noscript>
   <picture class="{{ include.block_classes }}">
-    <img src="{{ site.image_base }}{{ include.url }}?w=1280{{opts}}" alt="{{ include.alt }}" {% if include.hero != "true" %}loading="lazy"{% endif %} sizes="(max-width: 1600px) 100vw, 1600px" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
+    <img src="{{ site.image_base }}{{ include.url }}?w=1280{{opts}}" alt="{{ include.alt }}" {% if include.hero != "true" %}loading="lazy"{% endif %} sizes="{{ img_sizes }}" width="{{ include.width }}" height="{{ include.height }}" class="w-full {{ include.classes }}" srcset="{{ site.image_base }}{{ include.url }}?w=2000{{opts}} 2000w,
       {{ site.image_base }}{{ include.url }}?w=1600{{opts}} 1600w,
       {{ site.image_base }}{{ include.url }}?w=1280{{opts}} 1280w,
       {{ site.image_base }}{{ include.url }}?w=1024{{opts}} 1024w,
